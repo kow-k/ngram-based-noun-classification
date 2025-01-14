@@ -1,0 +1,4 @@
+mgv = 3 when max_doc_length =  9 and max_gap_ratio = 0.33
+mgv = 6 when max_doc_length =  9 and max_gap_ratio = 0.67
+mgv = 7 when max_doc_length = 11 and max_gap_ratio = 0.67
+mgv = 9 when max_doc_length =  9 and max_gap_ratio = 1.00

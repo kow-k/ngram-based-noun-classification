@@ -1,0 +1,2304 @@
+DT classification (max_depth: 11, n_estimators: 95) of gender [supplement: True] of Irish using 2gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.59      0.58      0.58        86
+        Masc       0.82      0.82      0.82       196
+
+    accuracy                           0.75       282
+   macro avg       0.70      0.70      0.70       282
+weighted avg       0.75      0.75      0.75       282
+
+
+RF classification (max_depth: 23, n_estimators: 42) of gender [supplement: True]  using: 2gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.77      0.56      0.65        86
+        Masc       0.83      0.93      0.88       196
+
+    accuracy                           0.82       282
+   macro avg       0.80      0.74      0.76       282
+weighted avg       0.81      0.82      0.81       282
+
+MM classification of gender [supplement: True] in Irish using: 2gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.64      0.57      0.60        86
+           1       0.82      0.86      0.84       196
+
+    accuracy                           0.77       282
+   macro avg       0.73      0.71      0.72       282
+weighted avg       0.76      0.77      0.77       282
+
+DT classification (max_depth: 9, n_estimators: 96) of gender [supplement: False] of Irish using 2gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.47      0.31      0.38        86
+        Masc       0.74      0.84      0.79       196
+
+    accuracy                           0.68       282
+   macro avg       0.60      0.58      0.58       282
+weighted avg       0.65      0.68      0.66       282
+
+
+RF classification (max_depth: 24, n_estimators: 82) of gender [supplement: False]  using: 2gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.60      0.34      0.43        86
+        Masc       0.76      0.90      0.82       196
+
+    accuracy                           0.73       282
+   macro avg       0.68      0.62      0.63       282
+weighted avg       0.71      0.73      0.70       282
+
+MM classification of gender [supplement: False] in Irish using: 2gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.56      0.51      0.53        86
+           1       0.79      0.82      0.81       196
+
+    accuracy                           0.73       282
+   macro avg       0.68      0.67      0.67       282
+weighted avg       0.72      0.73      0.72       282
+
+DT classification (max_depth: 17, n_estimators: 46) of plurality [supplement: True] of Irish using 2gram-no-hash
+              precision    recall  f1-score   support
+
+         Inv       0.50      0.27      0.35        51
+          Pl       0.41      0.17      0.24        42
+          Sg       0.75      0.94      0.84       191
+
+    accuracy                           0.71       284
+   macro avg       0.55      0.46      0.48       284
+weighted avg       0.66      0.71      0.66       284
+
+
+RF classification (max_depth: 26, n_estimators: 41) of plurality [supplement: True]  using: 2gram-no-hash
+              precision    recall  f1-score   support
+
+         Inv       0.75      0.29      0.42        51
+          Pl       0.67      0.29      0.40        42
+          Sg       0.76      0.97      0.85       191
+
+    accuracy                           0.75       284
+   macro avg       0.72      0.52      0.56       284
+weighted avg       0.74      0.75      0.71       284
+
+MM classification of plurality [supplement: True] in Irish using: 2gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.82      0.80      0.81       191
+           1       0.49      0.40      0.44        42
+           2       0.48      0.59      0.53        51
+
+    accuracy                           0.70       284
+   macro avg       0.59      0.60      0.59       284
+weighted avg       0.71      0.70      0.71       284
+
+DT classification (max_depth: 15, n_estimators: 96) of plurality [supplement: False] of Irish using 2gram-no-hash
+              precision    recall  f1-score   support
+
+         Inv       0.60      0.24      0.34        51
+          Pl       0.55      0.26      0.35        42
+          Sg       0.73      0.93      0.81       191
+
+    accuracy                           0.70       284
+   macro avg       0.63      0.47      0.50       284
+weighted avg       0.68      0.70      0.66       284
+
+
+RF classification (max_depth: 28, n_estimators: 78) of plurality [supplement: False]  using: 2gram-no-hash
+              precision    recall  f1-score   support
+
+         Inv       0.79      0.22      0.34        51
+          Pl       0.55      0.14      0.23        42
+          Sg       0.71      0.97      0.82       191
+
+    accuracy                           0.71       284
+   macro avg       0.68      0.44      0.46       284
+weighted avg       0.70      0.71      0.65       284
+
+MM classification of plurality [supplement: False] in Irish using: 2gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.75      0.78      0.76       191
+           1       0.36      0.36      0.36        42
+           2       0.37      0.31      0.34        51
+
+    accuracy                           0.63       284
+   macro avg       0.49      0.48      0.49       284
+weighted avg       0.62      0.63      0.63       284
+
+DT classification (max_depth: 6, n_estimators: 82) of case [supplement: True] of Irish using 2gram-no-hash
+              precision    recall  f1-score   support
+
+         Gen       0.00      0.00      0.00        10
+         Nom       0.96      0.99      0.98       273
+
+    accuracy                           0.96       283
+   macro avg       0.48      0.50      0.49       283
+weighted avg       0.93      0.96      0.94       283
+
+
+RF classification (max_depth: 28, n_estimators: 41) of case [supplement: True]  using: 2gram-no-hash
+              precision    recall  f1-score   support
+
+         Gen       0.00      0.00      0.00        10
+         Nom       0.96      1.00      0.98       273
+
+    accuracy                           0.96       283
+   macro avg       0.48      0.50      0.49       283
+weighted avg       0.93      0.96      0.95       283
+
+MM classification of case [supplement: True] in Irish using: 2gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.96      1.00      0.98       273
+           2       0.00      0.00      0.00        10
+
+    accuracy                           0.96       283
+   macro avg       0.48      0.50      0.49       283
+weighted avg       0.93      0.96      0.95       283
+
+DT classification (max_depth: 7, n_estimators: 36) of case [supplement: False] of Irish using 2gram-no-hash
+              precision    recall  f1-score   support
+
+         Gen       0.00      0.00      0.00        10
+         Nom       0.96      0.99      0.98       273
+
+    accuracy                           0.95       283
+   macro avg       0.48      0.49      0.49       283
+weighted avg       0.93      0.95      0.94       283
+
+
+RF classification (max_depth: 16, n_estimators: 80) of case [supplement: False]  using: 2gram-no-hash
+              precision    recall  f1-score   support
+
+         Gen       0.00      0.00      0.00        10
+         Nom       0.96      1.00      0.98       273
+
+    accuracy                           0.96       283
+   macro avg       0.48      0.50      0.49       283
+weighted avg       0.93      0.96      0.95       283
+
+MM classification of case [supplement: False] in Irish using: 2gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.96      1.00      0.98       273
+           2       0.00      0.00      0.00        10
+
+    accuracy                           0.96       283
+   macro avg       0.48      0.50      0.49       283
+weighted avg       0.93      0.96      0.95       283
+
+DT classification (max_depth: 38, n_estimators: 112) of gender [supplement: True] of Irish using 3gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.60      0.67      0.63        87
+        Masc       0.84      0.80      0.82       195
+
+    accuracy                           0.76       282
+   macro avg       0.72      0.73      0.73       282
+weighted avg       0.77      0.76      0.76       282
+
+
+RF classification (max_depth: 29, n_estimators: 103) of gender [supplement: True]  using: 3gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.85      0.51      0.63        87
+        Masc       0.81      0.96      0.88       195
+
+    accuracy                           0.82       282
+   macro avg       0.83      0.73      0.76       282
+weighted avg       0.82      0.82      0.80       282
+
+MM classification of gender [supplement: True] in Irish using: 3gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.70      0.53      0.60        87
+           1       0.81      0.90      0.85       195
+
+    accuracy                           0.78       282
+   macro avg       0.75      0.71      0.73       282
+weighted avg       0.78      0.78      0.77       282
+
+DT classification (max_depth: 27, n_estimators: 71) of gender [supplement: False] of Irish using 3gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.52      0.55      0.54        87
+        Masc       0.79      0.77      0.78       195
+
+    accuracy                           0.71       282
+   macro avg       0.66      0.66      0.66       282
+weighted avg       0.71      0.71      0.71       282
+
+
+RF classification (max_depth: 16, n_estimators: 74) of gender [supplement: False]  using: 3gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.76      0.18      0.30        87
+        Masc       0.73      0.97      0.83       195
+
+    accuracy                           0.73       282
+   macro avg       0.74      0.58      0.56       282
+weighted avg       0.74      0.73      0.67       282
+
+MM classification of gender [supplement: False] in Irish using: 3gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.61      0.59      0.60        87
+           1       0.82      0.83      0.82       195
+
+    accuracy                           0.76       282
+   macro avg       0.71      0.71      0.71       282
+weighted avg       0.75      0.76      0.75       282
+
+DT classification (max_depth: 28, n_estimators: 69) of plurality [supplement: True] of Irish using 3gram-no-hash
+              precision    recall  f1-score   support
+
+         Inv       0.58      0.27      0.37        51
+          Pl       0.45      0.48      0.47        50
+          Sg       0.78      0.88      0.83       183
+
+    accuracy                           0.70       284
+   macro avg       0.60      0.54      0.55       284
+weighted avg       0.69      0.70      0.68       284
+
+
+RF classification (max_depth: 39, n_estimators: 62) of plurality [supplement: True]  using: 3gram-no-hash
+              precision    recall  f1-score   support
+
+         Inv       0.90      0.35      0.51        51
+          Pl       0.70      0.38      0.49        50
+          Sg       0.76      0.98      0.86       183
+
+    accuracy                           0.76       284
+   macro avg       0.79      0.57      0.62       284
+weighted avg       0.77      0.76      0.73       284
+
+MM classification of plurality [supplement: True] in Irish using: 3gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.77      0.81      0.79       183
+           1       0.47      0.38      0.42        50
+           2       0.46      0.45      0.46        51
+
+    accuracy                           0.67       284
+   macro avg       0.57      0.55      0.56       284
+weighted avg       0.66      0.67      0.67       284
+
+DT classification (max_depth: 16, n_estimators: 77) of plurality [supplement: False] of Irish using 3gram-no-hash
+              precision    recall  f1-score   support
+
+         Inv       0.54      0.14      0.22        51
+          Pl       0.75      0.30      0.43        50
+          Sg       0.69      0.95      0.80       183
+
+    accuracy                           0.69       284
+   macro avg       0.66      0.46      0.48       284
+weighted avg       0.68      0.69      0.63       284
+
+
+RF classification (max_depth: 38, n_estimators: 102) of plurality [supplement: False]  using: 3gram-no-hash
+              precision    recall  f1-score   support
+
+         Inv       0.83      0.20      0.32        51
+          Pl       0.79      0.22      0.34        50
+          Sg       0.70      0.99      0.82       183
+
+    accuracy                           0.71       284
+   macro avg       0.77      0.47      0.49       284
+weighted avg       0.74      0.71      0.65       284
+
+MM classification of plurality [supplement: False] in Irish using: 3gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.73      0.77      0.75       183
+           1       0.37      0.32      0.34        50
+           2       0.45      0.41      0.43        51
+
+    accuracy                           0.63       284
+   macro avg       0.52      0.50      0.51       284
+weighted avg       0.61      0.63      0.62       284
+
+DT classification (max_depth: 9, n_estimators: 30) of case [supplement: True] of Irish using 3gram-no-hash
+              precision    recall  f1-score   support
+
+         Gen       1.00      0.06      0.11        17
+         Nom       0.94      1.00      0.97       266
+
+    accuracy                           0.94       283
+   macro avg       0.97      0.53      0.54       283
+weighted avg       0.95      0.94      0.92       283
+
+
+RF classification (max_depth: 23, n_estimators: 94) of case [supplement: True]  using: 3gram-no-hash
+              precision    recall  f1-score   support
+
+         Gen       1.00      0.06      0.11        17
+         Nom       0.94      1.00      0.97       266
+
+    accuracy                           0.94       283
+   macro avg       0.97      0.53      0.54       283
+weighted avg       0.95      0.94      0.92       283
+
+MM classification of case [supplement: True] in Irish using: 3gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.94      1.00      0.97       266
+           2       0.00      0.00      0.00        17
+
+    accuracy                           0.94       283
+   macro avg       0.47      0.50      0.48       283
+weighted avg       0.88      0.94      0.91       283
+
+DT classification (max_depth: 4, n_estimators: 34) of case [supplement: False] of Irish using 3gram-no-hash
+              precision    recall  f1-score   support
+
+         Gen       0.00      0.00      0.00        17
+         Nom       0.94      1.00      0.97       266
+
+    accuracy                           0.94       283
+   macro avg       0.47      0.50      0.48       283
+weighted avg       0.88      0.94      0.91       283
+
+
+RF classification (max_depth: 3, n_estimators: 46) of case [supplement: False]  using: 3gram-no-hash
+              precision    recall  f1-score   support
+
+         Gen       0.00      0.00      0.00        17
+         Nom       0.94      1.00      0.97       266
+
+    accuracy                           0.94       283
+   macro avg       0.47      0.50      0.48       283
+weighted avg       0.88      0.94      0.91       283
+
+MM classification of case [supplement: False] in Irish using: 3gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.94      1.00      0.97       266
+           2       0.00      0.00      0.00        17
+
+    accuracy                           0.94       283
+   macro avg       0.47      0.50      0.48       283
+weighted avg       0.88      0.94      0.91       283
+
+DT classification (max_depth: 34, n_estimators: 89) of gender [supplement: True] of Irish using 4gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.75      0.63      0.69        92
+        Masc       0.84      0.90      0.87       192
+
+    accuracy                           0.81       284
+   macro avg       0.79      0.77      0.78       284
+weighted avg       0.81      0.81      0.81       284
+
+
+RF classification (max_depth: 36, n_estimators: 99) of gender [supplement: True]  using: 4gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.77      0.51      0.61        92
+        Masc       0.80      0.93      0.86       192
+
+    accuracy                           0.79       284
+   macro avg       0.78      0.72      0.74       284
+weighted avg       0.79      0.79      0.78       284
+
+MM classification of gender [supplement: True] in Irish using: 4gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.69      0.66      0.67        92
+           1       0.84      0.85      0.85       192
+
+    accuracy                           0.79       284
+   macro avg       0.76      0.76      0.76       284
+weighted avg       0.79      0.79      0.79       284
+
+DT classification (max_depth: 30, n_estimators: 76) of gender [supplement: False] of Irish using 4gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.60      0.35      0.44        92
+        Masc       0.74      0.89      0.81       192
+
+    accuracy                           0.71       284
+   macro avg       0.67      0.62      0.62       284
+weighted avg       0.70      0.71      0.69       284
+
+
+RF classification (max_depth: 28, n_estimators: 40) of gender [supplement: False]  using: 4gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.73      0.35      0.47        92
+        Masc       0.75      0.94      0.83       192
+
+    accuracy                           0.75       284
+   macro avg       0.74      0.64      0.65       284
+weighted avg       0.74      0.75      0.72       284
+
+MM classification of gender [supplement: False] in Irish using: 4gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.59      0.51      0.55        92
+           1       0.78      0.83      0.81       192
+
+    accuracy                           0.73       284
+   macro avg       0.69      0.67      0.68       284
+weighted avg       0.72      0.73      0.72       284
+
+DT classification (max_depth: 14, n_estimators: 78) of plurality [supplement: True] of Irish using 4gram-no-hash
+              precision    recall  f1-score   support
+
+         Inv       0.80      0.17      0.28        47
+          Pl       0.65      0.23      0.34        56
+          Sg       0.70      0.97      0.81       184
+
+    accuracy                           0.70       287
+   macro avg       0.72      0.46      0.48       287
+weighted avg       0.70      0.70      0.63       287
+
+
+RF classification (max_depth: 25, n_estimators: 55) of plurality [supplement: True]  using: 4gram-no-hash
+              precision    recall  f1-score   support
+
+         Inv       1.00      0.26      0.41        47
+          Pl       0.78      0.25      0.38        56
+          Sg       0.71      0.99      0.83       184
+
+    accuracy                           0.73       287
+   macro avg       0.83      0.50      0.54       287
+weighted avg       0.77      0.73      0.67       287
+
+MM classification of plurality [supplement: True] in Irish using: 4gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.80      0.79      0.79       184
+           1       0.49      0.45      0.47        56
+           2       0.49      0.57      0.53        47
+
+    accuracy                           0.69       287
+   macro avg       0.59      0.60      0.60       287
+weighted avg       0.69      0.69      0.69       287
+
+DT classification (max_depth: 16, n_estimators: 91) of plurality [supplement: False] of Irish using 4gram-no-hash
+              precision    recall  f1-score   support
+
+         Inv       0.88      0.15      0.25        47
+          Pl       0.71      0.27      0.39        56
+          Sg       0.69      0.97      0.81       184
+
+    accuracy                           0.70       287
+   macro avg       0.76      0.46      0.48       287
+weighted avg       0.73      0.70      0.64       287
+
+
+RF classification (max_depth: 27, n_estimators: 55) of plurality [supplement: False]  using: 4gram-no-hash
+              precision    recall  f1-score   support
+
+         Inv       0.79      0.23      0.36        47
+          Pl       0.83      0.18      0.29        56
+          Sg       0.69      0.98      0.81       184
+
+    accuracy                           0.70       287
+   macro avg       0.77      0.47      0.49       287
+weighted avg       0.74      0.70      0.64       287
+
+MM classification of plurality [supplement: False] in Irish using: 4gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.77      0.73      0.75       184
+           1       0.40      0.45      0.42        56
+           2       0.44      0.47      0.45        47
+
+    accuracy                           0.63       287
+   macro avg       0.54      0.55      0.54       287
+weighted avg       0.64      0.63      0.64       287
+
+DT classification (max_depth: 5, n_estimators: 80) of case [supplement: True] of Irish using 4gram-no-hash
+              precision    recall  f1-score   support
+
+         Gen       0.00      0.00      0.00        13
+         Nom       0.95      1.00      0.97       272
+
+    accuracy                           0.95       285
+   macro avg       0.48      0.50      0.49       285
+weighted avg       0.91      0.95      0.93       285
+
+
+RF classification (max_depth: 16, n_estimators: 40) of case [supplement: True]  using: 4gram-no-hash
+              precision    recall  f1-score   support
+
+         Gen       0.00      0.00      0.00        13
+         Nom       0.95      1.00      0.98       272
+
+    accuracy                           0.95       285
+   macro avg       0.48      0.50      0.49       285
+weighted avg       0.91      0.95      0.93       285
+
+MM classification of case [supplement: True] in Irish using: 4gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.95      1.00      0.98       272
+           2       0.00      0.00      0.00        13
+
+    accuracy                           0.95       285
+   macro avg       0.48      0.50      0.49       285
+weighted avg       0.91      0.95      0.93       285
+
+DT classification (max_depth: 5, n_estimators: 74) of case [supplement: False] of Irish using 4gram-no-hash
+              precision    recall  f1-score   support
+
+         Gen       0.00      0.00      0.00        13
+         Nom       0.95      1.00      0.97       272
+
+    accuracy                           0.95       285
+   macro avg       0.48      0.50      0.49       285
+weighted avg       0.91      0.95      0.93       285
+
+
+RF classification (max_depth: 2, n_estimators: 39) of case [supplement: False]  using: 4gram-no-hash
+              precision    recall  f1-score   support
+
+         Gen       0.00      0.00      0.00        13
+         Nom       0.95      1.00      0.98       272
+
+    accuracy                           0.95       285
+   macro avg       0.48      0.50      0.49       285
+weighted avg       0.91      0.95      0.93       285
+
+MM classification of case [supplement: False] in Irish using: 4gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.95      1.00      0.98       272
+           2       0.00      0.00      0.00        13
+
+    accuracy                           0.95       285
+   macro avg       0.48      0.50      0.49       285
+weighted avg       0.91      0.95      0.93       285
+
+DT classification (max_depth: 23, n_estimators: 104) of gender [supplement: True] of Irish using skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.58      0.44      0.50        84
+        Masc       0.79      0.86      0.82       199
+
+    accuracy                           0.74       283
+   macro avg       0.68      0.65      0.66       283
+weighted avg       0.72      0.74      0.73       283
+
+
+RF classification (max_depth: 34, n_estimators: 107) of gender [supplement: True]  using: skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.66      0.44      0.53        84
+        Masc       0.79      0.90      0.85       199
+
+    accuracy                           0.77       283
+   macro avg       0.73      0.67      0.69       283
+weighted avg       0.75      0.77      0.75       283
+
+MM classification of gender [supplement: True] in Irish using: skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.61      0.57      0.59        84
+           1       0.82      0.84      0.83       199
+
+    accuracy                           0.76       283
+   macro avg       0.72      0.71      0.71       283
+weighted avg       0.76      0.76      0.76       283
+
+DT classification (max_depth: 8, n_estimators: 47) of gender [supplement: False] of Irish using skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.68      0.20      0.31        84
+        Masc       0.74      0.96      0.84       199
+
+    accuracy                           0.73       283
+   macro avg       0.71      0.58      0.57       283
+weighted avg       0.72      0.73      0.68       283
+
+
+RF classification (max_depth: 39, n_estimators: 115) of gender [supplement: False]  using: skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.60      0.35      0.44        84
+        Masc       0.77      0.90      0.83       199
+
+    accuracy                           0.74       283
+   macro avg       0.69      0.62      0.63       283
+weighted avg       0.72      0.74      0.71       283
+
+MM classification of gender [supplement: False] in Irish using: skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.62      0.54      0.58        84
+           1       0.82      0.86      0.84       199
+
+    accuracy                           0.77       283
+   macro avg       0.72      0.70      0.71       283
+weighted avg       0.76      0.77      0.76       283
+
+DT classification (max_depth: 24, n_estimators: 113) of plurality [supplement: True] of Irish using skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+         Inv       0.59      0.42      0.49        55
+          Pl       0.52      0.30      0.38        54
+          Sg       0.72      0.88      0.79       177
+
+    accuracy                           0.68       286
+   macro avg       0.61      0.53      0.55       286
+weighted avg       0.66      0.68      0.66       286
+
+
+RF classification (max_depth: 26, n_estimators: 40) of plurality [supplement: True]  using: skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+         Inv       0.82      0.25      0.39        55
+          Pl       0.67      0.22      0.33        54
+          Sg       0.69      0.98      0.81       177
+
+    accuracy                           0.70       286
+   macro avg       0.73      0.48      0.51       286
+weighted avg       0.71      0.70      0.64       286
+
+MM classification of plurality [supplement: True] in Irish using: skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.76      0.82      0.79       177
+           1       0.51      0.37      0.43        54
+           2       0.56      0.56      0.56        55
+
+    accuracy                           0.69       286
+   macro avg       0.61      0.58      0.59       286
+weighted avg       0.67      0.69      0.68       286
+
+DT classification (max_depth: 8, n_estimators: 87) of plurality [supplement: False] of Irish using skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+         Inv       0.82      0.16      0.27        55
+          Pl       0.56      0.17      0.26        54
+          Sg       0.65      0.95      0.77       177
+
+    accuracy                           0.65       286
+   macro avg       0.68      0.43      0.43       286
+weighted avg       0.66      0.65      0.58       286
+
+
+RF classification (max_depth: 33, n_estimators: 30) of plurality [supplement: False]  using: skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+         Inv       0.71      0.27      0.39        55
+          Pl       0.50      0.11      0.18        54
+          Sg       0.66      0.95      0.78       177
+
+    accuracy                           0.66       286
+   macro avg       0.63      0.44      0.45       286
+weighted avg       0.64      0.66      0.59       286
+
+MM classification of plurality [supplement: False] in Irish using: skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.72      0.77      0.74       177
+           1       0.45      0.33      0.38        54
+           2       0.47      0.47      0.47        55
+
+    accuracy                           0.63       286
+   macro avg       0.55      0.53      0.53       286
+weighted avg       0.62      0.63      0.62       286
+
+DT classification (max_depth: 2, n_estimators: 60) of case [supplement: True] of Irish using skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+         Gen       0.00      0.00      0.00         9
+         Nom       0.97      1.00      0.98       275
+
+    accuracy                           0.97       284
+   macro avg       0.48      0.50      0.49       284
+weighted avg       0.94      0.97      0.95       284
+
+
+RF classification (max_depth: 30, n_estimators: 98) of case [supplement: True]  using: skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+         Gen       0.00      0.00      0.00         9
+         Nom       0.97      1.00      0.98       275
+
+    accuracy                           0.97       284
+   macro avg       0.48      0.50      0.49       284
+weighted avg       0.94      0.97      0.95       284
+
+MM classification of case [supplement: True] in Irish using: skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.97      1.00      0.98       275
+           2       0.00      0.00      0.00         9
+
+    accuracy                           0.97       284
+   macro avg       0.48      0.50      0.49       284
+weighted avg       0.94      0.97      0.95       284
+
+DT classification (max_depth: 6, n_estimators: 18) of case [supplement: False] of Irish using skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+         Gen       0.00      0.00      0.00         9
+         Nom       0.97      1.00      0.98       275
+
+    accuracy                           0.97       284
+   macro avg       0.48      0.50      0.49       284
+weighted avg       0.94      0.97      0.95       284
+
+
+RF classification (max_depth: 5, n_estimators: 21) of case [supplement: False]  using: skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+         Gen       0.00      0.00      0.00         9
+         Nom       0.97      1.00      0.98       275
+
+    accuracy                           0.97       284
+   macro avg       0.48      0.50      0.49       284
+weighted avg       0.94      0.97      0.95       284
+
+MM classification of case [supplement: False] in Irish using: skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.97      1.00      0.98       275
+           2       0.00      0.00      0.00         9
+
+    accuracy                           0.97       284
+   macro avg       0.48      0.50      0.49       284
+weighted avg       0.94      0.97      0.95       284
+
+DT classification (max_depth: 14, n_estimators: 82) of gender [supplement: True] of Irish using skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.47      0.10      0.16        91
+        Masc       0.69      0.95      0.80       193
+
+    accuracy                           0.68       284
+   macro avg       0.58      0.52      0.48       284
+weighted avg       0.62      0.68      0.60       284
+
+
+RF classification (max_depth: 38, n_estimators: 17) of gender [supplement: True]  using: skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.70      0.48      0.57        91
+        Masc       0.79      0.90      0.84       193
+
+    accuracy                           0.77       284
+   macro avg       0.74      0.69      0.71       284
+weighted avg       0.76      0.77      0.75       284
+
+MM classification of gender [supplement: True] in Irish using: skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.60      0.55      0.57        91
+           1       0.80      0.82      0.81       193
+
+    accuracy                           0.74       284
+   macro avg       0.70      0.69      0.69       284
+weighted avg       0.73      0.74      0.73       284
+
+DT classification (max_depth: 24, n_estimators: 109) of gender [supplement: False] of Irish using skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.47      0.30      0.36        91
+        Masc       0.72      0.84      0.77       193
+
+    accuracy                           0.67       284
+   macro avg       0.59      0.57      0.57       284
+weighted avg       0.64      0.67      0.64       284
+
+
+RF classification (max_depth: 33, n_estimators: 37) of gender [supplement: False]  using: skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.64      0.30      0.41        91
+        Masc       0.74      0.92      0.82       193
+
+    accuracy                           0.72       284
+   macro avg       0.69      0.61      0.61       284
+weighted avg       0.71      0.72      0.69       284
+
+MM classification of gender [supplement: False] in Irish using: skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.52      0.51      0.51        91
+           1       0.77      0.78      0.78       193
+
+    accuracy                           0.69       284
+   macro avg       0.65      0.64      0.65       284
+weighted avg       0.69      0.69      0.69       284
+
+DT classification (max_depth: 27, n_estimators: 93) of plurality [supplement: True] of Irish using skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+         Inv       0.43      0.20      0.27        45
+          Pl       0.47      0.25      0.32        61
+          Sg       0.68      0.88      0.77       180
+
+    accuracy                           0.64       286
+   macro avg       0.53      0.44      0.46       286
+weighted avg       0.60      0.64      0.60       286
+
+
+RF classification (max_depth: 32, n_estimators: 66) of plurality [supplement: True]  using: skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+         Inv       0.79      0.24      0.37        45
+          Pl       0.75      0.20      0.31        61
+          Sg       0.70      0.99      0.82       180
+
+    accuracy                           0.70       286
+   macro avg       0.74      0.48      0.50       286
+weighted avg       0.72      0.70      0.64       286
+
+MM classification of plurality [supplement: True] in Irish using: skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.77      0.86      0.81       180
+           1       0.63      0.39      0.48        61
+           2       0.52      0.53      0.53        45
+
+    accuracy                           0.71       286
+   macro avg       0.64      0.60      0.61       286
+weighted avg       0.70      0.71      0.70       286
+
+DT classification (max_depth: 24, n_estimators: 65) of plurality [supplement: False] of Irish using skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+         Inv       0.60      0.13      0.22        45
+          Pl       0.52      0.20      0.29        61
+          Sg       0.66      0.93      0.77       180
+
+    accuracy                           0.65       286
+   macro avg       0.59      0.42      0.43       286
+weighted avg       0.62      0.65      0.58       286
+
+
+RF classification (max_depth: 27, n_estimators: 111) of plurality [supplement: False]  using: skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+         Inv       0.80      0.18      0.29        45
+          Pl       0.79      0.18      0.29        61
+          Sg       0.68      0.99      0.81       180
+
+    accuracy                           0.69       286
+   macro avg       0.76      0.45      0.46       286
+weighted avg       0.72      0.69      0.62       286
+
+MM classification of plurality [supplement: False] in Irish using: skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.75      0.81      0.78       180
+           1       0.48      0.34      0.40        61
+           2       0.45      0.47      0.46        45
+
+    accuracy                           0.66       286
+   macro avg       0.56      0.54      0.55       286
+weighted avg       0.64      0.66      0.65       286
+
+DT classification (max_depth: 28, n_estimators: 115) of case [supplement: True] of Irish using skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+         Gen       0.20      0.07      0.10        15
+         Nom       0.95      0.99      0.97       269
+
+    accuracy                           0.94       284
+   macro avg       0.57      0.53      0.53       284
+weighted avg       0.91      0.94      0.92       284
+
+
+RF classification (max_depth: 35, n_estimators: 105) of case [supplement: True]  using: skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+         Gen       1.00      0.07      0.12        15
+         Nom       0.95      1.00      0.97       269
+
+    accuracy                           0.95       284
+   macro avg       0.98      0.53      0.55       284
+weighted avg       0.95      0.95      0.93       284
+
+MM classification of case [supplement: True] in Irish using: skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.95      1.00      0.97       269
+           2       0.00      0.00      0.00        15
+
+    accuracy                           0.95       284
+   macro avg       0.47      0.50      0.49       284
+weighted avg       0.90      0.95      0.92       284
+
+DT classification (max_depth: 13, n_estimators: 26) of case [supplement: False] of Irish using skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+         Gen       0.00      0.00      0.00        15
+         Nom       0.95      1.00      0.97       269
+
+    accuracy                           0.95       284
+   macro avg       0.47      0.50      0.49       284
+weighted avg       0.90      0.95      0.92       284
+
+
+RF classification (max_depth: 12, n_estimators: 100) of case [supplement: False]  using: skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+         Gen       0.00      0.00      0.00        15
+         Nom       0.95      1.00      0.97       269
+
+    accuracy                           0.95       284
+   macro avg       0.47      0.50      0.49       284
+weighted avg       0.90      0.95      0.92       284
+
+MM classification of case [supplement: False] in Irish using: skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.95      1.00      0.97       269
+           2       0.00      0.00      0.00        15
+
+    accuracy                           0.95       284
+   macro avg       0.47      0.50      0.49       284
+weighted avg       0.90      0.95      0.92       284
+
+DT classification (max_depth: 26, n_estimators: 93) of gender [supplement: True] of Irish using skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.53      0.28      0.37        89
+        Masc       0.73      0.89      0.80       194
+
+    accuracy                           0.70       283
+   macro avg       0.63      0.58      0.58       283
+weighted avg       0.67      0.70      0.66       283
+
+
+RF classification (max_depth: 19, n_estimators: 108) of gender [supplement: True]  using: skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.84      0.18      0.30        89
+        Masc       0.72      0.98      0.83       194
+
+    accuracy                           0.73       283
+   macro avg       0.78      0.58      0.57       283
+weighted avg       0.76      0.73      0.66       283
+
+MM classification of gender [supplement: True] in Irish using: skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.64      0.55      0.59        89
+           1       0.81      0.86      0.83       194
+
+    accuracy                           0.76       283
+   macro avg       0.73      0.71      0.71       283
+weighted avg       0.76      0.76      0.76       283
+
+DT classification (max_depth: 19, n_estimators: 38) of gender [supplement: False] of Irish using skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.53      0.22      0.31        89
+        Masc       0.72      0.91      0.80       194
+
+    accuracy                           0.69       283
+   macro avg       0.62      0.57      0.56       283
+weighted avg       0.66      0.69      0.65       283
+
+
+RF classification (max_depth: 35, n_estimators: 28) of gender [supplement: False]  using: skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.75      0.27      0.40        89
+        Masc       0.74      0.96      0.84       194
+
+    accuracy                           0.74       283
+   macro avg       0.75      0.61      0.62       283
+weighted avg       0.74      0.74      0.70       283
+
+MM classification of gender [supplement: False] in Irish using: skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.60      0.70      0.65        89
+           1       0.85      0.79      0.82       194
+
+    accuracy                           0.76       283
+   macro avg       0.73      0.74      0.73       283
+weighted avg       0.77      0.76      0.76       283
+
+DT classification (max_depth: 16, n_estimators: 110) of plurality [supplement: True] of Irish using skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+         Inv       0.56      0.17      0.26        54
+          Pl       0.50      0.28      0.36        46
+          Sg       0.70      0.92      0.80       186
+
+    accuracy                           0.67       286
+   macro avg       0.59      0.46      0.47       286
+weighted avg       0.64      0.67      0.62       286
+
+
+RF classification (max_depth: 34, n_estimators: 14) of plurality [supplement: True]  using: skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+         Inv       0.86      0.22      0.35        54
+          Pl       0.58      0.24      0.34        46
+          Sg       0.70      0.96      0.81       186
+
+    accuracy                           0.70       286
+   macro avg       0.71      0.47      0.50       286
+weighted avg       0.71      0.70      0.65       286
+
+MM classification of plurality [supplement: True] in Irish using: skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.74      0.84      0.79       186
+           1       0.39      0.30      0.34        46
+           2       0.62      0.43      0.51        54
+
+    accuracy                           0.68       286
+   macro avg       0.58      0.52      0.54       286
+weighted avg       0.66      0.68      0.66       286
+
+DT classification (max_depth: 23, n_estimators: 118) of plurality [supplement: False] of Irish using skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+         Inv       0.60      0.11      0.19        54
+          Pl       0.48      0.28      0.36        46
+          Sg       0.69      0.92      0.79       186
+
+    accuracy                           0.66       286
+   macro avg       0.59      0.44      0.44       286
+weighted avg       0.64      0.66      0.60       286
+
+
+RF classification (max_depth: 33, n_estimators: 45) of plurality [supplement: False]  using: skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+         Inv       0.70      0.13      0.22        54
+          Pl       0.58      0.15      0.24        46
+          Sg       0.68      0.96      0.80       186
+
+    accuracy                           0.67       286
+   macro avg       0.65      0.41      0.42       286
+weighted avg       0.67      0.67      0.60       286
+
+MM classification of plurality [supplement: False] in Irish using: skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.74      0.78      0.76       186
+           1       0.34      0.33      0.33        46
+           2       0.53      0.46      0.50        54
+
+    accuracy                           0.65       286
+   macro avg       0.54      0.52      0.53       286
+weighted avg       0.64      0.65      0.64       286
+
+DT classification (max_depth: 2, n_estimators: 10) of case [supplement: True] of Irish using skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+         Gen       0.00      0.00      0.00         8
+         Nom       0.97      1.00      0.99       276
+
+    accuracy                           0.97       284
+   macro avg       0.49      0.50      0.49       284
+weighted avg       0.94      0.97      0.96       284
+
+
+RF classification (max_depth: 5, n_estimators: 79) of case [supplement: True]  using: skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+         Gen       0.00      0.00      0.00         8
+         Nom       0.97      1.00      0.99       276
+
+    accuracy                           0.97       284
+   macro avg       0.49      0.50      0.49       284
+weighted avg       0.94      0.97      0.96       284
+
+MM classification of case [supplement: True] in Irish using: skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.97      1.00      0.99       276
+           2       0.00      0.00      0.00         8
+
+    accuracy                           0.97       284
+   macro avg       0.49      0.50      0.49       284
+weighted avg       0.94      0.97      0.96       284
+
+DT classification (max_depth: 4, n_estimators: 118) of case [supplement: False] of Irish using skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+         Gen       0.00      0.00      0.00         8
+         Nom       0.97      1.00      0.98       276
+
+    accuracy                           0.97       284
+   macro avg       0.49      0.50      0.49       284
+weighted avg       0.94      0.97      0.96       284
+
+
+RF classification (max_depth: 5, n_estimators: 36) of case [supplement: False]  using: skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+         Gen       0.00      0.00      0.00         8
+         Nom       0.97      1.00      0.99       276
+
+    accuracy                           0.97       284
+   macro avg       0.49      0.50      0.49       284
+weighted avg       0.94      0.97      0.96       284
+
+MM classification of case [supplement: False] in Irish using: skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.97      1.00      0.99       276
+           2       0.00      0.00      0.00         8
+
+    accuracy                           0.97       284
+   macro avg       0.49      0.50      0.49       284
+weighted avg       0.94      0.97      0.96       284
+
+DT classification (max_depth: 6, n_estimators: 103) of gender [supplement: True] of Irish using 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.65      0.66      0.65       108
+        Masc       0.79      0.78      0.79       176
+
+    accuracy                           0.74       284
+   macro avg       0.72      0.72      0.72       284
+weighted avg       0.74      0.74      0.74       284
+
+
+RF classification (max_depth: 35, n_estimators: 101) of gender [supplement: True]  using: 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.81      0.59      0.68       108
+        Masc       0.79      0.91      0.85       176
+
+    accuracy                           0.79       284
+   macro avg       0.80      0.75      0.76       284
+weighted avg       0.79      0.79      0.78       284
+
+MM classification of gender [supplement: True] in Irish using: 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.66      0.57      0.61       108
+           1       0.76      0.82      0.79       176
+
+    accuracy                           0.73       284
+   macro avg       0.71      0.70      0.70       284
+weighted avg       0.72      0.73      0.72       284
+
+DT classification (max_depth: 13, n_estimators: 49) of gender [supplement: False] of Irish using 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.61      0.47      0.53       108
+        Masc       0.71      0.81      0.76       176
+
+    accuracy                           0.68       284
+   macro avg       0.66      0.64      0.65       284
+weighted avg       0.67      0.68      0.67       284
+
+
+RF classification (max_depth: 21, n_estimators: 69) of gender [supplement: False]  using: 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.69      0.23      0.35       108
+        Masc       0.67      0.94      0.78       176
+
+    accuracy                           0.67       284
+   macro avg       0.68      0.58      0.56       284
+weighted avg       0.68      0.67      0.61       284
+
+MM classification of gender [supplement: False] in Irish using: 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.56      0.39      0.46       108
+           1       0.68      0.81      0.74       176
+
+    accuracy                           0.65       284
+   macro avg       0.62      0.60      0.60       284
+weighted avg       0.64      0.65      0.63       284
+
+DT classification (max_depth: 24, n_estimators: 101) of plurality [supplement: True] of Irish using 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Inv       0.48      0.45      0.46        51
+          Pl       0.52      0.50      0.51        52
+          Sg       0.81      0.84      0.82       183
+
+    accuracy                           0.71       286
+   macro avg       0.60      0.60      0.60       286
+weighted avg       0.70      0.71      0.70       286
+
+
+RF classification (max_depth: 38, n_estimators: 38) of plurality [supplement: True]  using: 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Inv       0.76      0.51      0.61        51
+          Pl       0.71      0.29      0.41        52
+          Sg       0.77      0.97      0.86       183
+
+    accuracy                           0.76       286
+   macro avg       0.75      0.59      0.63       286
+weighted avg       0.76      0.76      0.73       286
+
+MM classification of plurality [supplement: True] in Irish using: 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.80      0.84      0.82       183
+           1       0.56      0.54      0.55        52
+           2       0.58      0.49      0.53        51
+
+    accuracy                           0.72       286
+   macro avg       0.65      0.62      0.63       286
+weighted avg       0.72      0.72      0.72       286
+
+DT classification (max_depth: 7, n_estimators: 119) of plurality [supplement: False] of Irish using 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Inv       0.90      0.18      0.30        51
+          Pl       0.31      0.10      0.15        52
+          Sg       0.67      0.96      0.79       183
+
+    accuracy                           0.66       286
+   macro avg       0.63      0.41      0.41       286
+weighted avg       0.65      0.66      0.58       286
+
+
+RF classification (max_depth: 31, n_estimators: 30) of plurality [supplement: False]  using: 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Inv       0.72      0.35      0.47        51
+          Pl       0.63      0.23      0.34        52
+          Sg       0.72      0.96      0.82       183
+
+    accuracy                           0.72       286
+   macro avg       0.69      0.51      0.55       286
+weighted avg       0.71      0.72      0.67       286
+
+MM classification of plurality [supplement: False] in Irish using: 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.75      0.77      0.76       183
+           1       0.36      0.31      0.33        52
+           2       0.47      0.49      0.48        51
+
+    accuracy                           0.64       286
+   macro avg       0.53      0.52      0.52       286
+weighted avg       0.63      0.64      0.63       286
+
+DT classification (max_depth: 7, n_estimators: 74) of case [supplement: True] of Irish using 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Gen       1.00      0.33      0.50         9
+         Nom       0.98      1.00      0.99       276
+
+    accuracy                           0.98       285
+   macro avg       0.99      0.67      0.74       285
+weighted avg       0.98      0.98      0.97       285
+
+
+RF classification (max_depth: 36, n_estimators: 117) of case [supplement: True]  using: 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Gen       0.00      0.00      0.00         9
+         Nom       0.97      1.00      0.98       276
+
+    accuracy                           0.96       285
+   macro avg       0.48      0.50      0.49       285
+weighted avg       0.94      0.96      0.95       285
+
+MM classification of case [supplement: True] in Irish using: 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.97      1.00      0.98       276
+           2       0.00      0.00      0.00         9
+
+    accuracy                           0.97       285
+   macro avg       0.48      0.50      0.49       285
+weighted avg       0.94      0.97      0.95       285
+
+DT classification (max_depth: 2, n_estimators: 31) of case [supplement: False] of Irish using 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Gen       0.00      0.00      0.00         9
+         Nom       0.97      1.00      0.98       276
+
+    accuracy                           0.97       285
+   macro avg       0.48      0.50      0.49       285
+weighted avg       0.94      0.97      0.95       285
+
+
+RF classification (max_depth: 16, n_estimators: 17) of case [supplement: False]  using: 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Gen       0.00      0.00      0.00         9
+         Nom       0.97      1.00      0.98       276
+
+    accuracy                           0.97       285
+   macro avg       0.48      0.50      0.49       285
+weighted avg       0.94      0.97      0.95       285
+
+MM classification of case [supplement: False] in Irish using: 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.97      1.00      0.98       276
+           2       0.00      0.00      0.00         9
+
+    accuracy                           0.97       285
+   macro avg       0.48      0.50      0.49       285
+weighted avg       0.94      0.97      0.95       285
+
+DT classification (max_depth: 29, n_estimators: 69) of gender [supplement: True] of Irish using 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.67      0.57      0.62        80
+        Masc       0.84      0.89      0.86       205
+
+    accuracy                           0.80       285
+   macro avg       0.75      0.73      0.74       285
+weighted avg       0.79      0.80      0.80       285
+
+
+RF classification (max_depth: 26, n_estimators: 54) of gender [supplement: True]  using: 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.83      0.47      0.60        80
+        Masc       0.82      0.96      0.89       205
+
+    accuracy                           0.82       285
+   macro avg       0.83      0.72      0.75       285
+weighted avg       0.82      0.82      0.81       285
+
+MM classification of gender [supplement: True] in Irish using: 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.66      0.65      0.65        80
+           1       0.86      0.87      0.87       205
+
+    accuracy                           0.81       285
+   macro avg       0.76      0.76      0.76       285
+weighted avg       0.81      0.81      0.81       285
+
+DT classification (max_depth: 38, n_estimators: 79) of gender [supplement: False] of Irish using 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.50      0.41      0.45        80
+        Masc       0.79      0.84      0.81       205
+
+    accuracy                           0.72       285
+   macro avg       0.64      0.63      0.63       285
+weighted avg       0.71      0.72      0.71       285
+
+
+RF classification (max_depth: 33, n_estimators: 47) of gender [supplement: False]  using: 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.67      0.38      0.48        80
+        Masc       0.79      0.93      0.85       205
+
+    accuracy                           0.77       285
+   macro avg       0.73      0.65      0.67       285
+weighted avg       0.76      0.77      0.75       285
+
+MM classification of gender [supplement: False] in Irish using: 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.51      0.45      0.48        80
+           1       0.79      0.83      0.81       205
+
+    accuracy                           0.72       285
+   macro avg       0.65      0.64      0.64       285
+weighted avg       0.71      0.72      0.72       285
+
+DT classification (max_depth: 30, n_estimators: 71) of plurality [supplement: True] of Irish using 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Inv       0.39      0.28      0.32        43
+          Pl       0.57      0.45      0.51        55
+          Sg       0.76      0.86      0.81       189
+
+    accuracy                           0.69       287
+   macro avg       0.57      0.53      0.55       287
+weighted avg       0.67      0.69      0.68       287
+
+
+RF classification (max_depth: 24, n_estimators: 87) of plurality [supplement: True]  using: 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Inv       1.00      0.19      0.31        43
+          Pl       0.79      0.20      0.32        55
+          Sg       0.71      0.99      0.82       189
+
+    accuracy                           0.72       287
+   macro avg       0.83      0.46      0.49       287
+weighted avg       0.77      0.72      0.65       287
+
+MM classification of plurality [supplement: True] in Irish using: 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.78      0.81      0.79       189
+           1       0.45      0.42      0.43        55
+           2       0.46      0.42      0.44        43
+
+    accuracy                           0.68       287
+   macro avg       0.56      0.55      0.56       287
+weighted avg       0.67      0.68      0.67       287
+
+DT classification (max_depth: 31, n_estimators: 105) of plurality [supplement: False] of Irish using 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Inv       0.56      0.21      0.31        43
+          Pl       0.47      0.35      0.40        55
+          Sg       0.72      0.88      0.80       189
+
+    accuracy                           0.68       287
+   macro avg       0.59      0.48      0.50       287
+weighted avg       0.65      0.68      0.65       287
+
+
+RF classification (max_depth: 31, n_estimators: 73) of plurality [supplement: False]  using: 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Inv       0.60      0.14      0.23        43
+          Pl       0.79      0.20      0.32        55
+          Sg       0.70      0.97      0.81       189
+
+    accuracy                           0.70       287
+   macro avg       0.69      0.44      0.45       287
+weighted avg       0.70      0.70      0.63       287
+
+MM classification of plurality [supplement: False] in Irish using: 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.73      0.75      0.74       189
+           1       0.41      0.33      0.36        55
+           2       0.33      0.37      0.35        43
+
+    accuracy                           0.61       287
+   macro avg       0.49      0.48      0.48       287
+weighted avg       0.61      0.61      0.61       287
+
+DT classification (max_depth: 5, n_estimators: 53) of case [supplement: True] of Irish using 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Gen       0.00      0.00      0.00         8
+         Nom       0.97      1.00      0.98       277
+
+    accuracy                           0.97       285
+   macro avg       0.49      0.50      0.49       285
+weighted avg       0.94      0.97      0.96       285
+
+
+RF classification (max_depth: 27, n_estimators: 98) of case [supplement: True]  using: 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Gen       0.00      0.00      0.00         8
+         Nom       0.97      1.00      0.99       277
+
+    accuracy                           0.97       285
+   macro avg       0.49      0.50      0.49       285
+weighted avg       0.94      0.97      0.96       285
+
+MM classification of case [supplement: True] in Irish using: 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.97      1.00      0.99       277
+           2       0.00      0.00      0.00         8
+
+    accuracy                           0.97       285
+   macro avg       0.49      0.50      0.49       285
+weighted avg       0.94      0.97      0.96       285
+
+DT classification (max_depth: 7, n_estimators: 83) of case [supplement: False] of Irish using 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Gen       0.00      0.00      0.00         8
+         Nom       0.97      0.99      0.98       277
+
+    accuracy                           0.96       285
+   macro avg       0.49      0.49      0.49       285
+weighted avg       0.94      0.96      0.95       285
+
+
+RF classification (max_depth: 20, n_estimators: 28) of case [supplement: False]  using: 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Gen       0.00      0.00      0.00         8
+         Nom       0.97      1.00      0.99       277
+
+    accuracy                           0.97       285
+   macro avg       0.49      0.50      0.49       285
+weighted avg       0.94      0.97      0.96       285
+
+MM classification of case [supplement: False] in Irish using: 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.97      1.00      0.99       277
+           2       0.00      0.00      0.00         8
+
+    accuracy                           0.97       285
+   macro avg       0.49      0.50      0.49       285
+weighted avg       0.94      0.97      0.96       285
+
+DT classification (max_depth: 34, n_estimators: 70) of gender [supplement: True] of Irish using 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.62      0.54      0.58        74
+        Masc       0.85      0.88      0.86       211
+
+    accuracy                           0.79       285
+   macro avg       0.73      0.71      0.72       285
+weighted avg       0.79      0.79      0.79       285
+
+
+RF classification (max_depth: 33, n_estimators: 80) of gender [supplement: True]  using: 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.84      0.49      0.62        74
+        Masc       0.84      0.97      0.90       211
+
+    accuracy                           0.84       285
+   macro avg       0.84      0.73      0.76       285
+weighted avg       0.84      0.84      0.83       285
+
+MM classification of gender [supplement: True] in Irish using: 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.59      0.59      0.59        74
+           1       0.86      0.85      0.86       211
+
+    accuracy                           0.79       285
+   macro avg       0.72      0.72      0.72       285
+weighted avg       0.79      0.79      0.79       285
+
+DT classification (max_depth: 11, n_estimators: 93) of gender [supplement: False] of Irish using 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.53      0.14      0.22        74
+        Masc       0.76      0.96      0.85       211
+
+    accuracy                           0.74       285
+   macro avg       0.64      0.55      0.53       285
+weighted avg       0.70      0.74      0.68       285
+
+
+RF classification (max_depth: 28, n_estimators: 79) of gender [supplement: False]  using: 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.72      0.24      0.36        74
+        Masc       0.78      0.97      0.87       211
+
+    accuracy                           0.78       285
+   macro avg       0.75      0.61      0.61       285
+weighted avg       0.77      0.78      0.74       285
+
+MM classification of gender [supplement: False] in Irish using: 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.49      0.57      0.53        74
+           1       0.84      0.79      0.81       211
+
+    accuracy                           0.73       285
+   macro avg       0.66      0.68      0.67       285
+weighted avg       0.75      0.73      0.74       285
+
+DT classification (max_depth: 23, n_estimators: 102) of plurality [supplement: True] of Irish using 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Inv       0.60      0.55      0.57        56
+          Pl       0.57      0.43      0.49        54
+          Sg       0.80      0.88      0.84       177
+
+    accuracy                           0.73       287
+   macro avg       0.66      0.62      0.63       287
+weighted avg       0.72      0.73      0.72       287
+
+
+RF classification (max_depth: 33, n_estimators: 17) of plurality [supplement: True]  using: 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Inv       0.79      0.39      0.52        56
+          Pl       0.59      0.24      0.34        54
+          Sg       0.71      0.95      0.81       177
+
+    accuracy                           0.71       287
+   macro avg       0.70      0.53      0.56       287
+weighted avg       0.70      0.71      0.67       287
+
+MM classification of plurality [supplement: True] in Irish using: 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.74      0.85      0.79       177
+           1       0.46      0.35      0.40        54
+           2       0.63      0.48      0.55        56
+
+    accuracy                           0.69       287
+   macro avg       0.61      0.56      0.58       287
+weighted avg       0.67      0.69      0.67       287
+
+DT classification (max_depth: 9, n_estimators: 85) of plurality [supplement: False] of Irish using 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Inv       1.00      0.20      0.33        56
+          Pl       0.57      0.07      0.13        54
+          Sg       0.65      0.99      0.78       177
+
+    accuracy                           0.66       287
+   macro avg       0.74      0.42      0.41       287
+weighted avg       0.70      0.66      0.57       287
+
+
+RF classification (max_depth: 32, n_estimators: 87) of plurality [supplement: False]  using: 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Inv       0.90      0.32      0.47        56
+          Pl       0.75      0.11      0.19        54
+          Sg       0.67      0.98      0.80       177
+
+    accuracy                           0.69       287
+   macro avg       0.77      0.47      0.49       287
+weighted avg       0.73      0.69      0.62       287
+
+MM classification of plurality [supplement: False] in Irish using: 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.70      0.72      0.71       177
+           1       0.36      0.33      0.35        54
+           2       0.52      0.50      0.51        56
+
+    accuracy                           0.61       287
+   macro avg       0.53      0.52      0.52       287
+weighted avg       0.60      0.61      0.60       287
+
+DT classification (max_depth: 18, n_estimators: 21) of case [supplement: True] of Irish using 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Gen       0.25      0.06      0.10        16
+         Nom       0.95      0.99      0.97       270
+
+    accuracy                           0.94       286
+   macro avg       0.60      0.53      0.53       286
+weighted avg       0.91      0.94      0.92       286
+
+
+RF classification (max_depth: 26, n_estimators: 82) of case [supplement: True]  using: 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Gen       1.00      0.06      0.12        16
+         Nom       0.95      1.00      0.97       270
+
+    accuracy                           0.95       286
+   macro avg       0.97      0.53      0.55       286
+weighted avg       0.95      0.95      0.93       286
+
+MM classification of case [supplement: True] in Irish using: 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.94      1.00      0.97       270
+           2       0.00      0.00      0.00        16
+
+    accuracy                           0.94       286
+   macro avg       0.47      0.50      0.49       286
+weighted avg       0.89      0.94      0.92       286
+
+DT classification (max_depth: 6, n_estimators: 82) of case [supplement: False] of Irish using 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Gen       0.00      0.00      0.00        16
+         Nom       0.94      1.00      0.97       270
+
+    accuracy                           0.94       286
+   macro avg       0.47      0.50      0.48       286
+weighted avg       0.89      0.94      0.92       286
+
+
+RF classification (max_depth: 9, n_estimators: 104) of case [supplement: False]  using: 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Gen       0.00      0.00      0.00        16
+         Nom       0.94      1.00      0.97       270
+
+    accuracy                           0.94       286
+   macro avg       0.47      0.50      0.49       286
+weighted avg       0.89      0.94      0.92       286
+
+MM classification of case [supplement: False] in Irish using: 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.94      1.00      0.97       270
+           2       0.00      0.00      0.00        16
+
+    accuracy                           0.94       286
+   macro avg       0.47      0.50      0.49       286
+weighted avg       0.89      0.94      0.92       286
+
+DT classification (max_depth: 19, n_estimators: 68) of gender [supplement: True] of Irish using skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.65      0.42      0.51        95
+        Masc       0.75      0.88      0.81       190
+
+    accuracy                           0.73       285
+   macro avg       0.70      0.65      0.66       285
+weighted avg       0.72      0.73      0.71       285
+
+
+RF classification (max_depth: 39, n_estimators: 99) of gender [supplement: True]  using: skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.81      0.45      0.58        95
+        Masc       0.78      0.95      0.85       190
+
+    accuracy                           0.78       285
+   macro avg       0.79      0.70      0.72       285
+weighted avg       0.79      0.78      0.76       285
+
+MM classification of gender [supplement: True] in Irish using: skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.62      0.58      0.60        95
+           1       0.80      0.83      0.81       190
+
+    accuracy                           0.74       285
+   macro avg       0.71      0.70      0.71       285
+weighted avg       0.74      0.74      0.74       285
+
+DT classification (max_depth: 10, n_estimators: 103) of gender [supplement: False] of Irish using skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.53      0.34      0.41        95
+        Masc       0.72      0.85      0.78       190
+
+    accuracy                           0.68       285
+   macro avg       0.63      0.59      0.60       285
+weighted avg       0.66      0.68      0.66       285
+
+
+RF classification (max_depth: 29, n_estimators: 115) of gender [supplement: False]  using: skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.72      0.35      0.47        95
+        Masc       0.74      0.93      0.83       190
+
+    accuracy                           0.74       285
+   macro avg       0.73      0.64      0.65       285
+weighted avg       0.73      0.74      0.71       285
+
+MM classification of gender [supplement: False] in Irish using: skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.58      0.47      0.52        95
+           1       0.76      0.83      0.79       190
+
+    accuracy                           0.71       285
+   macro avg       0.67      0.65      0.66       285
+weighted avg       0.70      0.71      0.70       285
+
+DT classification (max_depth: 29, n_estimators: 74) of plurality [supplement: True] of Irish using skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Inv       0.59      0.43      0.49        54
+          Pl       0.62      0.41      0.49        58
+          Sg       0.75      0.89      0.81       176
+
+    accuracy                           0.71       288
+   macro avg       0.65      0.58      0.60       288
+weighted avg       0.69      0.71      0.69       288
+
+
+RF classification (max_depth: 27, n_estimators: 65) of plurality [supplement: True]  using: skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Inv       0.88      0.28      0.42        54
+          Pl       1.00      0.12      0.22        58
+          Sg       0.67      1.00      0.80       176
+
+    accuracy                           0.69       288
+   macro avg       0.85      0.47      0.48       288
+weighted avg       0.77      0.69      0.61       288
+
+MM classification of plurality [supplement: True] in Irish using: skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.71      0.89      0.79       176
+           1       0.56      0.31      0.40        58
+           2       0.59      0.41      0.48        54
+
+    accuracy                           0.68       288
+   macro avg       0.62      0.53      0.56       288
+weighted avg       0.66      0.68      0.65       288
+
+DT classification (max_depth: 11, n_estimators: 42) of plurality [supplement: False] of Irish using skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Inv       0.43      0.06      0.10        54
+          Pl       0.60      0.05      0.10        58
+          Sg       0.63      0.98      0.77       176
+
+    accuracy                           0.62       288
+   macro avg       0.55      0.36      0.32       288
+weighted avg       0.58      0.62      0.51       288
+
+
+RF classification (max_depth: 36, n_estimators: 50) of plurality [supplement: False]  using: skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Inv       0.83      0.19      0.30        54
+          Pl       0.62      0.09      0.15        58
+          Sg       0.65      0.98      0.78       176
+
+    accuracy                           0.65       288
+   macro avg       0.70      0.42      0.41       288
+weighted avg       0.68      0.65      0.56       288
+
+MM classification of plurality [supplement: False] in Irish using: skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.70      0.90      0.79       176
+           1       0.55      0.29      0.38        58
+           2       0.58      0.33      0.42        54
+
+    accuracy                           0.67       288
+   macro avg       0.61      0.51      0.53       288
+weighted avg       0.65      0.67      0.64       288
+
+DT classification (max_depth: 10, n_estimators: 13) of case [supplement: True] of Irish using skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Gen       0.00      0.00      0.00        11
+         Nom       0.96      1.00      0.98       275
+
+    accuracy                           0.96       286
+   macro avg       0.48      0.50      0.49       286
+weighted avg       0.92      0.96      0.94       286
+
+
+RF classification (max_depth: 8, n_estimators: 51) of case [supplement: True]  using: skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Gen       0.00      0.00      0.00        11
+         Nom       0.96      1.00      0.98       275
+
+    accuracy                           0.96       286
+   macro avg       0.48      0.50      0.49       286
+weighted avg       0.92      0.96      0.94       286
+
+MM classification of case [supplement: True] in Irish using: skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.96      1.00      0.98       275
+           2       0.00      0.00      0.00        11
+
+    accuracy                           0.96       286
+   macro avg       0.48      0.50      0.49       286
+weighted avg       0.92      0.96      0.94       286
+
+DT classification (max_depth: 5, n_estimators: 57) of case [supplement: False] of Irish using skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Gen       0.00      0.00      0.00        11
+         Nom       0.96      1.00      0.98       275
+
+    accuracy                           0.96       286
+   macro avg       0.48      0.50      0.49       286
+weighted avg       0.92      0.96      0.94       286
+
+
+RF classification (max_depth: 9, n_estimators: 87) of case [supplement: False]  using: skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Gen       0.00      0.00      0.00        11
+         Nom       0.96      1.00      0.98       275
+
+    accuracy                           0.96       286
+   macro avg       0.48      0.50      0.49       286
+weighted avg       0.92      0.96      0.94       286
+
+MM classification of case [supplement: False] in Irish using: skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.96      1.00      0.98       275
+           2       0.00      0.00      0.00        11
+
+    accuracy                           0.96       286
+   macro avg       0.48      0.50      0.49       286
+weighted avg       0.92      0.96      0.94       286
+
+DT classification (max_depth: 36, n_estimators: 14) of gender [supplement: True] of Irish using skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.68      0.18      0.29        93
+        Masc       0.71      0.96      0.81       192
+
+    accuracy                           0.71       285
+   macro avg       0.69      0.57      0.55       285
+weighted avg       0.70      0.71      0.64       285
+
+
+RF classification (max_depth: 37, n_estimators: 111) of gender [supplement: True]  using: skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.76      0.31      0.44        93
+        Masc       0.74      0.95      0.83       192
+
+    accuracy                           0.74       285
+   macro avg       0.75      0.63      0.64       285
+weighted avg       0.75      0.74      0.71       285
+
+MM classification of gender [supplement: True] in Irish using: skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.61      0.42      0.50        93
+           1       0.76      0.87      0.81       192
+
+    accuracy                           0.72       285
+   macro avg       0.68      0.64      0.65       285
+weighted avg       0.71      0.72      0.71       285
+
+DT classification (max_depth: 3, n_estimators: 68) of gender [supplement: False] of Irish using skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.50      0.04      0.08        93
+        Masc       0.68      0.98      0.80       192
+
+    accuracy                           0.67       285
+   macro avg       0.59      0.51      0.44       285
+weighted avg       0.62      0.67      0.57       285
+
+
+RF classification (max_depth: 36, n_estimators: 74) of gender [supplement: False]  using: skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.66      0.25      0.36        93
+        Masc       0.72      0.94      0.81       192
+
+    accuracy                           0.71       285
+   macro avg       0.69      0.59      0.59       285
+weighted avg       0.70      0.71      0.67       285
+
+MM classification of gender [supplement: False] in Irish using: skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.52      0.51      0.51        93
+           1       0.76      0.78      0.77       192
+
+    accuracy                           0.69       285
+   macro avg       0.64      0.64      0.64       285
+weighted avg       0.69      0.69      0.69       285
+
+DT classification (max_depth: 27, n_estimators: 113) of plurality [supplement: True] of Irish using skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Inv       0.40      0.04      0.07        55
+          Pl       0.45      0.11      0.17        47
+          Sg       0.66      0.97      0.79       185
+
+    accuracy                           0.65       287
+   macro avg       0.51      0.37      0.34       287
+weighted avg       0.58      0.65      0.55       287
+
+
+RF classification (max_depth: 21, n_estimators: 69) of plurality [supplement: True]  using: skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Inv       1.00      0.05      0.10        55
+          Pl       0.50      0.02      0.04        47
+          Sg       0.66      1.00      0.79       185
+
+    accuracy                           0.66       287
+   macro avg       0.72      0.36      0.31       287
+weighted avg       0.70      0.66      0.54       287
+
+MM classification of plurality [supplement: True] in Irish using: skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.73      0.86      0.79       185
+           1       0.36      0.32      0.34        47
+           2       0.50      0.24      0.32        55
+
+    accuracy                           0.66       287
+   macro avg       0.53      0.47      0.48       287
+weighted avg       0.63      0.66      0.63       287
+
+DT classification (max_depth: 25, n_estimators: 83) of plurality [supplement: False] of Irish using skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Inv       0.54      0.13      0.21        55
+          Pl       0.60      0.13      0.21        47
+          Sg       0.67      0.96      0.79       185
+
+    accuracy                           0.66       287
+   macro avg       0.60      0.40      0.40       287
+weighted avg       0.63      0.66      0.58       287
+
+
+RF classification (max_depth: 23, n_estimators: 39) of plurality [supplement: False]  using: skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Inv       1.00      0.02      0.04        55
+          Pl       1.00      0.13      0.23        47
+          Sg       0.66      1.00      0.80       185
+
+    accuracy                           0.67       287
+   macro avg       0.89      0.38      0.35       287
+weighted avg       0.78      0.67      0.56       287
+
+MM classification of plurality [supplement: False] in Irish using: skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.70      0.90      0.79       185
+           1       0.45      0.19      0.27        47
+           2       0.39      0.20      0.27        55
+
+    accuracy                           0.65       287
+   macro avg       0.51      0.43      0.44       287
+weighted avg       0.60      0.65      0.60       287
+
+DT classification (max_depth: 17, n_estimators: 12) of case [supplement: True] of Irish using skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Gen       0.00      0.00      0.00        10
+         Nom       0.96      0.99      0.98       276
+
+    accuracy                           0.96       286
+   macro avg       0.48      0.50      0.49       286
+weighted avg       0.93      0.96      0.94       286
+
+
+RF classification (max_depth: 24, n_estimators: 76) of case [supplement: True]  using: skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Gen       0.00      0.00      0.00        10
+         Nom       0.97      1.00      0.98       276
+
+    accuracy                           0.97       286
+   macro avg       0.48      0.50      0.49       286
+weighted avg       0.93      0.97      0.95       286
+
+MM classification of case [supplement: True] in Irish using: skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.97      1.00      0.98       276
+           2       0.00      0.00      0.00        10
+
+    accuracy                           0.97       286
+   macro avg       0.48      0.50      0.49       286
+weighted avg       0.93      0.97      0.95       286
+
+DT classification (max_depth: 9, n_estimators: 20) of case [supplement: False] of Irish using skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Gen       0.00      0.00      0.00        10
+         Nom       0.96      0.99      0.98       276
+
+    accuracy                           0.96       286
+   macro avg       0.48      0.50      0.49       286
+weighted avg       0.93      0.96      0.94       286
+
+
+RF classification (max_depth: 22, n_estimators: 83) of case [supplement: False]  using: skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Gen       0.00      0.00      0.00        10
+         Nom       0.97      1.00      0.98       276
+
+    accuracy                           0.97       286
+   macro avg       0.48      0.50      0.49       286
+weighted avg       0.93      0.97      0.95       286
+
+MM classification of case [supplement: False] in Irish using: skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.97      1.00      0.98       276
+           2       0.00      0.00      0.00        10
+
+    accuracy                           0.97       286
+   macro avg       0.48      0.50      0.49       286
+weighted avg       0.93      0.97      0.95       286
+
+DT classification (max_depth: 29, n_estimators: 103) of gender [supplement: True] of Irish using skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.47      0.35      0.40        95
+        Masc       0.71      0.80      0.75       188
+
+    accuracy                           0.65       283
+   macro avg       0.59      0.58      0.58       283
+weighted avg       0.63      0.65      0.63       283
+
+
+RF classification (max_depth: 36, n_estimators: 77) of gender [supplement: True]  using: skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.76      0.33      0.46        95
+        Masc       0.74      0.95      0.83       188
+
+    accuracy                           0.74       283
+   macro avg       0.75      0.64      0.64       283
+weighted avg       0.74      0.74      0.70       283
+
+MM classification of gender [supplement: True] in Irish using: skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.65      0.56      0.60        95
+           1       0.79      0.85      0.82       188
+
+    accuracy                           0.75       283
+   macro avg       0.72      0.70      0.71       283
+weighted avg       0.74      0.75      0.74       283
+
+DT classification (max_depth: 12, n_estimators: 112) of gender [supplement: False] of Irish using skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.70      0.17      0.27        95
+        Masc       0.70      0.96      0.81       188
+
+    accuracy                           0.70       283
+   macro avg       0.70      0.57      0.54       283
+weighted avg       0.70      0.70      0.63       283
+
+
+RF classification (max_depth: 37, n_estimators: 42) of gender [supplement: False]  using: skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.58      0.31      0.40        95
+        Masc       0.72      0.89      0.79       188
+
+    accuracy                           0.69       283
+   macro avg       0.65      0.60      0.60       283
+weighted avg       0.67      0.69      0.66       283
+
+MM classification of gender [supplement: False] in Irish using: skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.61      0.57      0.59        95
+           1       0.79      0.81      0.80       188
+
+    accuracy                           0.73       283
+   macro avg       0.70      0.69      0.69       283
+weighted avg       0.73      0.73      0.73       283
+
+DT classification (max_depth: 17, n_estimators: 100) of plurality [supplement: True] of Irish using skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Inv       0.64      0.13      0.22        54
+          Pl       0.70      0.12      0.21        57
+          Sg       0.64      0.97      0.77       175
+
+    accuracy                           0.64       286
+   macro avg       0.66      0.41      0.40       286
+weighted avg       0.65      0.64      0.56       286
+
+
+RF classification (max_depth: 39, n_estimators: 99) of plurality [supplement: True]  using: skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Inv       0.89      0.30      0.44        54
+          Pl       0.82      0.25      0.38        57
+          Sg       0.69      0.98      0.81       175
+
+    accuracy                           0.71       286
+   macro avg       0.80      0.51      0.54       286
+weighted avg       0.75      0.71      0.65       286
+
+MM classification of plurality [supplement: True] in Irish using: skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.69      0.85      0.76       175
+           1       0.54      0.33      0.41        57
+           2       0.60      0.39      0.47        54
+
+    accuracy                           0.66       286
+   macro avg       0.61      0.52      0.55       286
+weighted avg       0.64      0.66      0.64       286
+
+DT classification (max_depth: 8, n_estimators: 106) of plurality [supplement: False] of Irish using skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Inv       0.83      0.09      0.17        54
+          Pl       0.50      0.11      0.17        57
+          Sg       0.63      0.97      0.76       175
+
+    accuracy                           0.63       286
+   macro avg       0.65      0.39      0.37       286
+weighted avg       0.64      0.63      0.53       286
+
+
+RF classification (max_depth: 27, n_estimators: 64) of plurality [supplement: False]  using: skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Inv       0.80      0.15      0.25        54
+          Pl       0.91      0.18      0.29        57
+          Sg       0.66      0.99      0.79       175
+
+    accuracy                           0.67       286
+   macro avg       0.79      0.44      0.45       286
+weighted avg       0.73      0.67      0.59       286
+
+MM classification of plurality [supplement: False] in Irish using: skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.72      0.86      0.78       175
+           1       0.54      0.33      0.41        57
+           2       0.57      0.44      0.50        54
+
+    accuracy                           0.67       286
+   macro avg       0.61      0.54      0.56       286
+weighted avg       0.66      0.67      0.65       286
+
+DT classification (max_depth: 17, n_estimators: 58) of case [supplement: True] of Irish using skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Gen       0.14      0.20      0.17         5
+         Nom       0.99      0.98      0.98       279
+
+    accuracy                           0.96       284
+   macro avg       0.56      0.59      0.57       284
+weighted avg       0.97      0.96      0.97       284
+
+
+RF classification (max_depth: 27, n_estimators: 115) of case [supplement: True]  using: skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Gen       0.00      0.00      0.00         5
+         Nom       0.98      1.00      0.99       279
+
+    accuracy                           0.98       284
+   macro avg       0.49      0.50      0.50       284
+weighted avg       0.97      0.98      0.97       284
+
+MM classification of case [supplement: True] in Irish using: skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99       279
+           2       0.00      0.00      0.00         5
+
+    accuracy                           0.98       284
+   macro avg       0.49      0.50      0.50       284
+weighted avg       0.97      0.98      0.97       284
+
+DT classification (max_depth: 9, n_estimators: 110) of case [supplement: False] of Irish using skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Gen       0.00      0.00      0.00         5
+         Nom       0.98      0.99      0.98       279
+
+    accuracy                           0.97       284
+   macro avg       0.49      0.49      0.49       284
+weighted avg       0.96      0.97      0.97       284
+
+
+RF classification (max_depth: 8, n_estimators: 68) of case [supplement: False]  using: skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Gen       0.00      0.00      0.00         5
+         Nom       0.98      1.00      0.99       279
+
+    accuracy                           0.98       284
+   macro avg       0.49      0.50      0.50       284
+weighted avg       0.97      0.98      0.97       284
+
+MM classification of case [supplement: False] in Irish using: skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99       279
+           2       0.00      0.00      0.00         5
+
+    accuracy                           0.98       284
+   macro avg       0.49      0.50      0.50       284
+weighted avg       0.97      0.98      0.97       284
+

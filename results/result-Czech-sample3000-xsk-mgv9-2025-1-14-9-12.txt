@@ -1,0 +1,2592 @@
+DT classification (max_depth: 20, n_estimators: 92) of gender [supplement: True] of Czech using 2gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.88      0.83      0.85       128
+        Masc       0.86      0.94      0.89       127
+        Neut       0.78      0.69      0.73        45
+
+    accuracy                           0.85       300
+   macro avg       0.84      0.82      0.83       300
+weighted avg       0.85      0.85      0.85       300
+
+
+RF classification (max_depth: 39, n_estimators: 41) of gender [supplement: True]  using: 2gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.87      1.00      0.93       128
+        Masc       1.00      1.00      1.00       127
+        Neut       1.00      0.58      0.73        45
+
+    accuracy                           0.94       300
+   macro avg       0.96      0.86      0.89       300
+weighted avg       0.94      0.94      0.93       300
+
+MM classification of gender [supplement: True] in Czech using: 2gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.89      0.92      0.90       128
+           1       1.00      1.00      1.00       127
+           2       0.75      0.67      0.71        45
+
+    accuracy                           0.92       300
+   macro avg       0.88      0.86      0.87       300
+weighted avg       0.91      0.92      0.92       300
+
+DT classification (max_depth: 19, n_estimators: 63) of gender [supplement: False] of Czech using 2gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.70      0.55      0.62       128
+        Masc       0.57      0.78      0.66       127
+        Neut       0.88      0.47      0.61        45
+
+    accuracy                           0.64       300
+   macro avg       0.71      0.60      0.63       300
+weighted avg       0.67      0.64      0.63       300
+
+
+RF classification (max_depth: 21, n_estimators: 61) of gender [supplement: False]  using: 2gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.76      0.57      0.65       128
+        Masc       0.61      0.87      0.72       127
+        Neut       0.95      0.47      0.63        45
+
+    accuracy                           0.68       300
+   macro avg       0.77      0.64      0.67       300
+weighted avg       0.73      0.68      0.68       300
+
+MM classification of gender [supplement: False] in Czech using: 2gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.80      0.73      0.76       128
+           1       0.69      0.80      0.74       127
+           2       0.68      0.56      0.61        45
+
+    accuracy                           0.73       300
+   macro avg       0.72      0.70      0.71       300
+weighted avg       0.74      0.73      0.73       300
+
+DT classification (max_depth: 9, n_estimators: 98) of plurality [supplement: True] of Czech using 2gram-no-hash
+              precision    recall  f1-score   support
+
+          Pl       0.79      0.59      0.68        74
+          Sg       0.88      0.95      0.91       226
+
+    accuracy                           0.86       300
+   macro avg       0.83      0.77      0.79       300
+weighted avg       0.85      0.86      0.85       300
+
+
+RF classification (max_depth: 31, n_estimators: 28) of plurality [supplement: True]  using: 2gram-no-hash
+              precision    recall  f1-score   support
+
+          Pl       0.95      0.53      0.68        74
+          Sg       0.86      0.99      0.92       226
+
+    accuracy                           0.88       300
+   macro avg       0.91      0.76      0.80       300
+weighted avg       0.89      0.88      0.86       300
+
+MM classification of plurality [supplement: True] in Czech using: 2gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.90      0.98      0.94       226
+           1       0.92      0.66      0.77        74
+
+    accuracy                           0.90       300
+   macro avg       0.91      0.82      0.86       300
+weighted avg       0.91      0.90      0.90       300
+
+DT classification (max_depth: 14, n_estimators: 119) of plurality [supplement: False] of Czech using 2gram-no-hash
+              precision    recall  f1-score   support
+
+          Pl       0.60      0.47      0.53        74
+          Sg       0.84      0.90      0.87       226
+
+    accuracy                           0.79       300
+   macro avg       0.72      0.69      0.70       300
+weighted avg       0.78      0.79      0.78       300
+
+
+RF classification (max_depth: 26, n_estimators: 102) of plurality [supplement: False]  using: 2gram-no-hash
+              precision    recall  f1-score   support
+
+          Pl       0.77      0.31      0.44        74
+          Sg       0.81      0.97      0.88       226
+
+    accuracy                           0.81       300
+   macro avg       0.79      0.64      0.66       300
+weighted avg       0.80      0.81      0.77       300
+
+MM classification of plurality [supplement: False] in Czech using: 2gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.85      0.92      0.88       226
+           1       0.66      0.50      0.57        74
+
+    accuracy                           0.81       300
+   macro avg       0.75      0.71      0.73       300
+weighted avg       0.80      0.81      0.80       300
+
+DT classification (max_depth: 31, n_estimators: 92) of case [supplement: True] of Czech using 2gram-no-hash
+              precision    recall  f1-score   support
+
+         Acc       0.50      0.58      0.54        59
+         Dat       0.36      0.18      0.24        22
+         Gen       0.51      0.44      0.47        63
+       Instr       0.70      0.81      0.75        32
+         Loc       0.52      0.37      0.43        35
+         Nom       0.51      0.60      0.55        82
+
+    accuracy                           0.53       293
+   macro avg       0.52      0.50      0.50       293
+weighted avg       0.52      0.53      0.52       293
+
+
+RF classification (max_depth: 33, n_estimators: 102) of case [supplement: True]  using: 2gram-no-hash
+              precision    recall  f1-score   support
+
+         Acc       0.51      0.54      0.52        59
+         Dat       0.83      0.23      0.36        22
+         Gen       0.58      0.60      0.59        63
+       Instr       0.90      0.88      0.89        32
+         Loc       0.58      0.31      0.41        35
+         Nom       0.48      0.63      0.55        82
+
+    accuracy                           0.57       293
+   macro avg       0.65      0.53      0.55       293
+weighted avg       0.59      0.57      0.56       293
+
+MM classification of case [supplement: True] in Czech using: 2gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.56      0.59      0.57        82
+           1       0.42      0.47      0.45        59
+           2       0.38      0.14      0.20        22
+           3       0.48      0.54      0.51        63
+           4       0.74      0.78      0.76        32
+           5       0.54      0.43      0.48        35
+
+    accuracy                           0.52       293
+   macro avg       0.52      0.49      0.49       293
+weighted avg       0.52      0.52      0.51       293
+
+DT classification (max_depth: 37, n_estimators: 115) of case [supplement: False] of Czech using 2gram-no-hash
+              precision    recall  f1-score   support
+
+         Acc       0.33      0.29      0.31        59
+         Dat       0.21      0.18      0.20        22
+         Gen       0.34      0.35      0.34        63
+       Instr       0.76      0.69      0.72        32
+         Loc       0.26      0.17      0.21        35
+         Nom       0.43      0.56      0.49        82
+
+    accuracy                           0.40       293
+   macro avg       0.39      0.37      0.38       293
+weighted avg       0.39      0.40      0.39       293
+
+
+RF classification (max_depth: 34, n_estimators: 91) of case [supplement: False]  using: 2gram-no-hash
+              precision    recall  f1-score   support
+
+         Acc       0.43      0.51      0.47        59
+         Dat       0.50      0.05      0.08        22
+         Gen       0.42      0.27      0.33        63
+       Instr       0.82      0.84      0.83        32
+         Loc       0.53      0.26      0.35        35
+         Nom       0.40      0.63      0.49        82
+
+    accuracy                           0.46       293
+   macro avg       0.52      0.43      0.42       293
+weighted avg       0.48      0.46      0.44       293
+
+MM classification of case [supplement: False] in Czech using: 2gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.45      0.57      0.50        82
+           1       0.18      0.15      0.17        59
+           2       0.24      0.18      0.21        22
+           3       0.31      0.25      0.28        63
+           4       0.72      0.72      0.72        32
+           5       0.38      0.43      0.41        35
+
+    accuracy                           0.39       293
+   macro avg       0.38      0.38      0.38       293
+weighted avg       0.37      0.39      0.38       293
+
+DT classification (max_depth: 38, n_estimators: 117) of gender [supplement: True] of Czech using 3gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.84      0.88      0.86       112
+        Masc       0.97      0.93      0.95       142
+        Neut       0.67      0.67      0.67        46
+
+    accuracy                           0.87       300
+   macro avg       0.83      0.83      0.83       300
+weighted avg       0.88      0.87      0.87       300
+
+
+RF classification (max_depth: 28, n_estimators: 112) of gender [supplement: True]  using: 3gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.83      0.99      0.91       112
+        Masc       0.98      1.00      0.99       142
+        Neut       0.95      0.46      0.62        46
+
+    accuracy                           0.91       300
+   macro avg       0.92      0.82      0.84       300
+weighted avg       0.92      0.91      0.90       300
+
+MM classification of gender [supplement: True] in Czech using: 3gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.91      0.93      0.92       112
+           1       1.00      1.00      1.00       142
+           2       0.82      0.78      0.80        46
+
+    accuracy                           0.94       300
+   macro avg       0.91      0.90      0.91       300
+weighted avg       0.94      0.94      0.94       300
+
+DT classification (max_depth: 24, n_estimators: 76) of gender [supplement: False] of Czech using 3gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.82      0.41      0.55       112
+        Masc       0.61      0.94      0.74       142
+        Neut       0.85      0.48      0.61        46
+
+    accuracy                           0.67       300
+   macro avg       0.76      0.61      0.63       300
+weighted avg       0.73      0.67      0.65       300
+
+
+RF classification (max_depth: 35, n_estimators: 43) of gender [supplement: False]  using: 3gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.81      0.63      0.71       112
+        Masc       0.68      0.89      0.77       142
+        Neut       0.84      0.46      0.59        46
+
+    accuracy                           0.73       300
+   macro avg       0.78      0.66      0.69       300
+weighted avg       0.75      0.73      0.72       300
+
+MM classification of gender [supplement: False] in Czech using: 3gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.76      0.72      0.74       112
+           1       0.77      0.81      0.79       142
+           2       0.75      0.72      0.73        46
+
+    accuracy                           0.76       300
+   macro avg       0.76      0.75      0.75       300
+weighted avg       0.76      0.76      0.76       300
+
+DT classification (max_depth: 31, n_estimators: 110) of plurality [supplement: True] of Czech using 3gram-no-hash
+              precision    recall  f1-score   support
+
+          Pl       0.73      0.73      0.73        64
+          Sg       0.93      0.93      0.93       236
+
+    accuracy                           0.89       300
+   macro avg       0.83      0.83      0.83       300
+weighted avg       0.89      0.89      0.89       300
+
+
+RF classification (max_depth: 18, n_estimators: 13) of plurality [supplement: True]  using: 3gram-no-hash
+              precision    recall  f1-score   support
+
+          Pl       0.92      0.34      0.50        64
+          Sg       0.85      0.99      0.91       236
+
+    accuracy                           0.85       300
+   macro avg       0.88      0.67      0.71       300
+weighted avg       0.86      0.85      0.83       300
+
+MM classification of plurality [supplement: True] in Czech using: 3gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.94      0.92      0.93       236
+           1       0.74      0.78      0.76        64
+
+    accuracy                           0.89       300
+   macro avg       0.84      0.85      0.84       300
+weighted avg       0.90      0.89      0.89       300
+
+DT classification (max_depth: 10, n_estimators: 89) of plurality [supplement: False] of Czech using 3gram-no-hash
+              precision    recall  f1-score   support
+
+          Pl       0.59      0.27      0.37        64
+          Sg       0.83      0.95      0.88       236
+
+    accuracy                           0.80       300
+   macro avg       0.71      0.61      0.62       300
+weighted avg       0.78      0.80      0.77       300
+
+
+RF classification (max_depth: 31, n_estimators: 36) of plurality [supplement: False]  using: 3gram-no-hash
+              precision    recall  f1-score   support
+
+          Pl       0.67      0.50      0.57        64
+          Sg       0.87      0.93      0.90       236
+
+    accuracy                           0.84       300
+   macro avg       0.77      0.72      0.74       300
+weighted avg       0.83      0.84      0.83       300
+
+MM classification of plurality [supplement: False] in Czech using: 3gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.88      0.88      0.88       236
+           1       0.56      0.56      0.56        64
+
+    accuracy                           0.81       300
+   macro avg       0.72      0.72      0.72       300
+weighted avg       0.81      0.81      0.81       300
+
+DT classification (max_depth: 33, n_estimators: 80) of case [supplement: True] of Czech using 3gram-no-hash
+              precision    recall  f1-score   support
+
+         Acc       0.46      0.48      0.47        75
+         Dat       0.29      0.25      0.27        16
+         Gen       0.48      0.58      0.53        48
+       Instr       0.62      0.53      0.57        45
+         Loc       0.50      0.35      0.41        40
+         Nom       0.40      0.44      0.42        70
+
+    accuracy                           0.47       294
+   macro avg       0.46      0.44      0.45       294
+weighted avg       0.47      0.47      0.46       294
+
+
+RF classification (max_depth: 35, n_estimators: 88) of case [supplement: True]  using: 3gram-no-hash
+              precision    recall  f1-score   support
+
+         Acc       0.47      0.40      0.43        75
+         Dat       0.50      0.19      0.27        16
+         Gen       0.48      0.52      0.50        48
+       Instr       0.80      0.73      0.77        45
+         Loc       0.67      0.35      0.46        40
+         Nom       0.33      0.51      0.40        70
+
+    accuracy                           0.48       294
+   macro avg       0.54      0.45      0.47       294
+weighted avg       0.52      0.48      0.48       294
+
+MM classification of case [supplement: True] in Czech using: 3gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.35      0.53      0.42        70
+           1       0.43      0.40      0.42        75
+           2       0.31      0.25      0.28        16
+           3       0.44      0.40      0.42        48
+           4       0.83      0.56      0.67        45
+           5       0.50      0.42      0.46        40
+
+    accuracy                           0.45       294
+   macro avg       0.48      0.43      0.44       294
+weighted avg       0.48      0.45      0.45       294
+
+DT classification (max_depth: 16, n_estimators: 80) of case [supplement: False] of Czech using 3gram-no-hash
+              precision    recall  f1-score   support
+
+         Acc       0.30      0.37      0.34        75
+         Dat       0.33      0.06      0.11        16
+         Gen       0.12      0.06      0.08        48
+       Instr       0.73      0.60      0.66        45
+         Loc       0.88      0.17      0.29        40
+         Nom       0.30      0.56      0.39        70
+
+    accuracy                           0.36       294
+   macro avg       0.44      0.31      0.31       294
+weighted avg       0.42      0.36      0.34       294
+
+
+RF classification (max_depth: 35, n_estimators: 106) of case [supplement: False]  using: 3gram-no-hash
+              precision    recall  f1-score   support
+
+         Acc       0.38      0.29      0.33        75
+         Dat       1.00      0.19      0.32        16
+         Gen       0.20      0.17      0.18        48
+       Instr       0.85      0.64      0.73        45
+         Loc       0.65      0.28      0.39        40
+         Nom       0.32      0.66      0.43        70
+
+    accuracy                           0.40       294
+   macro avg       0.57      0.37      0.40       294
+weighted avg       0.48      0.40      0.40       294
+
+MM classification of case [supplement: False] in Czech using: 3gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.36      0.49      0.41        70
+           1       0.34      0.36      0.35        75
+           2       0.29      0.25      0.27        16
+           3       0.20      0.19      0.19        48
+           4       0.81      0.67      0.73        45
+           5       0.52      0.30      0.38        40
+
+    accuracy                           0.39       294
+   macro avg       0.42      0.37      0.39       294
+weighted avg       0.41      0.39      0.40       294
+
+DT classification (max_depth: 39, n_estimators: 104) of gender [supplement: True] of Czech using 4gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.90      0.91      0.90       116
+        Masc       0.96      0.99      0.98       139
+        Neut       0.79      0.69      0.74        45
+
+    accuracy                           0.91       300
+   macro avg       0.88      0.86      0.87       300
+weighted avg       0.91      0.91      0.91       300
+
+
+RF classification (max_depth: 24, n_estimators: 85) of gender [supplement: True]  using: 4gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.81      0.98      0.89       116
+        Masc       0.97      1.00      0.99       139
+        Neut       0.94      0.33      0.49        45
+
+    accuracy                           0.89       300
+   macro avg       0.91      0.77      0.79       300
+weighted avg       0.90      0.89      0.87       300
+
+MM classification of gender [supplement: True] in Czech using: 4gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.88      0.91      0.89       116
+           1       1.00      1.00      1.00       139
+           2       0.75      0.67      0.71        45
+
+    accuracy                           0.92       300
+   macro avg       0.88      0.86      0.87       300
+weighted avg       0.91      0.92      0.92       300
+
+DT classification (max_depth: 32, n_estimators: 88) of gender [supplement: False] of Czech using 4gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.67      0.55      0.60       116
+        Masc       0.63      0.78      0.70       139
+        Neut       0.74      0.51      0.61        45
+
+    accuracy                           0.65       300
+   macro avg       0.68      0.62      0.64       300
+weighted avg       0.66      0.65      0.65       300
+
+
+RF classification (max_depth: 29, n_estimators: 108) of gender [supplement: False]  using: 4gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.79      0.61      0.69       116
+        Masc       0.65      0.90      0.76       139
+        Neut       0.78      0.31      0.44        45
+
+    accuracy                           0.70       300
+   macro avg       0.74      0.61      0.63       300
+weighted avg       0.72      0.70      0.68       300
+
+MM classification of gender [supplement: False] in Czech using: 4gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.72      0.74      0.73       116
+           1       0.81      0.78      0.79       139
+           2       0.70      0.73      0.72        45
+
+    accuracy                           0.76       300
+   macro avg       0.74      0.75      0.75       300
+weighted avg       0.76      0.76      0.76       300
+
+DT classification (max_depth: 19, n_estimators: 72) of plurality [supplement: True] of Czech using 4gram-no-hash
+              precision    recall  f1-score   support
+
+          Pl       0.72      0.49      0.59        69
+          Sg       0.86      0.94      0.90       231
+
+    accuracy                           0.84       300
+   macro avg       0.79      0.72      0.74       300
+weighted avg       0.83      0.84      0.83       300
+
+
+RF classification (max_depth: 37, n_estimators: 92) of plurality [supplement: True]  using: 4gram-no-hash
+              precision    recall  f1-score   support
+
+          Pl       0.90      0.55      0.68        69
+          Sg       0.88      0.98      0.93       231
+
+    accuracy                           0.88       300
+   macro avg       0.89      0.77      0.81       300
+weighted avg       0.89      0.88      0.87       300
+
+MM classification of plurality [supplement: True] in Czech using: 4gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.90      0.90      0.90       231
+           1       0.68      0.67      0.67        69
+
+    accuracy                           0.85       300
+   macro avg       0.79      0.79      0.79       300
+weighted avg       0.85      0.85      0.85       300
+
+DT classification (max_depth: 31, n_estimators: 42) of plurality [supplement: False] of Czech using 4gram-no-hash
+              precision    recall  f1-score   support
+
+          Pl       0.51      0.41      0.45        69
+          Sg       0.83      0.88      0.86       231
+
+    accuracy                           0.77       300
+   macro avg       0.67      0.64      0.65       300
+weighted avg       0.76      0.77      0.76       300
+
+
+RF classification (max_depth: 32, n_estimators: 23) of plurality [supplement: False]  using: 4gram-no-hash
+              precision    recall  f1-score   support
+
+          Pl       0.76      0.32      0.45        69
+          Sg       0.83      0.97      0.89       231
+
+    accuracy                           0.82       300
+   macro avg       0.79      0.64      0.67       300
+weighted avg       0.81      0.82      0.79       300
+
+MM classification of plurality [supplement: False] in Czech using: 4gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.89      0.84      0.86       231
+           1       0.54      0.64      0.59        69
+
+    accuracy                           0.79       300
+   macro avg       0.71      0.74      0.72       300
+weighted avg       0.81      0.79      0.80       300
+
+DT classification (max_depth: 23, n_estimators: 64) of case [supplement: True] of Czech using 4gram-no-hash
+              precision    recall  f1-score   support
+
+         Acc       0.34      0.50      0.40        54
+         Dat       0.36      0.22      0.27        23
+         Gen       0.44      0.46      0.45        61
+       Instr       0.71      0.42      0.53        40
+         Loc       0.24      0.29      0.26        35
+         Nom       0.45      0.40      0.42        81
+
+    accuracy                           0.40       294
+   macro avg       0.42      0.38      0.39       294
+weighted avg       0.43      0.40      0.41       294
+
+
+RF classification (max_depth: 32, n_estimators: 29) of case [supplement: True]  using: 4gram-no-hash
+              precision    recall  f1-score   support
+
+         Acc       0.38      0.46      0.42        54
+         Dat       1.00      0.17      0.30        23
+         Gen       0.60      0.52      0.56        61
+       Instr       0.79      0.78      0.78        40
+         Loc       0.43      0.26      0.32        35
+         Nom       0.48      0.65      0.55        81
+
+    accuracy                           0.52       294
+   macro avg       0.61      0.47      0.49       294
+weighted avg       0.56      0.52      0.51       294
+
+MM classification of case [supplement: True] in Czech using: 4gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.43      0.59      0.50        81
+           1       0.32      0.30      0.31        54
+           2       0.36      0.17      0.24        23
+           3       0.44      0.43      0.43        61
+           4       0.73      0.68      0.70        40
+           5       0.38      0.29      0.33        35
+
+    accuracy                           0.45       294
+   macro avg       0.45      0.41      0.42       294
+weighted avg       0.44      0.45      0.44       294
+
+DT classification (max_depth: 16, n_estimators: 88) of case [supplement: False] of Czech using 4gram-no-hash
+              precision    recall  f1-score   support
+
+         Acc       0.29      0.30      0.29        54
+         Dat       0.40      0.09      0.14        23
+         Gen       0.47      0.13      0.21        61
+       Instr       0.70      0.70      0.70        40
+         Loc       0.50      0.14      0.22        35
+         Nom       0.36      0.74      0.48        81
+
+    accuracy                           0.40       294
+   macro avg       0.45      0.35      0.34       294
+weighted avg       0.44      0.40      0.36       294
+
+
+RF classification (max_depth: 37, n_estimators: 67) of case [supplement: False]  using: 4gram-no-hash
+              precision    recall  f1-score   support
+
+         Acc       0.24      0.30      0.27        54
+         Dat       1.00      0.13      0.23        23
+         Gen       0.33      0.23      0.27        61
+       Instr       0.75      0.75      0.75        40
+         Loc       0.44      0.20      0.27        35
+         Nom       0.40      0.62      0.48        81
+
+    accuracy                           0.41       294
+   macro avg       0.53      0.37      0.38       294
+weighted avg       0.45      0.41      0.39       294
+
+MM classification of case [supplement: False] in Czech using: 4gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.42      0.46      0.44        81
+           1       0.26      0.37      0.30        54
+           2       0.23      0.13      0.17        23
+           3       0.35      0.30      0.32        61
+           4       0.71      0.62      0.67        40
+           5       0.46      0.37      0.41        35
+
+    accuracy                           0.39       294
+   macro avg       0.41      0.37      0.38       294
+weighted avg       0.41      0.39      0.40       294
+
+DT classification (max_depth: 19, n_estimators: 68) of gender [supplement: True] of Czech using skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.64      0.30      0.41       119
+        Masc       0.57      0.88      0.69       144
+        Neut       0.57      0.32      0.41        37
+
+    accuracy                           0.58       300
+   macro avg       0.59      0.50      0.50       300
+weighted avg       0.60      0.58      0.54       300
+
+
+RF classification (max_depth: 20, n_estimators: 58) of gender [supplement: True]  using: skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.84      0.97      0.90       119
+        Masc       0.96      0.97      0.97       144
+        Neut       0.94      0.41      0.57        37
+
+    accuracy                           0.90       300
+   macro avg       0.91      0.78      0.81       300
+weighted avg       0.91      0.90      0.89       300
+
+MM classification of gender [supplement: True] in Czech using: skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.89      0.96      0.92       119
+           1       0.99      0.97      0.98       144
+           2       0.77      0.65      0.71        37
+
+    accuracy                           0.93       300
+   macro avg       0.89      0.86      0.87       300
+weighted avg       0.93      0.93      0.92       300
+
+DT classification (max_depth: 22, n_estimators: 109) of gender [supplement: False] of Czech using skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.65      0.35      0.46       119
+        Masc       0.56      0.85      0.68       144
+        Neut       0.58      0.30      0.39        37
+
+    accuracy                           0.58       300
+   macro avg       0.60      0.50      0.51       300
+weighted avg       0.60      0.58      0.55       300
+
+
+RF classification (max_depth: 25, n_estimators: 71) of gender [supplement: False]  using: skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.70      0.40      0.51       119
+        Masc       0.59      0.88      0.71       144
+        Neut       0.74      0.38      0.50        37
+
+    accuracy                           0.63       300
+   macro avg       0.68      0.55      0.57       300
+weighted avg       0.65      0.63      0.60       300
+
+MM classification of gender [supplement: False] in Czech using: skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.76      0.71      0.73       119
+           1       0.75      0.78      0.77       144
+           2       0.56      0.59      0.58        37
+
+    accuracy                           0.73       300
+   macro avg       0.69      0.70      0.69       300
+weighted avg       0.73      0.73      0.73       300
+
+DT classification (max_depth: 39, n_estimators: 92) of plurality [supplement: True] of Czech using skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+          Pl       0.62      0.51      0.56        59
+          Sg       0.88      0.93      0.90       241
+
+    accuracy                           0.84       300
+   macro avg       0.75      0.72      0.73       300
+weighted avg       0.83      0.84      0.84       300
+
+
+RF classification (max_depth: 33, n_estimators: 37) of plurality [supplement: True]  using: skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+          Pl       0.91      0.51      0.65        59
+          Sg       0.89      0.99      0.94       241
+
+    accuracy                           0.89       300
+   macro avg       0.90      0.75      0.79       300
+weighted avg       0.89      0.89      0.88       300
+
+MM classification of plurality [supplement: True] in Czech using: skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.92      0.95      0.93       241
+           1       0.75      0.64      0.69        59
+
+    accuracy                           0.89       300
+   macro avg       0.83      0.80      0.81       300
+weighted avg       0.88      0.89      0.88       300
+
+DT classification (max_depth: 16, n_estimators: 75) of plurality [supplement: False] of Czech using skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+          Pl       0.71      0.37      0.49        59
+          Sg       0.86      0.96      0.91       241
+
+    accuracy                           0.85       300
+   macro avg       0.79      0.67      0.70       300
+weighted avg       0.83      0.85      0.83       300
+
+
+RF classification (max_depth: 30, n_estimators: 78) of plurality [supplement: False]  using: skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+          Pl       0.77      0.46      0.57        59
+          Sg       0.88      0.97      0.92       241
+
+    accuracy                           0.87       300
+   macro avg       0.83      0.71      0.75       300
+weighted avg       0.86      0.87      0.85       300
+
+MM classification of plurality [supplement: False] in Czech using: skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.89      0.95      0.92       241
+           1       0.70      0.51      0.59        59
+
+    accuracy                           0.86       300
+   macro avg       0.79      0.73      0.75       300
+weighted avg       0.85      0.86      0.85       300
+
+DT classification (max_depth: 26, n_estimators: 114) of case [supplement: True] of Czech using skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+         Acc       0.40      0.56      0.46        70
+         Dat       0.67      0.12      0.20        17
+         Gen       0.38      0.34      0.36        53
+       Instr       0.69      0.71      0.70        38
+         Loc       0.48      0.36      0.41        33
+         Nom       0.52      0.52      0.52        83
+
+    accuracy                           0.48       294
+   macro avg       0.52      0.43      0.44       294
+weighted avg       0.49      0.48      0.47       294
+
+
+RF classification (max_depth: 37, n_estimators: 93) of case [supplement: True]  using: skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+         Acc       0.43      0.37      0.40        70
+         Dat       0.33      0.06      0.10        17
+         Gen       0.53      0.51      0.52        53
+       Instr       0.77      0.79      0.78        38
+         Loc       0.71      0.45      0.56        33
+         Nom       0.45      0.64      0.52        83
+
+    accuracy                           0.52       294
+   macro avg       0.54      0.47      0.48       294
+weighted avg       0.52      0.52      0.51       294
+
+MM classification of case [supplement: True] in Czech using: skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.49      0.61      0.54        83
+           1       0.32      0.36      0.34        70
+           2       0.50      0.35      0.41        17
+           3       0.47      0.40      0.43        53
+           4       0.88      0.79      0.83        38
+           5       0.60      0.36      0.45        33
+
+    accuracy                           0.49       294
+   macro avg       0.54      0.48      0.50       294
+weighted avg       0.51      0.49      0.49       294
+
+DT classification (max_depth: 27, n_estimators: 91) of case [supplement: False] of Czech using skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+         Acc       0.38      0.33      0.35        70
+         Dat       0.20      0.06      0.09        17
+         Gen       0.41      0.17      0.24        53
+       Instr       0.81      0.58      0.68        38
+         Loc       0.35      0.27      0.31        33
+         Nom       0.40      0.75      0.52        83
+
+    accuracy                           0.43       294
+   macro avg       0.43      0.36      0.36       294
+weighted avg       0.43      0.43      0.40       294
+
+
+RF classification (max_depth: 37, n_estimators: 118) of case [supplement: False]  using: skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+         Acc       0.36      0.29      0.32        70
+         Dat       0.33      0.06      0.10        17
+         Gen       0.47      0.28      0.35        53
+       Instr       0.78      0.82      0.79        38
+         Loc       0.57      0.36      0.44        33
+         Nom       0.41      0.70      0.52        83
+
+    accuracy                           0.47       294
+   macro avg       0.49      0.42      0.42       294
+weighted avg       0.47      0.47      0.44       294
+
+MM classification of case [supplement: False] in Czech using: skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.45      0.51      0.48        83
+           1       0.34      0.34      0.34        70
+           2       0.43      0.35      0.39        17
+           3       0.38      0.38      0.38        53
+           4       0.76      0.76      0.76        38
+           5       0.54      0.42      0.47        33
+
+    accuracy                           0.46       294
+   macro avg       0.48      0.46      0.47       294
+weighted avg       0.46      0.46      0.46       294
+
+DT classification (max_depth: 24, n_estimators: 108) of gender [supplement: True] of Czech using skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.47      0.87      0.61       108
+        Masc       0.84      0.50      0.63       152
+        Neut       0.91      0.25      0.39        40
+
+    accuracy                           0.60       300
+   macro avg       0.74      0.54      0.54       300
+weighted avg       0.72      0.60      0.59       300
+
+
+RF classification (max_depth: 34, n_estimators: 101) of gender [supplement: True]  using: skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.76      0.95      0.85       108
+        Masc       0.93      0.94      0.93       152
+        Neut       0.91      0.25      0.39        40
+
+    accuracy                           0.85       300
+   macro avg       0.87      0.71      0.72       300
+weighted avg       0.87      0.85      0.83       300
+
+MM classification of gender [supplement: True] in Czech using: skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.81      0.87      0.84       108
+           1       0.93      0.92      0.93       152
+           2       0.82      0.70      0.76        40
+
+    accuracy                           0.87       300
+   macro avg       0.86      0.83      0.84       300
+weighted avg       0.87      0.87      0.87       300
+
+DT classification (max_depth: 36, n_estimators: 102) of gender [supplement: False] of Czech using skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.55      0.42      0.47       108
+        Masc       0.58      0.79      0.67       152
+        Neut       0.70      0.17      0.28        40
+
+    accuracy                           0.57       300
+   macro avg       0.61      0.46      0.47       300
+weighted avg       0.58      0.57      0.55       300
+
+
+RF classification (max_depth: 36, n_estimators: 80) of gender [supplement: False]  using: skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.67      0.48      0.56       108
+        Masc       0.61      0.84      0.71       152
+        Neut       0.77      0.25      0.38        40
+
+    accuracy                           0.63       300
+   macro avg       0.68      0.52      0.55       300
+weighted avg       0.65      0.63      0.61       300
+
+MM classification of gender [supplement: False] in Czech using: skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.68      0.77      0.72       108
+           1       0.79      0.76      0.78       152
+           2       0.77      0.60      0.68        40
+
+    accuracy                           0.74       300
+   macro avg       0.75      0.71      0.72       300
+weighted avg       0.75      0.74      0.74       300
+
+DT classification (max_depth: 25, n_estimators: 102) of plurality [supplement: True] of Czech using skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+          Pl       0.75      0.28      0.41        75
+          Sg       0.80      0.97      0.88       225
+
+    accuracy                           0.80       300
+   macro avg       0.78      0.62      0.64       300
+weighted avg       0.79      0.80      0.76       300
+
+
+RF classification (max_depth: 27, n_estimators: 74) of plurality [supplement: True]  using: skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+          Pl       0.89      0.33      0.49        75
+          Sg       0.82      0.99      0.89       225
+
+    accuracy                           0.82       300
+   macro avg       0.85      0.66      0.69       300
+weighted avg       0.84      0.82      0.79       300
+
+MM classification of plurality [supplement: True] in Czech using: skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.84      0.92      0.88       225
+           1       0.67      0.47      0.55        75
+
+    accuracy                           0.81       300
+   macro avg       0.76      0.70      0.72       300
+weighted avg       0.80      0.81      0.80       300
+
+DT classification (max_depth: 25, n_estimators: 91) of plurality [supplement: False] of Czech using skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+          Pl       0.66      0.36      0.47        75
+          Sg       0.81      0.94      0.87       225
+
+    accuracy                           0.79       300
+   macro avg       0.74      0.65      0.67       300
+weighted avg       0.78      0.79      0.77       300
+
+
+RF classification (max_depth: 24, n_estimators: 36) of plurality [supplement: False]  using: skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+          Pl       0.85      0.31      0.45        75
+          Sg       0.81      0.98      0.89       225
+
+    accuracy                           0.81       300
+   macro avg       0.83      0.64      0.67       300
+weighted avg       0.82      0.81      0.78       300
+
+MM classification of plurality [supplement: False] in Czech using: skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.85      0.92      0.88       225
+           1       0.68      0.51      0.58        75
+
+    accuracy                           0.82       300
+   macro avg       0.76      0.71      0.73       300
+weighted avg       0.81      0.82      0.81       300
+
+DT classification (max_depth: 20, n_estimators: 116) of case [supplement: True] of Czech using skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+         Acc       0.50      0.04      0.08        68
+         Dat       0.67      0.24      0.35        17
+         Gen       0.22      0.03      0.05        66
+       Instr       0.66      0.63      0.64        30
+         Loc       0.17      0.03      0.05        34
+         Nom       0.30      0.91      0.45        79
+
+    accuracy                           0.34       294
+   macro avg       0.42      0.31      0.27       294
+weighted avg       0.37      0.34      0.24       294
+
+
+RF classification (max_depth: 25, n_estimators: 106) of case [supplement: True]  using: skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+         Acc       0.35      0.26      0.30        68
+         Dat       1.00      0.06      0.11        17
+         Gen       0.57      0.26      0.35        66
+       Instr       0.72      0.87      0.79        30
+         Loc       0.64      0.21      0.31        34
+         Nom       0.41      0.86      0.56        79
+
+    accuracy                           0.47       294
+   macro avg       0.61      0.42      0.40       294
+weighted avg       0.52      0.47      0.42       294
+
+MM classification of case [supplement: True] in Czech using: skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.41      0.59      0.48        79
+           1       0.26      0.28      0.27        68
+           2       0.27      0.18      0.21        17
+           3       0.42      0.23      0.29        66
+           4       0.61      0.73      0.67        30
+           5       0.45      0.29      0.36        34
+
+    accuracy                           0.39       294
+   macro avg       0.40      0.38      0.38       294
+weighted avg       0.39      0.39      0.38       294
+
+DT classification (max_depth: 23, n_estimators: 116) of case [supplement: False] of Czech using skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+         Acc       0.47      0.10      0.17        68
+         Dat       0.33      0.12      0.17        17
+         Gen       0.31      0.12      0.17        66
+       Instr       0.64      0.70      0.67        30
+         Loc       0.00      0.00      0.00        34
+         Nom       0.33      0.85      0.47        79
+
+    accuracy                           0.36       294
+   macro avg       0.34      0.31      0.28       294
+weighted avg       0.35      0.36      0.28       294
+
+
+RF classification (max_depth: 32, n_estimators: 29) of case [supplement: False]  using: skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+         Acc       0.34      0.24      0.28        68
+         Dat       0.00      0.00      0.00        17
+         Gen       0.48      0.17      0.25        66
+       Instr       0.60      0.90      0.72        30
+         Loc       0.64      0.21      0.31        34
+         Nom       0.40      0.85      0.54        79
+
+    accuracy                           0.44       294
+   macro avg       0.41      0.39      0.35       294
+weighted avg       0.43      0.44      0.38       294
+
+MM classification of case [supplement: False] in Czech using: skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.36      0.58      0.45        79
+           1       0.24      0.22      0.23        68
+           2       0.23      0.18      0.20        17
+           3       0.30      0.15      0.20        66
+           4       0.68      0.83      0.75        30
+           5       0.45      0.29      0.36        34
+
+    accuracy                           0.37       294
+   macro avg       0.38      0.38      0.36       294
+weighted avg       0.36      0.37      0.35       294
+
+DT classification (max_depth: 36, n_estimators: 83) of gender [supplement: True] of Czech using skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.63      0.95      0.76       115
+        Masc       0.94      0.70      0.80       136
+        Neut       0.89      0.49      0.63        49
+
+    accuracy                           0.76       300
+   macro avg       0.82      0.71      0.73       300
+weighted avg       0.81      0.76      0.76       300
+
+
+RF classification (max_depth: 34, n_estimators: 33) of gender [supplement: True]  using: skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.87      0.84      0.86       115
+        Masc       0.83      0.99      0.90       136
+        Neut       0.96      0.53      0.68        49
+
+    accuracy                           0.86       300
+   macro avg       0.89      0.79      0.81       300
+weighted avg       0.87      0.86      0.85       300
+
+MM classification of gender [supplement: True] in Czech using: skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.86      0.83      0.84       115
+           1       0.90      0.94      0.92       136
+           2       0.83      0.78      0.80        49
+
+    accuracy                           0.87       300
+   macro avg       0.86      0.85      0.85       300
+weighted avg       0.87      0.87      0.87       300
+
+DT classification (max_depth: 23, n_estimators: 77) of gender [supplement: False] of Czech using skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.66      0.46      0.54       115
+        Masc       0.57      0.82      0.67       136
+        Neut       0.73      0.33      0.45        49
+
+    accuracy                           0.60       300
+   macro avg       0.65      0.54      0.55       300
+weighted avg       0.63      0.60      0.59       300
+
+
+RF classification (max_depth: 25, n_estimators: 96) of gender [supplement: False]  using: skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.85      0.44      0.58       115
+        Masc       0.59      0.94      0.72       136
+        Neut       0.86      0.39      0.54        49
+
+    accuracy                           0.66       300
+   macro avg       0.77      0.59      0.61       300
+weighted avg       0.73      0.66      0.64       300
+
+MM classification of gender [supplement: False] in Czech using: skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.72      0.70      0.71       115
+           1       0.75      0.80      0.77       136
+           2       0.81      0.69      0.75        49
+
+    accuracy                           0.75       300
+   macro avg       0.76      0.73      0.74       300
+weighted avg       0.75      0.75      0.75       300
+
+DT classification (max_depth: 27, n_estimators: 72) of plurality [supplement: True] of Czech using skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+          Pl       0.76      0.34      0.47        77
+          Sg       0.81      0.96      0.88       223
+
+    accuracy                           0.80       300
+   macro avg       0.79      0.65      0.67       300
+weighted avg       0.80      0.80      0.77       300
+
+
+RF classification (max_depth: 32, n_estimators: 59) of plurality [supplement: True]  using: skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+          Pl       0.91      0.42      0.57        77
+          Sg       0.83      0.99      0.90       223
+
+    accuracy                           0.84       300
+   macro avg       0.87      0.70      0.74       300
+weighted avg       0.85      0.84      0.82       300
+
+MM classification of plurality [supplement: True] in Czech using: skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.86      0.94      0.90       223
+           1       0.75      0.55      0.63        77
+
+    accuracy                           0.84       300
+   macro avg       0.80      0.74      0.76       300
+weighted avg       0.83      0.84      0.83       300
+
+DT classification (max_depth: 34, n_estimators: 52) of plurality [supplement: False] of Czech using skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+          Pl       0.71      0.38      0.49        77
+          Sg       0.81      0.95      0.88       223
+
+    accuracy                           0.80       300
+   macro avg       0.76      0.66      0.68       300
+weighted avg       0.79      0.80      0.78       300
+
+
+RF classification (max_depth: 38, n_estimators: 116) of plurality [supplement: False]  using: skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+          Pl       0.82      0.43      0.56        77
+          Sg       0.83      0.97      0.89       223
+
+    accuracy                           0.83       300
+   macro avg       0.83      0.70      0.73       300
+weighted avg       0.83      0.83      0.81       300
+
+MM classification of plurality [supplement: False] in Czech using: skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.84      0.94      0.88       223
+           1       0.72      0.47      0.57        77
+
+    accuracy                           0.82       300
+   macro avg       0.78      0.70      0.73       300
+weighted avg       0.81      0.82      0.80       300
+
+DT classification (max_depth: 21, n_estimators: 60) of case [supplement: True] of Czech using skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+         Acc       0.36      0.06      0.10        72
+         Dat       0.00      0.00      0.00        13
+         Gen       0.36      0.08      0.14        48
+       Instr       0.88      0.44      0.59        34
+         Loc       0.54      0.19      0.29        36
+         Nom       0.33      0.89      0.49        90
+
+    accuracy                           0.38       293
+   macro avg       0.41      0.28      0.27       293
+weighted avg       0.42      0.38      0.30       293
+
+
+RF classification (max_depth: 38, n_estimators: 92) of case [supplement: True]  using: skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+         Acc       0.40      0.35      0.37        72
+         Dat       1.00      0.15      0.27        13
+         Gen       0.70      0.44      0.54        48
+       Instr       0.73      0.71      0.72        34
+         Loc       0.65      0.36      0.46        36
+         Nom       0.48      0.78      0.60        90
+
+    accuracy                           0.53       293
+   macro avg       0.66      0.46      0.49       293
+weighted avg       0.57      0.53      0.51       293
+
+MM classification of case [supplement: True] in Czech using: skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.42      0.56      0.48        90
+           1       0.29      0.31      0.30        72
+           2       0.18      0.15      0.17        13
+           3       0.24      0.23      0.24        48
+           4       0.81      0.50      0.62        34
+           5       0.39      0.25      0.31        36
+
+    accuracy                           0.38       293
+   macro avg       0.39      0.33      0.35       293
+weighted avg       0.39      0.38      0.38       293
+
+DT classification (max_depth: 37, n_estimators: 86) of case [supplement: False] of Czech using skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+         Acc       0.20      0.06      0.09        72
+         Dat       0.12      0.08      0.10        13
+         Gen       0.17      0.23      0.20        48
+       Instr       0.55      0.47      0.51        34
+         Loc       0.55      0.31      0.39        36
+         Nom       0.44      0.74      0.55        90
+
+    accuracy                           0.38       293
+   macro avg       0.34      0.31      0.31       293
+weighted avg       0.35      0.38      0.33       293
+
+
+RF classification (max_depth: 34, n_estimators: 108) of case [supplement: False]  using: skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+         Acc       0.36      0.24      0.29        72
+         Dat       0.00      0.00      0.00        13
+         Gen       0.48      0.23      0.31        48
+       Instr       0.74      0.74      0.74        34
+         Loc       0.73      0.31      0.43        36
+         Nom       0.43      0.83      0.57        90
+
+    accuracy                           0.47       293
+   macro avg       0.46      0.39      0.39       293
+weighted avg       0.48      0.47      0.43       293
+
+MM classification of case [supplement: False] in Czech using: skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.42      0.46      0.44        90
+           1       0.24      0.25      0.25        72
+           2       0.13      0.23      0.17        13
+           3       0.24      0.19      0.21        48
+           4       0.64      0.62      0.63        34
+           5       0.50      0.39      0.44        36
+
+    accuracy                           0.36       293
+   macro avg       0.36      0.36      0.35       293
+weighted avg       0.37      0.36      0.36       293
+
+DT classification (max_depth: 32, n_estimators: 99) of gender [supplement: True] of Czech using 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.79      0.79      0.79       106
+        Masc       0.93      0.91      0.92       148
+        Neut       0.60      0.63      0.62        46
+
+    accuracy                           0.83       300
+   macro avg       0.77      0.78      0.78       300
+weighted avg       0.83      0.83      0.83       300
+
+
+RF classification (max_depth: 38, n_estimators: 49) of gender [supplement: True]  using: 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.86      0.95      0.90       106
+        Masc       0.97      1.00      0.99       148
+        Neut       0.93      0.61      0.74        46
+
+    accuracy                           0.92       300
+   macro avg       0.92      0.85      0.88       300
+weighted avg       0.93      0.92      0.92       300
+
+MM classification of gender [supplement: True] in Czech using: 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.89      0.96      0.92       106
+           1       1.00      1.00      1.00       148
+           2       0.89      0.72      0.80        46
+
+    accuracy                           0.94       300
+   macro avg       0.93      0.89      0.91       300
+weighted avg       0.94      0.94      0.94       300
+
+DT classification (max_depth: 28, n_estimators: 100) of gender [supplement: False] of Czech using 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.54      0.49      0.51       106
+        Masc       0.61      0.72      0.66       148
+        Neut       0.68      0.41      0.51        46
+
+    accuracy                           0.59       300
+   macro avg       0.61      0.54      0.56       300
+weighted avg       0.59      0.59      0.58       300
+
+
+RF classification (max_depth: 35, n_estimators: 112) of gender [supplement: False]  using: 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.70      0.67      0.69       106
+        Masc       0.70      0.82      0.76       148
+        Neut       0.89      0.52      0.66        46
+
+    accuracy                           0.72       300
+   macro avg       0.77      0.67      0.70       300
+weighted avg       0.73      0.72      0.72       300
+
+MM classification of gender [supplement: False] in Czech using: 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.59      0.60      0.60       106
+           1       0.73      0.75      0.74       148
+           2       0.69      0.59      0.64        46
+
+    accuracy                           0.67       300
+   macro avg       0.67      0.65      0.66       300
+weighted avg       0.67      0.67      0.67       300
+
+DT classification (max_depth: 31, n_estimators: 117) of plurality [supplement: True] of Czech using 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+          Pl       0.76      0.70      0.73        77
+          Sg       0.90      0.92      0.91       223
+
+    accuracy                           0.87       300
+   macro avg       0.83      0.81      0.82       300
+weighted avg       0.86      0.87      0.86       300
+
+
+RF classification (max_depth: 33, n_estimators: 10) of plurality [supplement: True]  using: 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+          Pl       0.88      0.58      0.70        77
+          Sg       0.87      0.97      0.92       223
+
+    accuracy                           0.87       300
+   macro avg       0.88      0.78      0.81       300
+weighted avg       0.87      0.87      0.86       300
+
+MM classification of plurality [supplement: True] in Czech using: 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.90      0.96      0.93       223
+           1       0.85      0.68      0.75        77
+
+    accuracy                           0.89       300
+   macro avg       0.87      0.82      0.84       300
+weighted avg       0.88      0.89      0.88       300
+
+DT classification (max_depth: 19, n_estimators: 61) of plurality [supplement: False] of Czech using 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+          Pl       0.64      0.57      0.60        77
+          Sg       0.86      0.89      0.87       223
+
+    accuracy                           0.81       300
+   macro avg       0.75      0.73      0.74       300
+weighted avg       0.80      0.81      0.80       300
+
+
+RF classification (max_depth: 35, n_estimators: 53) of plurality [supplement: False]  using: 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+          Pl       0.75      0.47      0.58        77
+          Sg       0.84      0.95      0.89       223
+
+    accuracy                           0.82       300
+   macro avg       0.79      0.71      0.73       300
+weighted avg       0.81      0.82      0.81       300
+
+MM classification of plurality [supplement: False] in Czech using: 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.83      0.93      0.88       223
+           1       0.70      0.45      0.55        77
+
+    accuracy                           0.81       300
+   macro avg       0.77      0.69      0.72       300
+weighted avg       0.80      0.81      0.80       300
+
+DT classification (max_depth: 23, n_estimators: 87) of case [supplement: True] of Czech using 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Acc       0.39      0.47      0.43        60
+         Dat       0.54      0.33      0.41        21
+         Gen       0.56      0.61      0.58        54
+       Instr       0.86      0.81      0.83        37
+         Loc       0.46      0.59      0.52        27
+         Nom       0.60      0.51      0.55        94
+
+    accuracy                           0.55       293
+   macro avg       0.57      0.55      0.55       293
+weighted avg       0.57      0.55      0.55       293
+
+
+RF classification (max_depth: 37, n_estimators: 52) of case [supplement: True]  using: 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Acc       0.44      0.53      0.48        60
+         Dat       0.80      0.19      0.31        21
+         Gen       0.57      0.63      0.60        54
+       Instr       0.89      0.89      0.89        37
+         Loc       0.45      0.33      0.38        27
+         Nom       0.63      0.66      0.64        94
+
+    accuracy                           0.59       293
+   macro avg       0.63      0.54      0.55       293
+weighted avg       0.61      0.59      0.59       293
+
+MM classification of case [supplement: True] in Czech using: 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.62      0.65      0.63        94
+           1       0.45      0.48      0.47        60
+           2       0.38      0.24      0.29        21
+           3       0.53      0.46      0.50        54
+           4       0.88      0.76      0.81        37
+           5       0.39      0.56      0.46        27
+
+    accuracy                           0.56       293
+   macro avg       0.54      0.52      0.53       293
+weighted avg       0.56      0.56      0.56       293
+
+DT classification (max_depth: 10, n_estimators: 114) of case [supplement: False] of Czech using 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Acc       0.37      0.43      0.40        60
+         Dat       0.33      0.05      0.08        21
+         Gen       0.29      0.13      0.18        54
+       Instr       0.80      0.76      0.78        37
+         Loc       0.36      0.15      0.21        27
+         Nom       0.48      0.76      0.58        94
+
+    accuracy                           0.47       293
+   macro avg       0.44      0.38      0.37       293
+weighted avg       0.44      0.47      0.43       293
+
+
+RF classification (max_depth: 28, n_estimators: 86) of case [supplement: False]  using: 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Acc       0.35      0.40      0.38        60
+         Dat       0.75      0.14      0.24        21
+         Gen       0.42      0.24      0.31        54
+       Instr       0.84      0.86      0.85        37
+         Loc       0.43      0.22      0.29        27
+         Nom       0.51      0.76      0.61        94
+
+    accuracy                           0.51       293
+   macro avg       0.55      0.44      0.45       293
+weighted avg       0.51      0.51      0.48       293
+
+MM classification of case [supplement: False] in Czech using: 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.54      0.54      0.54        94
+           1       0.22      0.32      0.26        60
+           2       0.23      0.24      0.23        21
+           3       0.35      0.22      0.27        54
+           4       0.84      0.70      0.76        37
+           5       0.32      0.30      0.31        27
+
+    accuracy                           0.41       293
+   macro avg       0.42      0.39      0.40       293
+weighted avg       0.43      0.41      0.42       293
+
+DT classification (max_depth: 29, n_estimators: 109) of gender [supplement: True] of Czech using 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.84      0.93      0.89       120
+        Masc       1.00      0.99      1.00       138
+        Neut       0.70      0.50      0.58        42
+
+    accuracy                           0.90       300
+   macro avg       0.85      0.81      0.82       300
+weighted avg       0.89      0.90      0.89       300
+
+
+RF classification (max_depth: 27, n_estimators: 119) of gender [supplement: True]  using: 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.83      0.98      0.90       120
+        Masc       0.97      1.00      0.99       138
+        Neut       1.00      0.36      0.53        42
+
+    accuracy                           0.90       300
+   macro avg       0.93      0.78      0.80       300
+weighted avg       0.92      0.90      0.89       300
+
+MM classification of gender [supplement: True] in Czech using: 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.94      0.95      0.95       120
+           1       1.00      1.00      1.00       138
+           2       0.85      0.83      0.84        42
+
+    accuracy                           0.96       300
+   macro avg       0.93      0.93      0.93       300
+weighted avg       0.96      0.96      0.96       300
+
+DT classification (max_depth: 36, n_estimators: 58) of gender [supplement: False] of Czech using 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.64      0.59      0.61       120
+        Masc       0.65      0.75      0.70       138
+        Neut       0.59      0.40      0.48        42
+
+    accuracy                           0.64       300
+   macro avg       0.63      0.58      0.60       300
+weighted avg       0.64      0.64      0.63       300
+
+
+RF classification (max_depth: 38, n_estimators: 30) of gender [supplement: False]  using: 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.82      0.62      0.71       120
+        Masc       0.66      0.90      0.76       138
+        Neut       0.95      0.45      0.61        42
+
+    accuracy                           0.73       300
+   macro avg       0.81      0.66      0.69       300
+weighted avg       0.76      0.73      0.72       300
+
+MM classification of gender [supplement: False] in Czech using: 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.72      0.71      0.71       120
+           1       0.74      0.78      0.76       138
+           2       0.76      0.69      0.72        42
+
+    accuracy                           0.74       300
+   macro avg       0.74      0.72      0.73       300
+weighted avg       0.74      0.74      0.74       300
+
+DT classification (max_depth: 15, n_estimators: 82) of plurality [supplement: True] of Czech using 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+          Pl       0.72      0.34      0.47        61
+          Sg       0.85      0.97      0.91       239
+
+    accuracy                           0.84       300
+   macro avg       0.79      0.66      0.69       300
+weighted avg       0.83      0.84      0.82       300
+
+
+RF classification (max_depth: 34, n_estimators: 44) of plurality [supplement: True]  using: 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+          Pl       0.89      0.52      0.66        61
+          Sg       0.89      0.98      0.93       239
+
+    accuracy                           0.89       300
+   macro avg       0.89      0.75      0.80       300
+weighted avg       0.89      0.89      0.88       300
+
+MM classification of plurality [supplement: True] in Czech using: 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.90      0.95      0.93       239
+           1       0.77      0.61      0.68        61
+
+    accuracy                           0.88       300
+   macro avg       0.84      0.78      0.80       300
+weighted avg       0.88      0.88      0.88       300
+
+DT classification (max_depth: 16, n_estimators: 76) of plurality [supplement: False] of Czech using 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+          Pl       0.60      0.46      0.52        61
+          Sg       0.87      0.92      0.89       239
+
+    accuracy                           0.83       300
+   macro avg       0.73      0.69      0.71       300
+weighted avg       0.81      0.83      0.82       300
+
+
+RF classification (max_depth: 37, n_estimators: 80) of plurality [supplement: False]  using: 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+          Pl       0.64      0.41      0.50        61
+          Sg       0.86      0.94      0.90       239
+
+    accuracy                           0.83       300
+   macro avg       0.75      0.68      0.70       300
+weighted avg       0.82      0.83      0.82       300
+
+MM classification of plurality [supplement: False] in Czech using: 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.87      0.92      0.90       239
+           1       0.61      0.46      0.52        61
+
+    accuracy                           0.83       300
+   macro avg       0.74      0.69      0.71       300
+weighted avg       0.82      0.83      0.82       300
+
+DT classification (max_depth: 36, n_estimators: 116) of case [supplement: True] of Czech using 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Acc       0.53      0.57      0.55        72
+         Dat       0.18      0.14      0.16        14
+         Gen       0.56      0.45      0.50        67
+       Instr       0.77      0.80      0.78        45
+         Loc       0.46      0.41      0.44        29
+         Nom       0.51      0.59      0.55        66
+
+    accuracy                           0.55       293
+   macro avg       0.50      0.49      0.49       293
+weighted avg       0.54      0.55      0.54       293
+
+
+RF classification (max_depth: 27, n_estimators: 65) of case [supplement: True]  using: 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Acc       0.57      0.64      0.61        72
+         Dat       0.67      0.14      0.24        14
+         Gen       0.72      0.49      0.58        67
+       Instr       0.85      0.76      0.80        45
+         Loc       0.67      0.28      0.39        29
+         Nom       0.39      0.67      0.49        66
+
+    accuracy                           0.57       293
+   macro avg       0.64      0.50      0.52       293
+weighted avg       0.62      0.57      0.57       293
+
+MM classification of case [supplement: True] in Czech using: 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.44      0.62      0.52        66
+           1       0.40      0.43      0.41        72
+           2       0.27      0.21      0.24        14
+           3       0.61      0.45      0.52        67
+           4       0.78      0.71      0.74        45
+           5       0.43      0.31      0.36        29
+
+    accuracy                           0.50       293
+   macro avg       0.49      0.46      0.47       293
+weighted avg       0.51      0.50      0.50       293
+
+DT classification (max_depth: 22, n_estimators: 76) of case [supplement: False] of Czech using 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Acc       0.40      0.47      0.43        72
+         Dat       0.22      0.14      0.17        14
+         Gen       0.43      0.19      0.27        67
+       Instr       0.72      0.73      0.73        45
+         Loc       0.50      0.34      0.41        29
+         Nom       0.31      0.48      0.38        66
+
+    accuracy                           0.42       293
+   macro avg       0.43      0.40      0.40       293
+weighted avg       0.44      0.42      0.41       293
+
+
+RF classification (max_depth: 28, n_estimators: 54) of case [supplement: False]  using: 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Acc       0.39      0.33      0.36        72
+         Dat       0.50      0.07      0.12        14
+         Gen       0.34      0.15      0.21        67
+       Instr       0.82      0.73      0.78        45
+         Loc       0.70      0.24      0.36        29
+         Nom       0.32      0.73      0.44        66
+
+    accuracy                           0.42       293
+   macro avg       0.51      0.38      0.38       293
+weighted avg       0.47      0.42      0.40       293
+
+MM classification of case [supplement: False] in Czech using: 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.34      0.53      0.41        66
+           1       0.43      0.36      0.39        72
+           2       0.09      0.07      0.08        14
+           3       0.37      0.28      0.32        67
+           4       0.72      0.62      0.67        45
+           5       0.39      0.38      0.39        29
+
+    accuracy                           0.41       293
+   macro avg       0.39      0.37      0.38       293
+weighted avg       0.42      0.41      0.41       293
+
+DT classification (max_depth: 32, n_estimators: 77) of gender [supplement: True] of Czech using 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.82      0.91      0.86       116
+        Masc       0.95      0.97      0.96       139
+        Neut       0.80      0.53      0.64        45
+
+    accuracy                           0.88       300
+   macro avg       0.86      0.80      0.82       300
+weighted avg       0.88      0.88      0.87       300
+
+
+RF classification (max_depth: 38, n_estimators: 23) of gender [supplement: True]  using: 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.88      0.99      0.93       116
+        Masc       1.00      0.99      1.00       139
+        Neut       0.94      0.67      0.78        45
+
+    accuracy                           0.94       300
+   macro avg       0.94      0.88      0.90       300
+weighted avg       0.95      0.94      0.94       300
+
+MM classification of gender [supplement: True] in Czech using: 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.91      0.95      0.93       116
+           1       1.00      1.00      1.00       139
+           2       0.85      0.76      0.80        45
+
+    accuracy                           0.94       300
+   macro avg       0.92      0.90      0.91       300
+weighted avg       0.94      0.94      0.94       300
+
+DT classification (max_depth: 33, n_estimators: 101) of gender [supplement: False] of Czech using 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.68      0.51      0.58       116
+        Masc       0.62      0.80      0.70       139
+        Neut       0.77      0.60      0.68        45
+
+    accuracy                           0.66       300
+   macro avg       0.69      0.64      0.65       300
+weighted avg       0.67      0.66      0.65       300
+
+
+RF classification (max_depth: 36, n_estimators: 114) of gender [supplement: False]  using: 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.82      0.59      0.69       116
+        Masc       0.69      0.94      0.80       139
+        Neut       0.96      0.60      0.74        45
+
+    accuracy                           0.75       300
+   macro avg       0.83      0.71      0.74       300
+weighted avg       0.78      0.75      0.75       300
+
+MM classification of gender [supplement: False] in Czech using: 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.73      0.76      0.74       116
+           1       0.80      0.81      0.80       139
+           2       0.77      0.67      0.71        45
+
+    accuracy                           0.77       300
+   macro avg       0.77      0.74      0.75       300
+weighted avg       0.77      0.77      0.77       300
+
+DT classification (max_depth: 19, n_estimators: 89) of plurality [supplement: True] of Czech using 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+          Pl       0.72      0.57      0.64        63
+          Sg       0.89      0.94      0.92       237
+
+    accuracy                           0.86       300
+   macro avg       0.81      0.76      0.78       300
+weighted avg       0.86      0.86      0.86       300
+
+
+RF classification (max_depth: 35, n_estimators: 86) of plurality [supplement: True]  using: 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+          Pl       1.00      0.57      0.73        63
+          Sg       0.90      1.00      0.95       237
+
+    accuracy                           0.91       300
+   macro avg       0.95      0.79      0.84       300
+weighted avg       0.92      0.91      0.90       300
+
+MM classification of plurality [supplement: True] in Czech using: 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.90      0.94      0.92       237
+           1       0.72      0.62      0.67        63
+
+    accuracy                           0.87       300
+   macro avg       0.81      0.78      0.79       300
+weighted avg       0.86      0.87      0.87       300
+
+DT classification (max_depth: 15, n_estimators: 73) of plurality [supplement: False] of Czech using 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+          Pl       0.61      0.37      0.46        63
+          Sg       0.85      0.94      0.89       237
+
+    accuracy                           0.82       300
+   macro avg       0.73      0.65      0.67       300
+weighted avg       0.80      0.82      0.80       300
+
+
+RF classification (max_depth: 37, n_estimators: 30) of plurality [supplement: False]  using: 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+          Pl       0.83      0.46      0.59        63
+          Sg       0.87      0.97      0.92       237
+
+    accuracy                           0.87       300
+   macro avg       0.85      0.72      0.76       300
+weighted avg       0.86      0.87      0.85       300
+
+MM classification of plurality [supplement: False] in Czech using: 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.90      0.89      0.89       237
+           1       0.59      0.62      0.60        63
+
+    accuracy                           0.83       300
+   macro avg       0.74      0.75      0.75       300
+weighted avg       0.83      0.83      0.83       300
+
+DT classification (max_depth: 27, n_estimators: 99) of case [supplement: True] of Czech using 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Acc       0.48      0.46      0.47        70
+         Dat       0.37      0.39      0.38        18
+         Gen       0.57      0.66      0.61        58
+       Instr       0.96      0.61      0.75        41
+         Loc       0.33      0.35      0.34        26
+         Nom       0.52      0.57      0.54        81
+
+    accuracy                           0.53       294
+   macro avg       0.54      0.50      0.51       294
+weighted avg       0.56      0.53      0.54       294
+
+
+RF classification (max_depth: 32, n_estimators: 95) of case [supplement: True]  using: 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Acc       0.48      0.43      0.45        70
+         Dat       0.57      0.22      0.32        18
+         Gen       0.68      0.66      0.67        58
+       Instr       0.97      0.73      0.83        41
+         Loc       0.43      0.38      0.41        26
+         Nom       0.50      0.72      0.59        81
+
+    accuracy                           0.58       294
+   macro avg       0.61      0.52      0.55       294
+weighted avg       0.60      0.58      0.57       294
+
+MM classification of case [supplement: True] in Czech using: 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.50      0.64      0.56        81
+           1       0.39      0.36      0.37        70
+           2       0.30      0.33      0.32        18
+           3       0.62      0.52      0.57        58
+           4       0.96      0.63      0.76        41
+           5       0.42      0.50      0.46        26
+
+    accuracy                           0.52       294
+   macro avg       0.53      0.50      0.51       294
+weighted avg       0.54      0.52      0.52       294
+
+DT classification (max_depth: 16, n_estimators: 63) of case [supplement: False] of Czech using 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Acc       0.26      0.27      0.26        70
+         Dat       0.57      0.22      0.32        18
+         Gen       0.46      0.28      0.34        58
+       Instr       0.92      0.29      0.44        41
+         Loc       0.57      0.15      0.24        26
+         Nom       0.30      0.59      0.40        81
+
+    accuracy                           0.35       294
+   macro avg       0.51      0.30      0.34       294
+weighted avg       0.45      0.35      0.34       294
+
+
+RF classification (max_depth: 17, n_estimators: 99) of case [supplement: False]  using: 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Acc       0.35      0.26      0.30        70
+         Dat       1.00      0.22      0.36        18
+         Gen       0.56      0.17      0.26        58
+       Instr       0.92      0.59      0.72        41
+         Loc       0.75      0.23      0.35        26
+         Nom       0.39      0.89      0.54        81
+
+    accuracy                           0.46       294
+   macro avg       0.66      0.39      0.42       294
+weighted avg       0.56      0.46      0.42       294
+
+MM classification of case [supplement: False] in Czech using: 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.43      0.47      0.45        81
+           1       0.27      0.33      0.30        70
+           2       0.36      0.22      0.28        18
+           3       0.31      0.26      0.28        58
+           4       0.87      0.63      0.73        41
+           5       0.37      0.42      0.39        26
+
+    accuracy                           0.40       294
+   macro avg       0.43      0.39      0.40       294
+weighted avg       0.42      0.40      0.40       294
+
+DT classification (max_depth: 36, n_estimators: 119) of gender [supplement: True] of Czech using skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.83      0.83      0.83       136
+        Masc       0.92      0.90      0.91       129
+        Neut       0.45      0.49      0.47        35
+
+    accuracy                           0.82       300
+   macro avg       0.73      0.74      0.74       300
+weighted avg       0.82      0.82      0.82       300
+
+
+RF classification (max_depth: 31, n_estimators: 80) of gender [supplement: True]  using: skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.89      0.92      0.91       136
+        Masc       0.93      1.00      0.97       129
+        Neut       0.82      0.51      0.63        35
+
+    accuracy                           0.91       300
+   macro avg       0.88      0.81      0.83       300
+weighted avg       0.90      0.91      0.90       300
+
+MM classification of gender [supplement: True] in Czech using: skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.91      0.93      0.92       136
+           1       0.96      0.98      0.97       129
+           2       0.77      0.66      0.71        35
+
+    accuracy                           0.92       300
+   macro avg       0.88      0.86      0.87       300
+weighted avg       0.92      0.92      0.92       300
+
+DT classification (max_depth: 33, n_estimators: 82) of gender [supplement: False] of Czech using skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.66      0.46      0.55       136
+        Masc       0.58      0.79      0.67       129
+        Neut       0.54      0.43      0.48        35
+
+    accuracy                           0.60       300
+   macro avg       0.59      0.56      0.56       300
+weighted avg       0.61      0.60      0.59       300
+
+
+RF classification (max_depth: 27, n_estimators: 18) of gender [supplement: False]  using: skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.80      0.55      0.65       136
+        Masc       0.62      0.89      0.73       129
+        Neut       0.71      0.43      0.54        35
+
+    accuracy                           0.68       300
+   macro avg       0.71      0.62      0.64       300
+weighted avg       0.71      0.68      0.67       300
+
+MM classification of gender [supplement: False] in Czech using: skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.77      0.75      0.76       136
+           1       0.73      0.75      0.74       129
+           2       0.66      0.66      0.66        35
+
+    accuracy                           0.74       300
+   macro avg       0.72      0.72      0.72       300
+weighted avg       0.74      0.74      0.74       300
+
+DT classification (max_depth: 23, n_estimators: 100) of plurality [supplement: True] of Czech using skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+          Pl       0.58      0.44      0.50        64
+          Sg       0.86      0.92      0.89       236
+
+    accuracy                           0.81       300
+   macro avg       0.72      0.68      0.69       300
+weighted avg       0.80      0.81      0.80       300
+
+
+RF classification (max_depth: 39, n_estimators: 43) of plurality [supplement: True]  using: skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+          Pl       0.82      0.48      0.61        64
+          Sg       0.87      0.97      0.92       236
+
+    accuracy                           0.87       300
+   macro avg       0.84      0.73      0.76       300
+weighted avg       0.86      0.87      0.85       300
+
+MM classification of plurality [supplement: True] in Czech using: skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.89      0.92      0.91       236
+           1       0.67      0.59      0.63        64
+
+    accuracy                           0.85       300
+   macro avg       0.78      0.76      0.77       300
+weighted avg       0.84      0.85      0.85       300
+
+DT classification (max_depth: 28, n_estimators: 116) of plurality [supplement: False] of Czech using skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+          Pl       0.61      0.47      0.53        64
+          Sg       0.86      0.92      0.89       236
+
+    accuracy                           0.82       300
+   macro avg       0.74      0.69      0.71       300
+weighted avg       0.81      0.82      0.81       300
+
+
+RF classification (max_depth: 31, n_estimators: 82) of plurality [supplement: False]  using: skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+          Pl       0.71      0.42      0.53        64
+          Sg       0.86      0.95      0.90       236
+
+    accuracy                           0.84       300
+   macro avg       0.78      0.69      0.72       300
+weighted avg       0.83      0.84      0.82       300
+
+MM classification of plurality [supplement: False] in Czech using: skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.88      0.93      0.90       236
+           1       0.67      0.53      0.59        64
+
+    accuracy                           0.84       300
+   macro avg       0.77      0.73      0.75       300
+weighted avg       0.83      0.84      0.84       300
+
+DT classification (max_depth: 22, n_estimators: 57) of case [supplement: True] of Czech using skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Acc       0.40      0.08      0.14        72
+         Dat       0.08      0.12      0.10         8
+         Gen       0.38      0.05      0.08        65
+       Instr       0.70      0.45      0.55        31
+         Loc       0.36      0.14      0.20        37
+         Nom       0.33      0.93      0.49        80
+
+    accuracy                           0.35       293
+   macro avg       0.37      0.29      0.26       293
+weighted avg       0.39      0.35      0.27       293
+
+
+RF classification (max_depth: 30, n_estimators: 83) of case [supplement: True]  using: skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Acc       0.41      0.36      0.38        72
+         Dat       1.00      0.12      0.22         8
+         Gen       0.67      0.31      0.42        65
+       Instr       0.79      0.74      0.77        31
+         Loc       0.79      0.30      0.43        37
+         Nom       0.39      0.76      0.52        80
+
+    accuracy                           0.48       293
+   macro avg       0.67      0.43      0.46       293
+weighted avg       0.57      0.48      0.47       293
+
+MM classification of case [supplement: True] in Czech using: skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.43      0.57      0.49        80
+           1       0.42      0.44      0.43        72
+           2       0.15      0.38      0.21         8
+           3       0.38      0.20      0.26        65
+           4       0.85      0.71      0.77        31
+           5       0.41      0.32      0.36        37
+
+    accuracy                           0.44       293
+   macro avg       0.44      0.44      0.42       293
+weighted avg       0.45      0.44      0.43       293
+
+DT classification (max_depth: 18, n_estimators: 90) of case [supplement: False] of Czech using skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Acc       0.44      0.11      0.18        72
+         Dat       0.12      0.12      0.12         8
+         Gen       0.33      0.05      0.08        65
+       Instr       0.68      0.55      0.61        31
+         Loc       0.32      0.16      0.21        37
+         Nom       0.35      0.93      0.50        80
+
+    accuracy                           0.37       293
+   macro avg       0.37      0.32      0.28       293
+weighted avg       0.39      0.37      0.29       293
+
+
+RF classification (max_depth: 30, n_estimators: 94) of case [supplement: False]  using: skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Acc       0.40      0.26      0.32        72
+         Dat       1.00      0.12      0.22         8
+         Gen       0.42      0.12      0.19        65
+       Instr       0.79      0.71      0.75        31
+         Loc       0.79      0.30      0.43        37
+         Nom       0.37      0.85      0.52        80
+
+    accuracy                           0.44       293
+   macro avg       0.63      0.39      0.40       293
+weighted avg       0.50      0.44      0.40       293
+
+MM classification of case [supplement: False] in Czech using: skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.35      0.40      0.37        80
+           1       0.35      0.43      0.39        72
+           2       0.11      0.25      0.15         8
+           3       0.31      0.17      0.22        65
+           4       0.69      0.71      0.70        31
+           5       0.48      0.35      0.41        37
+
+    accuracy                           0.38       293
+   macro avg       0.38      0.39      0.37       293
+weighted avg       0.39      0.38      0.37       293
+
+DT classification (max_depth: 34, n_estimators: 116) of gender [supplement: True] of Czech using skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.77      0.42      0.54       117
+        Masc       0.59      0.92      0.72       136
+        Neut       0.75      0.38      0.51        47
+
+    accuracy                           0.64       300
+   macro avg       0.70      0.57      0.59       300
+weighted avg       0.68      0.64      0.62       300
+
+
+RF classification (max_depth: 38, n_estimators: 103) of gender [supplement: True]  using: skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.81      0.92      0.86       117
+        Masc       0.94      0.99      0.96       136
+        Neut       0.96      0.49      0.65        47
+
+    accuracy                           0.88       300
+   macro avg       0.90      0.80      0.82       300
+weighted avg       0.89      0.88      0.87       300
+
+MM classification of gender [supplement: True] in Czech using: skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.82      0.94      0.88       117
+           1       0.98      0.91      0.94       136
+           2       0.82      0.68      0.74        47
+
+    accuracy                           0.89       300
+   macro avg       0.87      0.84      0.85       300
+weighted avg       0.89      0.89      0.89       300
+
+DT classification (max_depth: 33, n_estimators: 53) of gender [supplement: False] of Czech using skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.65      0.36      0.46       117
+        Masc       0.57      0.89      0.69       136
+        Neut       0.76      0.34      0.47        47
+
+    accuracy                           0.60       300
+   macro avg       0.66      0.53      0.54       300
+weighted avg       0.63      0.60      0.57       300
+
+
+RF classification (max_depth: 26, n_estimators: 80) of gender [supplement: False]  using: skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.89      0.49      0.63       117
+        Masc       0.61      0.96      0.74       136
+        Neut       0.91      0.43      0.58        47
+
+    accuracy                           0.69       300
+   macro avg       0.80      0.62      0.65       300
+weighted avg       0.77      0.69      0.67       300
+
+MM classification of gender [supplement: False] in Czech using: skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.74      0.79      0.76       117
+           1       0.79      0.77      0.78       136
+           2       0.74      0.68      0.71        47
+
+    accuracy                           0.76       300
+   macro avg       0.76      0.75      0.75       300
+weighted avg       0.76      0.76      0.76       300
+
+DT classification (max_depth: 28, n_estimators: 45) of plurality [supplement: True] of Czech using skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+          Pl       0.59      0.37      0.46        70
+          Sg       0.83      0.92      0.87       230
+
+    accuracy                           0.79       300
+   macro avg       0.71      0.65      0.66       300
+weighted avg       0.77      0.79      0.78       300
+
+
+RF classification (max_depth: 38, n_estimators: 27) of plurality [supplement: True]  using: skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+          Pl       0.90      0.50      0.64        70
+          Sg       0.87      0.98      0.92       230
+
+    accuracy                           0.87       300
+   macro avg       0.88      0.74      0.78       300
+weighted avg       0.87      0.87      0.86       300
+
+MM classification of plurality [supplement: True] in Czech using: skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.86      0.93      0.90       230
+           1       0.69      0.51      0.59        70
+
+    accuracy                           0.83       300
+   macro avg       0.78      0.72      0.74       300
+weighted avg       0.82      0.83      0.82       300
+
+DT classification (max_depth: 16, n_estimators: 110) of plurality [supplement: False] of Czech using skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+          Pl       0.82      0.26      0.39        70
+          Sg       0.81      0.98      0.89       230
+
+    accuracy                           0.81       300
+   macro avg       0.82      0.62      0.64       300
+weighted avg       0.81      0.81      0.77       300
+
+
+RF classification (max_depth: 33, n_estimators: 27) of plurality [supplement: False]  using: skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+          Pl       0.83      0.43      0.57        70
+          Sg       0.85      0.97      0.91       230
+
+    accuracy                           0.85       300
+   macro avg       0.84      0.70      0.74       300
+weighted avg       0.84      0.85      0.83       300
+
+MM classification of plurality [supplement: False] in Czech using: skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.87      0.92      0.89       230
+           1       0.67      0.53      0.59        70
+
+    accuracy                           0.83       300
+   macro avg       0.77      0.73      0.74       300
+weighted avg       0.82      0.83      0.82       300
+
+DT classification (max_depth: 33, n_estimators: 104) of case [supplement: True] of Czech using skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Acc       0.42      0.20      0.27        55
+         Dat       0.40      0.15      0.22        13
+         Gen       0.50      0.36      0.42        64
+       Instr       0.86      0.53      0.66        47
+         Loc       0.57      0.22      0.31        37
+         Nom       0.36      0.79      0.49        78
+
+    accuracy                           0.45       294
+   macro avg       0.52      0.38      0.40       294
+weighted avg       0.51      0.45      0.43       294
+
+
+RF classification (max_depth: 31, n_estimators: 34) of case [supplement: True]  using: skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Acc       0.28      0.27      0.28        55
+         Dat       0.75      0.23      0.35        13
+         Gen       0.65      0.23      0.34        64
+       Instr       0.92      0.72      0.81        47
+         Loc       0.92      0.30      0.45        37
+         Nom       0.41      0.87      0.56        78
+
+    accuracy                           0.50       294
+   macro avg       0.66      0.44      0.47       294
+weighted avg       0.60      0.50      0.48       294
+
+MM classification of case [supplement: True] in Czech using: skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.41      0.50      0.45        78
+           1       0.21      0.33      0.26        55
+           2       0.00      0.00      0.00        13
+           3       0.41      0.27      0.32        64
+           4       0.78      0.68      0.73        47
+           5       0.61      0.38      0.47        37
+
+    accuracy                           0.41       294
+   macro avg       0.41      0.36      0.37       294
+weighted avg       0.44      0.41      0.41       294
+
+DT classification (max_depth: 39, n_estimators: 95) of case [supplement: False] of Czech using skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Acc       0.21      0.18      0.20        55
+         Dat       0.09      0.08      0.08        13
+         Gen       0.45      0.16      0.23        64
+       Instr       0.77      0.64      0.70        47
+         Loc       0.59      0.27      0.37        37
+         Nom       0.38      0.77      0.51        78
+
+    accuracy                           0.41       294
+   macro avg       0.42      0.35      0.35       294
+weighted avg       0.44      0.41      0.38       294
+
+
+RF classification (max_depth: 35, n_estimators: 97) of case [supplement: False]  using: skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Acc       0.25      0.24      0.24        55
+         Dat       0.67      0.15      0.25        13
+         Gen       0.40      0.12      0.19        64
+       Instr       0.90      0.77      0.83        47
+         Loc       0.77      0.27      0.40        37
+         Nom       0.39      0.83      0.53        78
+
+    accuracy                           0.46       294
+   macro avg       0.56      0.40      0.41       294
+weighted avg       0.51      0.46      0.42       294
+
+MM classification of case [supplement: False] in Czech using: skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.44      0.54      0.49        78
+           1       0.21      0.35      0.26        55
+           2       0.08      0.08      0.08        13
+           3       0.32      0.20      0.25        64
+           4       0.84      0.68      0.75        47
+           5       0.73      0.30      0.42        37
+
+    accuracy                           0.40       294
+   macro avg       0.44      0.36      0.37       294
+weighted avg       0.46      0.40      0.41       294
+
+DT classification (max_depth: 33, n_estimators: 25) of gender [supplement: True] of Czech using skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.68      0.24      0.35       127
+        Masc       0.56      0.93      0.70       140
+        Neut       0.55      0.36      0.44        33
+
+    accuracy                           0.57       300
+   macro avg       0.59      0.51      0.49       300
+weighted avg       0.61      0.57      0.52       300
+
+
+RF classification (max_depth: 27, n_estimators: 84) of gender [supplement: True]  using: skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.88      0.83      0.86       127
+        Masc       0.85      0.99      0.92       140
+        Neut       0.88      0.45      0.60        33
+
+    accuracy                           0.87       300
+   macro avg       0.87      0.76      0.79       300
+weighted avg       0.87      0.87      0.86       300
+
+MM classification of gender [supplement: True] in Czech using: skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.89      0.83      0.86       127
+           1       0.90      0.94      0.92       140
+           2       0.69      0.76      0.72        33
+
+    accuracy                           0.87       300
+   macro avg       0.83      0.84      0.83       300
+weighted avg       0.88      0.87      0.87       300
+
+DT classification (max_depth: 36, n_estimators: 83) of gender [supplement: False] of Czech using skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.69      0.28      0.39       127
+        Masc       0.54      0.87      0.66       140
+        Neut       0.62      0.39      0.48        33
+
+    accuracy                           0.57       300
+   macro avg       0.61      0.51      0.51       300
+weighted avg       0.61      0.57      0.53       300
+
+
+RF classification (max_depth: 39, n_estimators: 114) of gender [supplement: False]  using: skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.78      0.49      0.60       127
+        Masc       0.63      0.91      0.75       140
+        Neut       0.83      0.45      0.59        33
+
+    accuracy                           0.68       300
+   macro avg       0.75      0.62      0.65       300
+weighted avg       0.72      0.68      0.67       300
+
+MM classification of gender [supplement: False] in Czech using: skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.77      0.78      0.78       127
+           1       0.80      0.81      0.80       140
+           2       0.74      0.70      0.72        33
+
+    accuracy                           0.78       300
+   macro avg       0.77      0.76      0.77       300
+weighted avg       0.78      0.78      0.78       300
+
+DT classification (max_depth: 18, n_estimators: 59) of plurality [supplement: True] of Czech using skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+          Pl       0.59      0.26      0.36        65
+          Sg       0.82      0.95      0.88       235
+
+    accuracy                           0.80       300
+   macro avg       0.70      0.61      0.62       300
+weighted avg       0.77      0.80      0.77       300
+
+
+RF classification (max_depth: 38, n_estimators: 100) of plurality [supplement: True]  using: skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+          Pl       0.72      0.45      0.55        65
+          Sg       0.86      0.95      0.91       235
+
+    accuracy                           0.84       300
+   macro avg       0.79      0.70      0.73       300
+weighted avg       0.83      0.84      0.83       300
+
+MM classification of plurality [supplement: True] in Czech using: skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.84      0.96      0.90       235
+           1       0.70      0.35      0.47        65
+
+    accuracy                           0.83       300
+   macro avg       0.77      0.66      0.68       300
+weighted avg       0.81      0.83      0.80       300
+
+DT classification (max_depth: 14, n_estimators: 85) of plurality [supplement: False] of Czech using skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+          Pl       0.53      0.15      0.24        65
+          Sg       0.80      0.96      0.88       235
+
+    accuracy                           0.79       300
+   macro avg       0.67      0.56      0.56       300
+weighted avg       0.74      0.79      0.74       300
+
+
+RF classification (max_depth: 27, n_estimators: 104) of plurality [supplement: False]  using: skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+          Pl       0.70      0.29      0.41        65
+          Sg       0.83      0.97      0.89       235
+
+    accuracy                           0.82       300
+   macro avg       0.77      0.63      0.65       300
+weighted avg       0.80      0.82      0.79       300
+
+MM classification of plurality [supplement: False] in Czech using: skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.84      0.94      0.89       235
+           1       0.63      0.37      0.47        65
+
+    accuracy                           0.82       300
+   macro avg       0.74      0.65      0.68       300
+weighted avg       0.80      0.82      0.80       300
+
+DT classification (max_depth: 26, n_estimators: 94) of case [supplement: True] of Czech using skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Acc       0.38      0.33      0.35        70
+         Dat       0.50      0.04      0.07        26
+         Gen       0.52      0.25      0.33        65
+       Instr       0.68      0.64      0.66        33
+         Loc       0.16      0.10      0.12        30
+         Nom       0.30      0.64      0.41        70
+
+    accuracy                           0.37       294
+   macro avg       0.42      0.33      0.32       294
+weighted avg       0.41      0.37      0.35       294
+
+
+RF classification (max_depth: 27, n_estimators: 73) of case [supplement: True]  using: skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Acc       0.40      0.29      0.33        70
+         Dat       1.00      0.04      0.07        26
+         Gen       0.59      0.31      0.40        65
+       Instr       0.86      0.94      0.90        33
+         Loc       0.80      0.13      0.23        30
+         Nom       0.35      0.84      0.50        70
+
+    accuracy                           0.46       294
+   macro avg       0.67      0.42      0.41       294
+weighted avg       0.58      0.46      0.42       294
+
+MM classification of case [supplement: True] in Czech using: skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.36      0.54      0.43        70
+           1       0.31      0.34      0.33        70
+           2       0.15      0.08      0.10        26
+           3       0.33      0.23      0.27        65
+           4       0.69      0.82      0.75        33
+           5       0.47      0.23      0.31        30
+
+    accuracy                           0.38       294
+   macro avg       0.39      0.37      0.37       294
+weighted avg       0.37      0.38      0.37       294
+
+DT classification (max_depth: 16, n_estimators: 116) of case [supplement: False] of Czech using skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Acc       1.00      0.01      0.03        70
+         Dat       0.00      0.00      0.00        26
+         Gen       1.00      0.02      0.03        65
+       Instr       0.73      0.58      0.64        33
+         Loc       0.50      0.20      0.29        30
+         Nom       0.26      0.93      0.40        70
+
+    accuracy                           0.31       294
+   macro avg       0.58      0.29      0.23       294
+weighted avg       0.65      0.31      0.21       294
+
+
+RF classification (max_depth: 18, n_estimators: 79) of case [supplement: False]  using: skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Acc       0.34      0.20      0.25        70
+         Dat       1.00      0.04      0.07        26
+         Gen       0.38      0.08      0.13        65
+       Instr       0.88      0.91      0.90        33
+         Loc       0.50      0.10      0.17        30
+         Nom       0.30      0.86      0.45        70
+
+    accuracy                           0.38       294
+   macro avg       0.57      0.36      0.33       294
+weighted avg       0.48      0.38      0.32       294
+
+MM classification of case [supplement: False] in Czech using: skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.35      0.59      0.44        70
+           1       0.26      0.26      0.26        70
+           2       0.45      0.19      0.27        26
+           3       0.33      0.20      0.25        65
+           4       0.67      0.79      0.72        33
+           5       0.39      0.23      0.29        30
+
+    accuracy                           0.37       294
+   macro avg       0.41      0.38      0.37       294
+weighted avg       0.37      0.37      0.36       294
+

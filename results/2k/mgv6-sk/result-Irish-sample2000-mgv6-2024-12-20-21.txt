@@ -1,0 +1,21 @@
+DT classification (max_depth: 33, n_estimators: 87) of gender [supplement: True] of Irish using 2gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.72      0.60      0.66        63
+        Masc       0.82      0.88      0.85       126
+
+    accuracy                           0.79       189
+   macro avg       0.77      0.74      0.75       189
+weighted avg       0.78      0.79      0.78       189
+
+
+RF classification (max_depth: 34, n_estimators: 95) of gender [supplement: True]  using: 2gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.82      0.59      0.69        63
+        Masc       0.82      0.94      0.87       126
+
+    accuracy                           0.82       189
+   macro avg       0.82      0.76      0.78       189
+weighted avg       0.82      0.82      0.81       189
+
