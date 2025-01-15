@@ -1,0 +1,408 @@
+DT classification (max_depth: 11, n_estimators: 108) of gender [suppl: True] of French using 2gram-no-hash
+              precision    recall  f1-score   support
+
+        Comm       0.00      0.00      0.00         1
+         Fem       0.73      0.85      0.79        48
+        Masc       0.84      0.73      0.78        51
+
+    accuracy                           0.78       100
+   macro avg       0.52      0.53      0.52       100
+weighted avg       0.78      0.78      0.78       100
+
+
+RF classification (max_depth: 26, n_estimators: 76) of gender [suppl: True]  using: 2gram-no-hash
+              precision    recall  f1-score   support
+
+        Comm       0.00      0.00      0.00         1
+         Fem       0.85      0.81      0.83        48
+        Masc       0.83      0.88      0.86        51
+
+    accuracy                           0.84       100
+   macro avg       0.56      0.56      0.56       100
+weighted avg       0.83      0.84      0.84       100
+
+MM classification of gender [suppl: True] in French using: 2gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.73      0.62      0.67        48
+           1       0.70      0.78      0.74        51
+           2       0.00      0.00      0.00         1
+
+    accuracy                           0.70       100
+   macro avg       0.48      0.47      0.47       100
+weighted avg       0.71      0.70      0.70       100
+
+DT classification (max_depth: 25, n_estimators: 100) of gender [suppl: False] of French using 2gram-no-hash
+              precision    recall  f1-score   support
+
+        Comm       0.00      0.00      0.00         1
+         Fem       0.73      0.73      0.73        48
+        Masc       0.76      0.73      0.74        51
+
+    accuracy                           0.72       100
+   macro avg       0.49      0.48      0.49       100
+weighted avg       0.74      0.72      0.73       100
+
+
+RF classification (max_depth: 33, n_estimators: 111) of gender [suppl: False]  using: 2gram-no-hash
+              precision    recall  f1-score   support
+
+        Comm       0.00      0.00      0.00         1
+         Fem       0.81      0.81      0.81        48
+        Masc       0.83      0.84      0.83        51
+
+    accuracy                           0.82       100
+   macro avg       0.55      0.55      0.55       100
+weighted avg       0.81      0.82      0.82       100
+
+MM classification of gender [suppl: False] in French using: 2gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.75      0.75      0.75        48
+           1       0.80      0.76      0.78        51
+           2       0.00      0.00      0.00         1
+
+    accuracy                           0.75       100
+   macro avg       0.52      0.50      0.51       100
+weighted avg       0.77      0.75      0.76       100
+
+DT classification (max_depth: 16, n_estimators: 47) of plurality [suppl: True] of French using 2gram-no-hash
+              precision    recall  f1-score   support
+
+         Inv       0.00      0.00      0.00         7
+          Pl       0.97      0.79      0.87        38
+          Sg       0.78      0.96      0.86        55
+
+    accuracy                           0.83       100
+   macro avg       0.58      0.58      0.58       100
+weighted avg       0.80      0.83      0.80       100
+
+
+RF classification (max_depth: 38, n_estimators: 110) of plurality [suppl: True]  using: 2gram-no-hash
+              precision    recall  f1-score   support
+
+         Inv       1.00      0.57      0.73         7
+          Pl       0.97      0.92      0.95        38
+          Sg       0.90      0.98      0.94        55
+
+    accuracy                           0.93       100
+   macro avg       0.96      0.82      0.87       100
+weighted avg       0.93      0.93      0.93       100
+
+MM classification of plurality [suppl: True] in French using: 2gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.87      0.96      0.91        55
+           1       0.97      0.84      0.90        38
+           2       0.67      0.57      0.62         7
+
+    accuracy                           0.89       100
+   macro avg       0.84      0.79      0.81       100
+weighted avg       0.89      0.89      0.89       100
+
+DT classification (max_depth: 14, n_estimators: 112) of plurality [suppl: False] of French using 2gram-no-hash
+              precision    recall  f1-score   support
+
+         Inv       0.40      0.57      0.47         7
+          Pl       0.94      0.87      0.90        38
+          Sg       0.89      0.89      0.89        55
+
+    accuracy                           0.86       100
+   macro avg       0.74      0.78      0.76       100
+weighted avg       0.88      0.86      0.87       100
+
+
+RF classification (max_depth: 27, n_estimators: 79) of plurality [suppl: False]  using: 2gram-no-hash
+              precision    recall  f1-score   support
+
+         Inv       1.00      0.14      0.25         7
+          Pl       0.97      0.92      0.95        38
+          Sg       0.86      0.98      0.92        55
+
+    accuracy                           0.90       100
+   macro avg       0.94      0.68      0.70       100
+weighted avg       0.91      0.90      0.88       100
+
+MM classification of plurality [suppl: False] in French using: 2gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.91      0.95      0.93        55
+           1       0.90      0.92      0.91        38
+           2       0.50      0.29      0.36         7
+
+    accuracy                           0.89       100
+   macro avg       0.77      0.72      0.73       100
+weighted avg       0.88      0.89      0.88       100
+
+DT classification (max_depth: 26, n_estimators: 116) of gender [suppl: True] of French using 3gram-no-hash
+              precision    recall  f1-score   support
+
+        Comm       0.00      0.00      0.00         5
+         Fem       0.64      0.78      0.70        41
+        Masc       0.84      0.76      0.80        54
+
+    accuracy                           0.73       100
+   macro avg       0.49      0.51      0.50       100
+weighted avg       0.71      0.73      0.72       100
+
+
+RF classification (max_depth: 27, n_estimators: 46) of gender [suppl: True]  using: 3gram-no-hash
+              precision    recall  f1-score   support
+
+        Comm       0.00      0.00      0.00         5
+         Fem       0.76      0.76      0.76        41
+        Masc       0.80      0.87      0.83        54
+
+    accuracy                           0.78       100
+   macro avg       0.52      0.54      0.53       100
+weighted avg       0.74      0.78      0.76       100
+
+MM classification of gender [suppl: True] in French using: 3gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.75      0.73      0.74        41
+           1       0.81      0.85      0.83        54
+           2       0.67      0.40      0.50         5
+
+    accuracy                           0.78       100
+   macro avg       0.74      0.66      0.69       100
+weighted avg       0.78      0.78      0.78       100
+
+DT classification (max_depth: 25, n_estimators: 49) of gender [suppl: False] of French using 3gram-no-hash
+              precision    recall  f1-score   support
+
+        Comm       0.00      0.00      0.00         5
+         Fem       0.64      0.56      0.60        41
+        Masc       0.70      0.80      0.75        54
+
+    accuracy                           0.66       100
+   macro avg       0.45      0.45      0.45       100
+weighted avg       0.64      0.66      0.65       100
+
+
+RF classification (max_depth: 29, n_estimators: 103) of gender [suppl: False]  using: 3gram-no-hash
+              precision    recall  f1-score   support
+
+        Comm       0.00      0.00      0.00         5
+         Fem       0.75      0.73      0.74        41
+        Masc       0.78      0.87      0.82        54
+
+    accuracy                           0.77       100
+   macro avg       0.51      0.53      0.52       100
+weighted avg       0.73      0.77      0.75       100
+
+MM classification of gender [suppl: False] in French using: 3gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.79      0.76      0.78        41
+           1       0.81      0.87      0.84        54
+           2       0.33      0.20      0.25         5
+
+    accuracy                           0.79       100
+   macro avg       0.65      0.61      0.62       100
+weighted avg       0.78      0.79      0.78       100
+
+DT classification (max_depth: 38, n_estimators: 60) of plurality [suppl: True] of French using 3gram-no-hash
+              precision    recall  f1-score   support
+
+         Inv       0.14      0.50      0.22         2
+          Pl       0.81      0.81      0.81        26
+          Sg       0.94      0.88      0.91        72
+
+    accuracy                           0.85       100
+   macro avg       0.63      0.73      0.65       100
+weighted avg       0.89      0.85      0.87       100
+
+
+RF classification (max_depth: 24, n_estimators: 56) of plurality [suppl: True]  using: 3gram-no-hash
+              precision    recall  f1-score   support
+
+         Inv       0.00      0.00      0.00         2
+          Pl       0.83      0.92      0.87        26
+          Sg       0.96      0.94      0.95        72
+
+    accuracy                           0.92       100
+   macro avg       0.60      0.62      0.61       100
+weighted avg       0.90      0.92      0.91       100
+
+MM classification of plurality [suppl: True] in French using: 3gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.97      0.94      0.96        72
+           1       0.92      0.85      0.88        26
+           2       0.33      1.00      0.50         2
+
+    accuracy                           0.92       100
+   macro avg       0.74      0.93      0.78       100
+weighted avg       0.94      0.92      0.93       100
+
+DT classification (max_depth: 32, n_estimators: 118) of plurality [suppl: False] of French using 3gram-no-hash
+              precision    recall  f1-score   support
+
+         Inv       0.33      0.50      0.40         2
+          Pl       0.92      0.92      0.92        26
+          Sg       0.99      0.97      0.98        72
+
+    accuracy                           0.95       100
+   macro avg       0.75      0.80      0.77       100
+weighted avg       0.96      0.95      0.95       100
+
+
+RF classification (max_depth: 26, n_estimators: 30) of plurality [suppl: False]  using: 3gram-no-hash
+              precision    recall  f1-score   support
+
+         Inv       0.00      0.00      0.00         2
+          Pl       0.80      0.92      0.86        26
+          Sg       0.96      0.93      0.94        72
+
+    accuracy                           0.91       100
+   macro avg       0.59      0.62      0.60       100
+weighted avg       0.90      0.91      0.90       100
+
+MM classification of plurality [suppl: False] in French using: 3gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.96      0.92      0.94        72
+           1       0.81      0.85      0.83        26
+           2       0.00      0.00      0.00         2
+
+    accuracy                           0.88       100
+   macro avg       0.59      0.59      0.59       100
+weighted avg       0.90      0.88      0.89       100
+
+DT classification (max_depth: 14, n_estimators: 92) of gender [suppl: True] of French using 4gram-no-hash
+              precision    recall  f1-score   support
+
+        Comm       0.00      0.00      0.00         3
+         Fem       0.59      0.89      0.71        36
+        Masc       0.89      0.67      0.77        61
+
+    accuracy                           0.73       100
+   macro avg       0.49      0.52      0.49       100
+weighted avg       0.76      0.73      0.72       100
+
+
+RF classification (max_depth: 31, n_estimators: 84) of gender [suppl: True]  using: 4gram-no-hash
+              precision    recall  f1-score   support
+
+        Comm       0.00      0.00      0.00         3
+         Fem       0.68      0.72      0.70        36
+        Masc       0.82      0.84      0.83        61
+
+    accuracy                           0.77       100
+   macro avg       0.50      0.52      0.51       100
+weighted avg       0.75      0.77      0.76       100
+
+MM classification of gender [suppl: True] in French using: 4gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.68      0.75      0.71        36
+           1       0.85      0.74      0.79        61
+           2       0.00      0.00      0.00         3
+
+    accuracy                           0.72       100
+   macro avg       0.51      0.50      0.50       100
+weighted avg       0.76      0.72      0.74       100
+
+DT classification (max_depth: 22, n_estimators: 94) of gender [suppl: False] of French using 4gram-no-hash
+              precision    recall  f1-score   support
+
+        Comm       0.00      0.00      0.00         3
+         Fem       0.49      0.86      0.63        36
+        Masc       0.84      0.51      0.63        61
+
+    accuracy                           0.62       100
+   macro avg       0.44      0.46      0.42       100
+weighted avg       0.69      0.62      0.61       100
+
+
+RF classification (max_depth: 30, n_estimators: 23) of gender [suppl: False]  using: 4gram-no-hash
+              precision    recall  f1-score   support
+
+        Comm       0.00      0.00      0.00         3
+         Fem       0.65      0.78      0.71        36
+        Masc       0.84      0.79      0.81        61
+
+    accuracy                           0.76       100
+   macro avg       0.50      0.52      0.51       100
+weighted avg       0.75      0.76      0.75       100
+
+MM classification of gender [suppl: False] in French using: 4gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.56      0.75      0.64        36
+           1       0.83      0.66      0.73        61
+           2       0.00      0.00      0.00         3
+
+    accuracy                           0.67       100
+   macro avg       0.47      0.47      0.46       100
+weighted avg       0.71      0.67      0.68       100
+
+DT classification (max_depth: 27, n_estimators: 59) of plurality [suppl: True] of French using 4gram-no-hash
+              precision    recall  f1-score   support
+
+         Inv       0.20      0.17      0.18         6
+          Pl       0.86      0.69      0.76        35
+          Sg       0.81      0.92      0.86        59
+
+    accuracy                           0.79       100
+   macro avg       0.62      0.59      0.60       100
+weighted avg       0.79      0.79      0.78       100
+
+
+RF classification (max_depth: 27, n_estimators: 68) of plurality [suppl: True]  using: 4gram-no-hash
+              precision    recall  f1-score   support
+
+         Inv       0.00      0.00      0.00         6
+          Pl       0.94      0.91      0.93        35
+          Sg       0.86      0.95      0.90        59
+
+    accuracy                           0.88       100
+   macro avg       0.60      0.62      0.61       100
+weighted avg       0.84      0.88      0.86       100
+
+MM classification of plurality [suppl: True] in French using: 4gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.93      0.88      0.90        59
+           1       0.82      0.89      0.85        35
+           2       0.50      0.50      0.50         6
+
+    accuracy                           0.86       100
+   macro avg       0.75      0.76      0.75       100
+weighted avg       0.86      0.86      0.86       100
+
+DT classification (max_depth: 37, n_estimators: 112) of plurality [suppl: False] of French using 4gram-no-hash
+              precision    recall  f1-score   support
+
+         Inv       0.50      0.50      0.50         6
+          Pl       0.91      0.89      0.90        35
+          Sg       0.88      0.90      0.89        59
+
+    accuracy                           0.87       100
+   macro avg       0.77      0.76      0.76       100
+weighted avg       0.87      0.87      0.87       100
+
+
+RF classification (max_depth: 35, n_estimators: 55) of plurality [suppl: False]  using: 4gram-no-hash
+              precision    recall  f1-score   support
+
+         Inv       0.33      0.17      0.22         6
+          Pl       0.94      0.89      0.91        35
+          Sg       0.86      0.93      0.89        59
+
+    accuracy                           0.87       100
+   macro avg       0.71      0.66      0.68       100
+weighted avg       0.86      0.87      0.86       100
+
+MM classification of plurality [suppl: False] in French using: 4gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.93      0.85      0.88        59
+           1       0.74      0.89      0.81        35
+           2       0.25      0.17      0.20         6
+
+    accuracy                           0.82       100
+   macro avg       0.64      0.63      0.63       100
+weighted avg       0.82      0.82      0.82       100
+
