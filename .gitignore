@@ -77,6 +77,10 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+*.ipynb
+!extract-accuracies-from-results.ipynb
+!noun-class-analyzer.ipynb
+!noun-classifier-batch-runner.ipynb
 
 # IPython
 profile_default/
