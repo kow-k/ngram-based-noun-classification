@@ -32,7 +32,7 @@ def segment (text: str, sep: str, check: bool):
     return L
 
 ##
-def make_substrings (P, as_list: bool = False, check: bool = False):
+def make_substrings (P, missing_mark: str = "_", as_list: bool = False, check: bool = False):
     ## generate substrings
     Q = [ ]
     for p in P:
