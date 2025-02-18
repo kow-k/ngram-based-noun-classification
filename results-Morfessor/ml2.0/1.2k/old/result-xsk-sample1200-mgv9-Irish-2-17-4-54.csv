@@ -1,0 +1,10 @@
+lang,attribute,supplement,method,2gram-no-hash,3gram-no-hash,4gram-no-hash,skippy2gram-no-hash,skippy3gram-no-hash,skippy4gram-no-hash,2gram-hash-at-both,3gram-hash-at-both,4gram-hash-at-both,skippy2gram-hash-at-both,skippy3gram-hash-at-both,skippy4gram-hash-at-both,2gram-no-hash,3gram-no-hash,4gram-no-hash,skippy2gram-no-hash,skippy3gram-no-hash,skippy4gram-no-hash,2gram-hash-at-both,3gram-hash-at-both,4gram-hash-at-both,skippy2gram-hash-at-both,skippy3gram-hash-at-both,skippy4gram-hash-at-both
+Irish,case,False,NN,0.99,0.97,0.96,0.95,0.91,0.97,0.97,0.98,0.90,0.97,0.97,0.96,0.99,0.97,0.96,0.95,0.91,0.97,0.97,0.98,0.90,0.97,0.97,0.96
+Irish,case,False,DT,1.00,0.97,0.95,0.92,0.89,0.97,0.97,0.96,0.89,0.97,0.97,0.96,0.98,0.95,0.95,0.95,0.90,0.96,0.96,0.97,0.86,0.97,0.97,0.93
+Irish,case,False,RF,0.99,0.97,0.96,0.95,0.91,0.97,0.97,0.98,0.90,0.97,0.97,0.96,0.99,0.97,0.96,0.95,0.91,0.97,0.97,0.97,0.90,0.97,0.97,0.96
+Irish,gender,False,NN,0.60,0.67,0.74,0.65,0.78,0.71,0.69,0.71,0.71,0.72,0.68,0.73,0.63,0.72,0.77,0.73,0.77,0.70,0.80,0.73,0.75,0.78,0.73,0.72
+Irish,gender,False,DT,0.60,0.73,0.79,0.72,0.64,0.63,0.66,0.68,0.75,0.77,0.65,0.69,0.68,0.72,0.68,0.75,0.69,0.64,0.74,0.78,0.77,0.71,0.66,0.71
+Irish,gender,False,RF,0.66,0.76,0.73,0.77,0.71,0.65,0.73,0.70,0.76,0.78,0.71,0.71,0.72,0.75,0.82,0.79,0.70,0.64,0.81,0.77,0.83,0.81,0.71,0.72
+Irish,plurality,False,NN,0.53,0.62,0.59,0.56,0.64,0.59,0.54,0.59,0.53,0.64,0.62,0.64,0.68,0.69,0.61,0.55,0.63,0.60,0.56,0.61,0.59,0.60,0.64,0.74
+Irish,plurality,False,DT,0.58,0.60,0.67,0.59,0.70,0.63,0.60,0.69,0.66,0.62,0.64,0.64,0.64,0.66,0.68,0.57,0.70,0.65,0.61,0.71,0.68,0.63,0.63,0.66
+Irish,plurality,False,RF,0.65,0.66,0.75,0.66,0.73,0.64,0.59,0.71,0.67,0.68,0.69,0.70,0.68,0.67,0.73,0.65,0.70,0.66,0.60,0.72,0.69,0.71,0.69,0.72

@@ -1,0 +1,13 @@
+lang,attribute,supplement,method,2gram-no-hash,3gram-no-hash,4gram-no-hash,xsk2gram-no-hash,xsk3gram-no-hash,xsk4gram-no-hash,2gram-hash-at-both,3gram-hash-at-both,4gram-hash-at-both,xsk2gram-hash-at-both,xsk3gram-hash-at-both,xsk4gram-hash-at-both
+French,plurality,False,RF,0.89,0.88,0.90,0.95,0.97,0.90,0.82,0.94,0.85,0.92,0.99,0.95
+French,plurality,False,NN,0.93,0.90,0.91,0.97,0.98,0.92,0.83,0.92,0.87,0.94,0.97,0.95
+French,plurality,False,DT,0.87,0.88,0.86,0.91,0.84,0.81,0.77,0.91,0.89,0.91,0.93,0.93
+French,plurality,True,RF,0.88,0.88,0.92,0.95,0.95,0.91,0.82,0.94,0.84,0.93,0.98,0.95
+French,plurality,True,NN,0.93,0.92,0.92,0.95,0.97,0.90,0.85,0.93,0.83,0.95,0.96,0.95
+French,plurality,True,DT,0.90,0.84,0.88,0.88,0.89,0.82,0.86,0.88,0.87,0.89,0.93,0.91
+French,gender,False,RF,0.74,0.78,0.75,0.74,0.78,0.73,0.76,0.78,0.78,0.70,0.76,0.78
+French,gender,False,NN,0.78,0.77,0.74,0.68,0.71,0.78,0.74,0.71,0.73,0.70,0.72,0.82
+French,gender,False,DT,0.68,0.64,0.73,0.72,0.58,0.71,0.72,0.71,0.62,0.61,0.68,0.73
+French,gender,True,RF,0.82,0.80,0.80,0.77,0.72,0.76,0.73,0.82,0.79,0.70,0.79,0.78
+French,gender,True,NN,0.77,0.79,0.77,0.67,0.70,0.79,0.72,0.70,0.77,0.69,0.77,0.78
+French,gender,True,DT,0.68,0.72,0.77,0.68,0.57,0.63,0.65,0.71,0.76,0.62,0.62,0.62
