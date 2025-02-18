@@ -1,0 +1,2449 @@
+DT classification (max_depth: 5, n_estimators: 100) of gender [supplement: True] of German using 2gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.70      0.19      0.30        37
+        Masc       0.44      0.90      0.59        50
+        Neut       0.43      0.09      0.15        32
+
+    accuracy                           0.46       119
+   macro avg       0.52      0.39      0.35       119
+weighted avg       0.52      0.46      0.38       119
+
+
+RF classification (max_depth: 27, n_estimators: 117) of gender [supplement: True]  using: 2gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.69      0.30      0.42        37
+        Masc       0.52      0.92      0.67        50
+        Neut       0.87      0.41      0.55        32
+
+    accuracy                           0.59       119
+   macro avg       0.69      0.54      0.54       119
+weighted avg       0.67      0.59      0.56       119
+
+MM classification of gender [supplement: True] in German using: 2gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.45      0.41      0.43        37
+           1       0.51      0.60      0.55        50
+           2       0.52      0.44      0.47        32
+
+    accuracy                           0.50       119
+   macro avg       0.49      0.48      0.48       119
+weighted avg       0.49      0.50      0.49       119
+
+DT classification (max_depth: 8, n_estimators: 111) of gender [supplement: False] of German using 2gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.75      0.16      0.27        37
+        Masc       0.44      0.88      0.59        50
+        Neut       0.58      0.22      0.32        32
+
+    accuracy                           0.48       119
+   macro avg       0.59      0.42      0.39       119
+weighted avg       0.58      0.48      0.42       119
+
+
+RF classification (max_depth: 14, n_estimators: 78) of gender [supplement: False]  using: 2gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.50      0.16      0.24        37
+        Masc       0.47      0.94      0.62        50
+        Neut       0.67      0.12      0.21        32
+
+    accuracy                           0.48       119
+   macro avg       0.54      0.41      0.36       119
+weighted avg       0.53      0.48      0.39       119
+
+MM classification of gender [supplement: False] in German using: 2gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.45      0.35      0.39        37
+           1       0.47      0.66      0.55        50
+           2       0.45      0.28      0.35        32
+
+    accuracy                           0.46       119
+   macro avg       0.46      0.43      0.43       119
+weighted avg       0.46      0.46      0.45       119
+
+DT classification (max_depth: 18, n_estimators: 113) of plurality [supplement: True] of German using 2gram-no-hash
+              precision    recall  f1-score   support
+
+          Pl       0.80      0.59      0.68        27
+          Sg       0.89      0.96      0.92        93
+
+    accuracy                           0.88       120
+   macro avg       0.84      0.77      0.80       120
+weighted avg       0.87      0.88      0.87       120
+
+
+RF classification (max_depth: 29, n_estimators: 29) of plurality [supplement: True]  using: 2gram-no-hash
+              precision    recall  f1-score   support
+
+          Pl       0.80      0.44      0.57        27
+          Sg       0.86      0.97      0.91        93
+
+    accuracy                           0.85       120
+   macro avg       0.83      0.71      0.74       120
+weighted avg       0.84      0.85      0.83       120
+
+MM classification of plurality [supplement: True] in German using: 2gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.90      0.91      0.91        93
+           1       0.69      0.67      0.68        27
+
+    accuracy                           0.86       120
+   macro avg       0.80      0.79      0.79       120
+weighted avg       0.86      0.86      0.86       120
+
+DT classification (max_depth: 5, n_estimators: 82) of plurality [supplement: False] of German using 2gram-no-hash
+              precision    recall  f1-score   support
+
+          Pl       0.56      0.56      0.56        27
+          Sg       0.87      0.87      0.87        93
+
+    accuracy                           0.80       120
+   macro avg       0.71      0.71      0.71       120
+weighted avg       0.80      0.80      0.80       120
+
+
+RF classification (max_depth: 14, n_estimators: 47) of plurality [supplement: False]  using: 2gram-no-hash
+              precision    recall  f1-score   support
+
+          Pl       0.62      0.37      0.47        27
+          Sg       0.84      0.94      0.88        93
+
+    accuracy                           0.81       120
+   macro avg       0.73      0.65      0.67       120
+weighted avg       0.79      0.81      0.79       120
+
+MM classification of plurality [supplement: False] in German using: 2gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.88      0.83      0.85        93
+           1       0.50      0.59      0.54        27
+
+    accuracy                           0.78       120
+   macro avg       0.69      0.71      0.70       120
+weighted avg       0.79      0.78      0.78       120
+
+DT classification (max_depth: 25, n_estimators: 101) of case [supplement: True] of German using 2gram-no-hash
+              precision    recall  f1-score   support
+
+         Acc       0.35      0.24      0.29        29
+         Dat       0.33      0.53      0.40        36
+         Gen       0.46      0.30      0.36        20
+         Nom       0.34      0.29      0.31        35
+
+    accuracy                           0.35       120
+   macro avg       0.37      0.34      0.34       120
+weighted avg       0.36      0.35      0.34       120
+
+
+RF classification (max_depth: 33, n_estimators: 106) of case [supplement: True]  using: 2gram-no-hash
+              precision    recall  f1-score   support
+
+         Acc       0.12      0.10      0.11        29
+         Dat       0.34      0.42      0.38        36
+         Gen       0.64      0.45      0.53        20
+         Nom       0.29      0.31      0.30        35
+
+    accuracy                           0.32       120
+   macro avg       0.35      0.32      0.33       120
+weighted avg       0.32      0.32      0.32       120
+
+MM classification of case [supplement: True] in German using: 2gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.35      0.40      0.37        35
+           1       0.14      0.14      0.14        29
+           2       0.33      0.33      0.33        36
+           3       0.27      0.20      0.23        20
+
+    accuracy                           0.28       120
+   macro avg       0.27      0.27      0.27       120
+weighted avg       0.28      0.28      0.28       120
+
+DT classification (max_depth: 14, n_estimators: 47) of case [supplement: False] of German using 2gram-no-hash
+              precision    recall  f1-score   support
+
+         Acc       0.17      0.07      0.10        29
+         Dat       0.42      0.47      0.45        36
+         Gen       0.54      0.35      0.42        20
+         Nom       0.35      0.54      0.42        35
+
+    accuracy                           0.38       120
+   macro avg       0.37      0.36      0.35       120
+weighted avg       0.36      0.38      0.35       120
+
+
+RF classification (max_depth: 22, n_estimators: 96) of case [supplement: False]  using: 2gram-no-hash
+              precision    recall  f1-score   support
+
+         Acc       0.10      0.07      0.08        29
+         Dat       0.33      0.42      0.37        36
+         Gen       0.58      0.35      0.44        20
+         Nom       0.31      0.37      0.34        35
+
+    accuracy                           0.31       120
+   macro avg       0.33      0.30      0.31       120
+weighted avg       0.31      0.31      0.30       120
+
+MM classification of case [supplement: False] in German using: 2gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.49      0.54      0.51        35
+           1       0.18      0.14      0.16        29
+           2       0.24      0.25      0.25        36
+           3       0.36      0.40      0.38        20
+
+    accuracy                           0.33       120
+   macro avg       0.32      0.33      0.32       120
+weighted avg       0.32      0.33      0.33       120
+
+DT classification (max_depth: 27, n_estimators: 115) of gender [supplement: True] of German using 3gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.35      0.41      0.38        29
+        Masc       0.64      0.66      0.65        59
+        Neut       0.58      0.45      0.51        31
+
+    accuracy                           0.55       119
+   macro avg       0.53      0.51      0.51       119
+weighted avg       0.55      0.55      0.55       119
+
+
+RF classification (max_depth: 34, n_estimators: 113) of gender [supplement: True]  using: 3gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.50      0.31      0.38        29
+        Masc       0.57      0.80      0.67        59
+        Neut       0.58      0.35      0.44        31
+
+    accuracy                           0.56       119
+   macro avg       0.55      0.49      0.50       119
+weighted avg       0.56      0.56      0.54       119
+
+MM classification of gender [supplement: True] in German using: 3gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.47      0.59      0.52        29
+           1       0.65      0.51      0.57        59
+           2       0.38      0.45      0.41        31
+
+    accuracy                           0.51       119
+   macro avg       0.50      0.52      0.50       119
+weighted avg       0.54      0.51      0.52       119
+
+DT classification (max_depth: 14, n_estimators: 67) of gender [supplement: False] of German using 3gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.35      0.24      0.29        29
+        Masc       0.51      0.73      0.60        59
+        Neut       0.36      0.16      0.22        31
+
+    accuracy                           0.46       119
+   macro avg       0.40      0.38      0.37       119
+weighted avg       0.43      0.46      0.42       119
+
+
+RF classification (max_depth: 26, n_estimators: 119) of gender [supplement: False]  using: 3gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.53      0.28      0.36        29
+        Masc       0.56      0.85      0.68        59
+        Neut       0.67      0.32      0.43        31
+
+    accuracy                           0.57       119
+   macro avg       0.59      0.48      0.49       119
+weighted avg       0.58      0.57      0.54       119
+
+MM classification of gender [supplement: False] in German using: 3gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.51      0.66      0.58        29
+           1       0.62      0.56      0.59        59
+           2       0.48      0.45      0.47        31
+
+    accuracy                           0.55       119
+   macro avg       0.54      0.56      0.54       119
+weighted avg       0.56      0.55      0.55       119
+
+DT classification (max_depth: 10, n_estimators: 95) of plurality [supplement: True] of German using 3gram-no-hash
+              precision    recall  f1-score   support
+
+          Pl       0.67      0.54      0.60        26
+          Sg       0.88      0.93      0.90        94
+
+    accuracy                           0.84       120
+   macro avg       0.77      0.73      0.75       120
+weighted avg       0.83      0.84      0.84       120
+
+
+RF classification (max_depth: 37, n_estimators: 22) of plurality [supplement: True]  using: 3gram-no-hash
+              precision    recall  f1-score   support
+
+          Pl       0.67      0.54      0.60        26
+          Sg       0.88      0.93      0.90        94
+
+    accuracy                           0.84       120
+   macro avg       0.77      0.73      0.75       120
+weighted avg       0.83      0.84      0.84       120
+
+MM classification of plurality [supplement: True] in German using: 3gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.83      0.90      0.87        94
+           1       0.50      0.35      0.41        26
+
+    accuracy                           0.78       120
+   macro avg       0.67      0.63      0.64       120
+weighted avg       0.76      0.78      0.77       120
+
+DT classification (max_depth: 9, n_estimators: 94) of plurality [supplement: False] of German using 3gram-no-hash
+              precision    recall  f1-score   support
+
+          Pl       0.50      0.54      0.52        26
+          Sg       0.87      0.85      0.86        94
+
+    accuracy                           0.78       120
+   macro avg       0.68      0.69      0.69       120
+weighted avg       0.79      0.78      0.79       120
+
+
+RF classification (max_depth: 23, n_estimators: 33) of plurality [supplement: False]  using: 3gram-no-hash
+              precision    recall  f1-score   support
+
+          Pl       0.60      0.23      0.33        26
+          Sg       0.82      0.96      0.88        94
+
+    accuracy                           0.80       120
+   macro avg       0.71      0.59      0.61       120
+weighted avg       0.77      0.80      0.76       120
+
+MM classification of plurality [supplement: False] in German using: 3gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.87      0.82      0.84        94
+           1       0.45      0.54      0.49        26
+
+    accuracy                           0.76       120
+   macro avg       0.66      0.68      0.67       120
+weighted avg       0.78      0.76      0.77       120
+
+DT classification (max_depth: 32, n_estimators: 32) of case [supplement: True] of German using 3gram-no-hash
+              precision    recall  f1-score   support
+
+         Acc       0.15      0.17      0.16        23
+         Dat       0.35      0.39      0.37        33
+         Gen       0.50      0.29      0.36        21
+         Nom       0.49      0.51      0.50        43
+
+    accuracy                           0.38       120
+   macro avg       0.37      0.34      0.35       120
+weighted avg       0.39      0.38      0.38       120
+
+
+RF classification (max_depth: 16, n_estimators: 11) of case [supplement: True]  using: 3gram-no-hash
+              precision    recall  f1-score   support
+
+         Acc       0.10      0.04      0.06        23
+         Dat       0.32      0.33      0.33        33
+         Gen       0.75      0.14      0.24        21
+         Nom       0.39      0.65      0.49        43
+
+    accuracy                           0.36       120
+   macro avg       0.39      0.29      0.28       120
+weighted avg       0.38      0.36      0.32       120
+
+MM classification of case [supplement: True] in German using: 3gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.43      0.47      0.45        43
+           1       0.21      0.26      0.24        23
+           2       0.28      0.27      0.28        33
+           3       0.64      0.43      0.51        21
+
+    accuracy                           0.37       120
+   macro avg       0.39      0.36      0.37       120
+weighted avg       0.39      0.37      0.37       120
+
+DT classification (max_depth: 6, n_estimators: 51) of case [supplement: False] of German using 3gram-no-hash
+              precision    recall  f1-score   support
+
+         Acc       0.00      0.00      0.00        23
+         Dat       0.44      0.36      0.40        33
+         Gen       0.60      0.14      0.23        21
+         Nom       0.41      0.79      0.54        43
+
+    accuracy                           0.41       120
+   macro avg       0.36      0.32      0.29       120
+weighted avg       0.37      0.41      0.34       120
+
+
+RF classification (max_depth: 25, n_estimators: 53) of case [supplement: False]  using: 3gram-no-hash
+              precision    recall  f1-score   support
+
+         Acc       0.14      0.09      0.11        23
+         Dat       0.26      0.30      0.28        33
+         Gen       0.50      0.14      0.22        21
+         Nom       0.43      0.60      0.50        43
+
+    accuracy                           0.34       120
+   macro avg       0.33      0.28      0.28       120
+weighted avg       0.34      0.34      0.32       120
+
+MM classification of case [supplement: False] in German using: 3gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.45      0.40      0.42        43
+           1       0.13      0.17      0.15        23
+           2       0.21      0.18      0.19        33
+           3       0.52      0.57      0.55        21
+
+    accuracy                           0.33       120
+   macro avg       0.33      0.33      0.33       120
+weighted avg       0.33      0.33      0.33       120
+
+DT classification (max_depth: 17, n_estimators: 59) of gender [supplement: True] of German using 4gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.48      0.42      0.44        24
+        Masc       0.50      0.64      0.56        58
+        Neut       0.42      0.27      0.33        37
+
+    accuracy                           0.48       119
+   macro avg       0.46      0.44      0.44       119
+weighted avg       0.47      0.48      0.46       119
+
+
+RF classification (max_depth: 34, n_estimators: 103) of gender [supplement: True]  using: 4gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.57      0.33      0.42        24
+        Masc       0.54      0.84      0.66        58
+        Neut       0.67      0.27      0.38        37
+
+    accuracy                           0.56       119
+   macro avg       0.59      0.48      0.49       119
+weighted avg       0.59      0.56      0.53       119
+
+MM classification of gender [supplement: True] in German using: 4gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.44      0.58      0.50        24
+           1       0.57      0.59      0.58        58
+           2       0.59      0.43      0.50        37
+
+    accuracy                           0.54       119
+   macro avg       0.53      0.53      0.53       119
+weighted avg       0.55      0.54      0.54       119
+
+DT classification (max_depth: 33, n_estimators: 87) of gender [supplement: False] of German using 4gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.45      0.38      0.41        24
+        Masc       0.53      0.64      0.58        58
+        Neut       0.45      0.35      0.39        37
+
+    accuracy                           0.50       119
+   macro avg       0.48      0.45      0.46       119
+weighted avg       0.49      0.50      0.49       119
+
+
+RF classification (max_depth: 35, n_estimators: 48) of gender [supplement: False]  using: 4gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.56      0.42      0.48        24
+        Masc       0.56      0.83      0.67        58
+        Neut       0.53      0.22      0.31        37
+
+    accuracy                           0.55       119
+   macro avg       0.55      0.49      0.48       119
+weighted avg       0.55      0.55      0.52       119
+
+MM classification of gender [supplement: False] in German using: 4gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.56      0.58      0.57        24
+           1       0.62      0.69      0.66        58
+           2       0.60      0.49      0.54        37
+
+    accuracy                           0.61       119
+   macro avg       0.60      0.59      0.59       119
+weighted avg       0.60      0.61      0.60       119
+
+DT classification (max_depth: 29, n_estimators: 66) of plurality [supplement: True] of German using 4gram-no-hash
+              precision    recall  f1-score   support
+
+          Pl       0.46      0.52      0.49        25
+          Sg       0.87      0.84      0.86        95
+
+    accuracy                           0.78       120
+   macro avg       0.67      0.68      0.67       120
+weighted avg       0.79      0.78      0.78       120
+
+
+RF classification (max_depth: 31, n_estimators: 55) of plurality [supplement: True]  using: 4gram-no-hash
+              precision    recall  f1-score   support
+
+          Pl       0.71      0.40      0.51        25
+          Sg       0.86      0.96      0.91        95
+
+    accuracy                           0.84       120
+   macro avg       0.79      0.68      0.71       120
+weighted avg       0.83      0.84      0.82       120
+
+MM classification of plurality [supplement: True] in German using: 4gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.90      0.81      0.85        95
+           1       0.47      0.64      0.54        25
+
+    accuracy                           0.78       120
+   macro avg       0.68      0.73      0.70       120
+weighted avg       0.81      0.78      0.79       120
+
+DT classification (max_depth: 6, n_estimators: 91) of plurality [supplement: False] of German using 4gram-no-hash
+              precision    recall  f1-score   support
+
+          Pl       0.67      0.08      0.14        25
+          Sg       0.80      0.99      0.89        95
+
+    accuracy                           0.80       120
+   macro avg       0.74      0.53      0.51       120
+weighted avg       0.77      0.80      0.73       120
+
+
+RF classification (max_depth: 29, n_estimators: 27) of plurality [supplement: False]  using: 4gram-no-hash
+              precision    recall  f1-score   support
+
+          Pl       0.50      0.32      0.39        25
+          Sg       0.84      0.92      0.87        95
+
+    accuracy                           0.79       120
+   macro avg       0.67      0.62      0.63       120
+weighted avg       0.77      0.79      0.77       120
+
+MM classification of plurality [supplement: False] in German using: 4gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.89      0.81      0.85        95
+           1       0.45      0.60      0.52        25
+
+    accuracy                           0.77       120
+   macro avg       0.67      0.71      0.68       120
+weighted avg       0.80      0.77      0.78       120
+
+DT classification (max_depth: 36, n_estimators: 84) of case [supplement: True] of German using 4gram-no-hash
+              precision    recall  f1-score   support
+
+         Acc       0.29      0.27      0.28        30
+         Dat       0.39      0.56      0.46        39
+         Gen       0.33      0.15      0.21        13
+         Nom       0.24      0.18      0.21        38
+
+    accuracy                           0.33       120
+   macro avg       0.31      0.29      0.29       120
+weighted avg       0.31      0.33      0.31       120
+
+
+RF classification (max_depth: 26, n_estimators: 58) of case [supplement: True]  using: 4gram-no-hash
+              precision    recall  f1-score   support
+
+         Acc       0.35      0.23      0.28        30
+         Dat       0.45      0.46      0.46        39
+         Gen       1.00      0.23      0.38        13
+         Nom       0.37      0.55      0.44        38
+
+    accuracy                           0.41       120
+   macro avg       0.54      0.37      0.39       120
+weighted avg       0.46      0.41      0.40       120
+
+MM classification of case [supplement: True] in German using: 4gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.31      0.29      0.30        38
+           1       0.29      0.33      0.31        30
+           2       0.42      0.49      0.45        39
+           3       0.33      0.15      0.21        13
+
+    accuracy                           0.35       120
+   macro avg       0.34      0.32      0.32       120
+weighted avg       0.35      0.35      0.34       120
+
+DT classification (max_depth: 20, n_estimators: 58) of case [supplement: False] of German using 4gram-no-hash
+              precision    recall  f1-score   support
+
+         Acc       0.38      0.10      0.16        30
+         Dat       0.38      0.69      0.49        39
+         Gen       0.38      0.23      0.29        13
+         Nom       0.30      0.26      0.28        38
+
+    accuracy                           0.36       120
+   macro avg       0.36      0.32      0.30       120
+weighted avg       0.35      0.36      0.32       120
+
+
+RF classification (max_depth: 23, n_estimators: 108) of case [supplement: False]  using: 4gram-no-hash
+              precision    recall  f1-score   support
+
+         Acc       0.35      0.20      0.26        30
+         Dat       0.46      0.41      0.43        39
+         Gen       0.67      0.15      0.25        13
+         Nom       0.34      0.58      0.43        38
+
+    accuracy                           0.38       120
+   macro avg       0.45      0.34      0.34       120
+weighted avg       0.42      0.38      0.37       120
+
+MM classification of case [supplement: False] in German using: 4gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.30      0.34      0.32        38
+           1       0.24      0.27      0.25        30
+           2       0.44      0.38      0.41        39
+           3       0.40      0.31      0.35        13
+
+    accuracy                           0.33       120
+   macro avg       0.35      0.33      0.33       120
+weighted avg       0.34      0.33      0.34       120
+
+DT classification (max_depth: 14, n_estimators: 102) of gender [supplement: True] of German using skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.45      0.30      0.36        30
+        Masc       0.54      0.79      0.64        61
+        Neut       0.30      0.11      0.16        28
+
+    accuracy                           0.50       119
+   macro avg       0.43      0.40      0.39       119
+weighted avg       0.46      0.50      0.46       119
+
+
+RF classification (max_depth: 27, n_estimators: 73) of gender [supplement: True]  using: skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.41      0.30      0.35        30
+        Masc       0.59      0.77      0.67        61
+        Neut       0.47      0.29      0.36        28
+
+    accuracy                           0.54       119
+   macro avg       0.49      0.45      0.46       119
+weighted avg       0.52      0.54      0.51       119
+
+MM classification of gender [supplement: True] in German using: skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.50      0.60      0.55        30
+           1       0.65      0.59      0.62        61
+           2       0.39      0.39      0.39        28
+
+    accuracy                           0.55       119
+   macro avg       0.52      0.53      0.52       119
+weighted avg       0.55      0.55      0.55       119
+
+DT classification (max_depth: 12, n_estimators: 84) of gender [supplement: False] of German using skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.33      0.17      0.22        30
+        Masc       0.57      0.82      0.67        61
+        Neut       0.25      0.14      0.18        28
+
+    accuracy                           0.50       119
+   macro avg       0.38      0.38      0.36       119
+weighted avg       0.43      0.50      0.44       119
+
+
+RF classification (max_depth: 10, n_estimators: 96) of gender [supplement: False]  using: skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.50      0.13      0.21        30
+        Masc       0.55      0.92      0.69        61
+        Neut       0.44      0.14      0.22        28
+
+    accuracy                           0.54       119
+   macro avg       0.50      0.40      0.37       119
+weighted avg       0.51      0.54      0.46       119
+
+MM classification of gender [supplement: False] in German using: skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.46      0.53      0.49        30
+           1       0.65      0.49      0.56        61
+           2       0.37      0.50      0.42        28
+
+    accuracy                           0.50       119
+   macro avg       0.49      0.51      0.49       119
+weighted avg       0.54      0.50      0.51       119
+
+DT classification (max_depth: 8, n_estimators: 89) of plurality [supplement: True] of German using skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+          Pl       0.60      0.55      0.57        33
+          Sg       0.83      0.86      0.85        87
+
+    accuracy                           0.78       120
+   macro avg       0.72      0.70      0.71       120
+weighted avg       0.77      0.78      0.77       120
+
+
+RF classification (max_depth: 31, n_estimators: 58) of plurality [supplement: True]  using: skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+          Pl       0.82      0.27      0.41        33
+          Sg       0.78      0.98      0.87        87
+
+    accuracy                           0.78       120
+   macro avg       0.80      0.62      0.64       120
+weighted avg       0.79      0.78      0.74       120
+
+MM classification of plurality [supplement: True] in German using: skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.83      0.91      0.87        87
+           1       0.68      0.52      0.59        33
+
+    accuracy                           0.80       120
+   macro avg       0.76      0.71      0.73       120
+weighted avg       0.79      0.80      0.79       120
+
+DT classification (max_depth: 11, n_estimators: 100) of plurality [supplement: False] of German using skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+          Pl       0.55      0.18      0.27        33
+          Sg       0.75      0.94      0.84        87
+
+    accuracy                           0.73       120
+   macro avg       0.65      0.56      0.55       120
+weighted avg       0.70      0.73      0.68       120
+
+
+RF classification (max_depth: 25, n_estimators: 41) of plurality [supplement: False]  using: skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+          Pl       0.62      0.24      0.35        33
+          Sg       0.77      0.94      0.85        87
+
+    accuracy                           0.75       120
+   macro avg       0.69      0.59      0.60       120
+weighted avg       0.72      0.75      0.71       120
+
+MM classification of plurality [supplement: False] in German using: skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.81      0.84      0.82        87
+           1       0.53      0.48      0.51        33
+
+    accuracy                           0.74       120
+   macro avg       0.67      0.66      0.67       120
+weighted avg       0.73      0.74      0.74       120
+
+DT classification (max_depth: 24, n_estimators: 104) of case [supplement: True] of German using skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+         Acc       0.29      0.42      0.34        24
+         Dat       0.36      0.26      0.31        34
+         Gen       0.39      0.50      0.44        14
+         Nom       0.52      0.46      0.49        48
+
+    accuracy                           0.40       120
+   macro avg       0.39      0.41      0.39       120
+weighted avg       0.41      0.40      0.40       120
+
+
+RF classification (max_depth: 18, n_estimators: 109) of case [supplement: True]  using: skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+         Acc       0.15      0.08      0.11        24
+         Dat       0.39      0.47      0.43        34
+         Gen       0.53      0.64      0.58        14
+         Nom       0.59      0.60      0.60        48
+
+    accuracy                           0.47       120
+   macro avg       0.42      0.45      0.43       120
+weighted avg       0.44      0.47      0.45       120
+
+MM classification of case [supplement: True] in German using: skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.51      0.40      0.45        48
+           1       0.19      0.25      0.22        24
+           2       0.32      0.35      0.33        34
+           3       0.50      0.50      0.50        14
+
+    accuracy                           0.37       120
+   macro avg       0.38      0.37      0.37       120
+weighted avg       0.39      0.37      0.38       120
+
+DT classification (max_depth: 18, n_estimators: 59) of case [supplement: False] of German using skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+         Acc       0.19      0.12      0.15        24
+         Dat       0.29      0.24      0.26        34
+         Gen       0.30      0.43      0.35        14
+         Nom       0.43      0.50      0.46        48
+
+    accuracy                           0.34       120
+   macro avg       0.30      0.32      0.31       120
+weighted avg       0.32      0.34      0.33       120
+
+
+RF classification (max_depth: 7, n_estimators: 94) of case [supplement: False]  using: skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+         Acc       0.50      0.04      0.08        24
+         Dat       0.38      0.62      0.47        34
+         Gen       0.50      0.64      0.56        14
+         Nom       0.57      0.52      0.54        48
+
+    accuracy                           0.47       120
+   macro avg       0.49      0.46      0.41       120
+weighted avg       0.49      0.47      0.43       120
+
+MM classification of case [supplement: False] in German using: skippy2gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.52      0.48      0.50        48
+           1       0.19      0.29      0.23        24
+           2       0.36      0.29      0.32        34
+           3       0.55      0.43      0.48        14
+
+    accuracy                           0.38       120
+   macro avg       0.40      0.37      0.38       120
+weighted avg       0.41      0.38      0.39       120
+
+DT classification (max_depth: 33, n_estimators: 83) of gender [supplement: True] of German using skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.35      0.18      0.24        33
+        Masc       0.55      0.72      0.62        60
+        Neut       0.29      0.27      0.28        26
+
+    accuracy                           0.47       119
+   macro avg       0.40      0.39      0.38       119
+weighted avg       0.44      0.47      0.44       119
+
+
+RF classification (max_depth: 31, n_estimators: 69) of gender [supplement: True]  using: skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.57      0.24      0.34        33
+        Masc       0.61      0.90      0.73        60
+        Neut       0.53      0.35      0.42        26
+
+    accuracy                           0.60       119
+   macro avg       0.57      0.50      0.50       119
+weighted avg       0.58      0.60      0.55       119
+
+MM classification of gender [supplement: True] in German using: skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.46      0.58      0.51        33
+           1       0.70      0.55      0.62        60
+           2       0.42      0.50      0.46        26
+
+    accuracy                           0.55       119
+   macro avg       0.53      0.54      0.53       119
+weighted avg       0.57      0.55      0.55       119
+
+DT classification (max_depth: 7, n_estimators: 76) of gender [supplement: False] of German using skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.50      0.12      0.20        33
+        Masc       0.51      0.90      0.65        60
+        Neut       0.20      0.04      0.06        26
+
+    accuracy                           0.50       119
+   macro avg       0.40      0.35      0.30       119
+weighted avg       0.44      0.50      0.40       119
+
+
+RF classification (max_depth: 29, n_estimators: 115) of gender [supplement: False]  using: skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.50      0.21      0.30        33
+        Masc       0.61      0.90      0.73        60
+        Neut       0.47      0.31      0.37        26
+
+    accuracy                           0.58       119
+   macro avg       0.53      0.47      0.47       119
+weighted avg       0.55      0.58      0.53       119
+
+MM classification of gender [supplement: False] in German using: skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.45      0.45      0.45        33
+           1       0.79      0.77      0.78        60
+           2       0.46      0.50      0.48        26
+
+    accuracy                           0.62       119
+   macro avg       0.57      0.57      0.57       119
+weighted avg       0.63      0.62      0.62       119
+
+DT classification (max_depth: 20, n_estimators: 105) of plurality [supplement: True] of German using skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+          Pl       0.47      0.60      0.53        25
+          Sg       0.89      0.82      0.85        95
+
+    accuracy                           0.78       120
+   macro avg       0.68      0.71      0.69       120
+weighted avg       0.80      0.78      0.78       120
+
+
+RF classification (max_depth: 34, n_estimators: 73) of plurality [supplement: True]  using: skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+          Pl       0.69      0.36      0.47        25
+          Sg       0.85      0.96      0.90        95
+
+    accuracy                           0.83       120
+   macro avg       0.77      0.66      0.69       120
+weighted avg       0.82      0.83      0.81       120
+
+MM classification of plurality [supplement: True] in German using: skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.86      0.87      0.86        95
+           1       0.48      0.44      0.46        25
+
+    accuracy                           0.78       120
+   macro avg       0.67      0.66      0.66       120
+weighted avg       0.78      0.78      0.78       120
+
+DT classification (max_depth: 14, n_estimators: 84) of plurality [supplement: False] of German using skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+          Pl       0.53      0.36      0.43        25
+          Sg       0.84      0.92      0.88        95
+
+    accuracy                           0.80       120
+   macro avg       0.69      0.64      0.65       120
+weighted avg       0.78      0.80      0.78       120
+
+
+RF classification (max_depth: 34, n_estimators: 117) of plurality [supplement: False]  using: skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+          Pl       0.77      0.40      0.53        25
+          Sg       0.86      0.97      0.91        95
+
+    accuracy                           0.85       120
+   macro avg       0.81      0.68      0.72       120
+weighted avg       0.84      0.85      0.83       120
+
+MM classification of plurality [supplement: False] in German using: skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.87      0.92      0.89        95
+           1       0.60      0.48      0.53        25
+
+    accuracy                           0.82       120
+   macro avg       0.73      0.70      0.71       120
+weighted avg       0.81      0.82      0.82       120
+
+DT classification (max_depth: 21, n_estimators: 112) of case [supplement: True] of German using skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+         Acc       0.14      0.03      0.05        35
+         Dat       0.09      0.03      0.05        33
+         Gen       0.46      0.27      0.34        22
+         Nom       0.25      0.73      0.37        30
+
+    accuracy                           0.25       120
+   macro avg       0.24      0.27      0.20       120
+weighted avg       0.21      0.25      0.18       120
+
+
+RF classification (max_depth: 10, n_estimators: 102) of case [supplement: True]  using: skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+         Acc       0.29      0.06      0.10        35
+         Dat       0.57      0.12      0.20        33
+         Gen       0.75      0.14      0.23        22
+         Nom       0.26      0.90      0.41        30
+
+    accuracy                           0.30       120
+   macro avg       0.47      0.30      0.23       120
+weighted avg       0.44      0.30      0.23       120
+
+MM classification of case [supplement: True] in German using: skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.25      0.53      0.34        30
+           1       0.35      0.20      0.25        35
+           2       0.30      0.24      0.27        33
+           3       0.33      0.14      0.19        22
+
+    accuracy                           0.28       120
+   macro avg       0.31      0.28      0.26       120
+weighted avg       0.31      0.28      0.27       120
+
+DT classification (max_depth: 13, n_estimators: 86) of case [supplement: False] of German using skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+         Acc       0.00      0.00      0.00        35
+         Dat       0.40      0.06      0.11        33
+         Gen       0.00      0.00      0.00        22
+         Nom       0.25      0.93      0.40        30
+
+    accuracy                           0.25       120
+   macro avg       0.16      0.25      0.13       120
+weighted avg       0.17      0.25      0.13       120
+
+
+RF classification (max_depth: 26, n_estimators: 114) of case [supplement: False]  using: skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+         Acc       0.21      0.11      0.15        35
+         Dat       0.39      0.27      0.32        33
+         Gen       0.80      0.18      0.30        22
+         Nom       0.26      0.63      0.37        30
+
+    accuracy                           0.30       120
+   macro avg       0.42      0.30      0.28       120
+weighted avg       0.38      0.30      0.28       120
+
+MM classification of case [supplement: False] in German using: skippy3gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.27      0.43      0.33        30
+           1       0.31      0.26      0.28        35
+           2       0.26      0.21      0.23        33
+           3       0.38      0.27      0.32        22
+
+    accuracy                           0.29       120
+   macro avg       0.30      0.29      0.29       120
+weighted avg       0.30      0.29      0.29       120
+
+DT classification (max_depth: 12, n_estimators: 41) of gender [supplement: True] of German using skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.83      0.15      0.26        33
+        Masc       0.52      0.97      0.68        60
+        Neut       0.00      0.00      0.00        26
+
+    accuracy                           0.53       119
+   macro avg       0.45      0.37      0.31       119
+weighted avg       0.49      0.53      0.41       119
+
+
+RF classification (max_depth: 15, n_estimators: 86) of gender [supplement: True]  using: skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.89      0.24      0.38        33
+        Masc       0.55      0.93      0.69        60
+        Neut       0.62      0.19      0.29        26
+
+    accuracy                           0.58       119
+   macro avg       0.69      0.46      0.46       119
+weighted avg       0.66      0.58      0.52       119
+
+MM classification of gender [supplement: True] in German using: skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.57      0.64      0.60        33
+           1       0.66      0.63      0.64        60
+           2       0.33      0.31      0.32        26
+
+    accuracy                           0.56       119
+   macro avg       0.52      0.53      0.52       119
+weighted avg       0.56      0.56      0.56       119
+
+DT classification (max_depth: 18, n_estimators: 76) of gender [supplement: False] of German using skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.50      0.27      0.35        33
+        Masc       0.54      0.80      0.64        60
+        Neut       0.08      0.04      0.05        26
+
+    accuracy                           0.49       119
+   macro avg       0.37      0.37      0.35       119
+weighted avg       0.43      0.49      0.43       119
+
+
+RF classification (max_depth: 22, n_estimators: 111) of gender [supplement: False]  using: skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+         Fem       0.83      0.30      0.44        33
+        Masc       0.56      0.90      0.69        60
+        Neut       0.50      0.19      0.28        26
+
+    accuracy                           0.58       119
+   macro avg       0.63      0.47      0.47       119
+weighted avg       0.62      0.58      0.53       119
+
+MM classification of gender [supplement: False] in German using: skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.54      0.61      0.57        33
+           1       0.68      0.63      0.66        60
+           2       0.31      0.31      0.31        26
+
+    accuracy                           0.55       119
+   macro avg       0.51      0.52      0.51       119
+weighted avg       0.56      0.55      0.56       119
+
+DT classification (max_depth: 9, n_estimators: 80) of plurality [supplement: True] of German using skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+          Pl       0.30      0.14      0.19        22
+          Sg       0.83      0.93      0.88        98
+
+    accuracy                           0.78       120
+   macro avg       0.56      0.53      0.53       120
+weighted avg       0.73      0.78      0.75       120
+
+
+RF classification (max_depth: 29, n_estimators: 106) of plurality [supplement: True]  using: skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+          Pl       0.50      0.41      0.45        22
+          Sg       0.87      0.91      0.89        98
+
+    accuracy                           0.82       120
+   macro avg       0.69      0.66      0.67       120
+weighted avg       0.80      0.82      0.81       120
+
+MM classification of plurality [supplement: True] in German using: skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.88      0.83      0.85        98
+           1       0.39      0.50      0.44        22
+
+    accuracy                           0.77       120
+   macro avg       0.64      0.66      0.65       120
+weighted avg       0.79      0.77      0.78       120
+
+DT classification (max_depth: 25, n_estimators: 52) of plurality [supplement: False] of German using skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+          Pl       0.24      0.23      0.23        22
+          Sg       0.83      0.84      0.83        98
+
+    accuracy                           0.72       120
+   macro avg       0.53      0.53      0.53       120
+weighted avg       0.72      0.72      0.72       120
+
+
+RF classification (max_depth: 26, n_estimators: 107) of plurality [supplement: False]  using: skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+          Pl       0.50      0.41      0.45        22
+          Sg       0.87      0.91      0.89        98
+
+    accuracy                           0.82       120
+   macro avg       0.69      0.66      0.67       120
+weighted avg       0.80      0.82      0.81       120
+
+MM classification of plurality [supplement: False] in German using: skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.90      0.85      0.87        98
+           1       0.46      0.59      0.52        22
+
+    accuracy                           0.80       120
+   macro avg       0.68      0.72      0.70       120
+weighted avg       0.82      0.80      0.81       120
+
+DT classification (max_depth: 11, n_estimators: 56) of case [supplement: True] of German using skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+         Acc       0.00      0.00      0.00        25
+         Dat       0.41      0.36      0.38        39
+         Gen       0.14      0.08      0.11        12
+         Nom       0.40      0.70      0.51        44
+
+    accuracy                           0.38       120
+   macro avg       0.24      0.29      0.25       120
+weighted avg       0.29      0.38      0.32       120
+
+
+RF classification (max_depth: 31, n_estimators: 71) of case [supplement: True]  using: skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+         Acc       0.33      0.12      0.18        25
+         Dat       0.40      0.46      0.43        39
+         Gen       0.25      0.08      0.12        12
+         Nom       0.34      0.48      0.40        44
+
+    accuracy                           0.36       120
+   macro avg       0.33      0.29      0.28       120
+weighted avg       0.35      0.36      0.33       120
+
+MM classification of case [supplement: True] in German using: skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.35      0.34      0.34        44
+           1       0.25      0.20      0.22        25
+           2       0.30      0.33      0.31        39
+           3       0.31      0.33      0.32        12
+
+    accuracy                           0.31       120
+   macro avg       0.30      0.30      0.30       120
+weighted avg       0.31      0.31      0.31       120
+
+DT classification (max_depth: 30, n_estimators: 68) of case [supplement: False] of German using skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+         Acc       0.14      0.08      0.10        25
+         Dat       0.50      0.28      0.36        39
+         Gen       0.17      0.08      0.11        12
+         Nom       0.36      0.64      0.46        44
+
+    accuracy                           0.35       120
+   macro avg       0.29      0.27      0.26       120
+weighted avg       0.34      0.35      0.32       120
+
+
+RF classification (max_depth: 39, n_estimators: 36) of case [supplement: False]  using: skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+         Acc       0.36      0.16      0.22        25
+         Dat       0.48      0.56      0.52        39
+         Gen       0.40      0.17      0.24        12
+         Nom       0.38      0.50      0.43        44
+
+    accuracy                           0.42       120
+   macro avg       0.41      0.35      0.35       120
+weighted avg       0.41      0.42      0.40       120
+
+MM classification of case [supplement: False] in German using: skippy4gram-no-hash
+              precision    recall  f1-score   support
+
+           0       0.49      0.41      0.44        44
+           1       0.33      0.32      0.33        25
+           2       0.33      0.36      0.34        39
+           3       0.19      0.25      0.21        12
+
+    accuracy                           0.36       120
+   macro avg       0.33      0.33      0.33       120
+weighted avg       0.37      0.36      0.36       120
+
+DT classification (max_depth: 13, n_estimators: 47) of gender [supplement: True] of German using 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.57      0.46      0.51        35
+        Masc       0.57      0.81      0.67        57
+        Neut       0.30      0.11      0.16        27
+
+    accuracy                           0.55       119
+   macro avg       0.48      0.46      0.45       119
+weighted avg       0.51      0.55      0.51       119
+
+
+RF classification (max_depth: 20, n_estimators: 110) of gender [supplement: True]  using: 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.69      0.57      0.62        35
+        Masc       0.61      0.84      0.71        57
+        Neut       0.64      0.26      0.37        27
+
+    accuracy                           0.63       119
+   macro avg       0.64      0.56      0.57       119
+weighted avg       0.64      0.63      0.61       119
+
+MM classification of gender [supplement: True] in German using: 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.46      0.51      0.49        35
+           1       0.66      0.61      0.64        57
+           2       0.33      0.33      0.33        27
+
+    accuracy                           0.52       119
+   macro avg       0.49      0.49      0.49       119
+weighted avg       0.53      0.52      0.52       119
+
+DT classification (max_depth: 13, n_estimators: 83) of gender [supplement: False] of German using 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.58      0.43      0.49        35
+        Masc       0.59      0.86      0.70        57
+        Neut       0.40      0.15      0.22        27
+
+    accuracy                           0.57       119
+   macro avg       0.52      0.48      0.47       119
+weighted avg       0.54      0.57      0.53       119
+
+
+RF classification (max_depth: 32, n_estimators: 93) of gender [supplement: False]  using: 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.64      0.46      0.53        35
+        Masc       0.62      0.88      0.72        57
+        Neut       0.54      0.26      0.35        27
+
+    accuracy                           0.61       119
+   macro avg       0.60      0.53      0.54       119
+weighted avg       0.61      0.61      0.58       119
+
+MM classification of gender [supplement: False] in German using: 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.41      0.57      0.48        35
+           1       0.65      0.58      0.61        57
+           2       0.26      0.19      0.22        27
+
+    accuracy                           0.49       119
+   macro avg       0.44      0.45      0.43       119
+weighted avg       0.49      0.49      0.48       119
+
+DT classification (max_depth: 29, n_estimators: 86) of plurality [supplement: True] of German using 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+          Pl       0.72      0.60      0.65        30
+          Sg       0.87      0.92      0.90        90
+
+    accuracy                           0.84       120
+   macro avg       0.80      0.76      0.78       120
+weighted avg       0.84      0.84      0.84       120
+
+
+RF classification (max_depth: 31, n_estimators: 36) of plurality [supplement: True]  using: 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+          Pl       0.81      0.57      0.67        30
+          Sg       0.87      0.96      0.91        90
+
+    accuracy                           0.86       120
+   macro avg       0.84      0.76      0.79       120
+weighted avg       0.85      0.86      0.85       120
+
+MM classification of plurality [supplement: True] in German using: 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.89      0.90      0.90        90
+           1       0.69      0.67      0.68        30
+
+    accuracy                           0.84       120
+   macro avg       0.79      0.78      0.79       120
+weighted avg       0.84      0.84      0.84       120
+
+DT classification (max_depth: 5, n_estimators: 111) of plurality [supplement: False] of German using 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+          Pl       0.43      0.10      0.16        30
+          Sg       0.76      0.96      0.85        90
+
+    accuracy                           0.74       120
+   macro avg       0.59      0.53      0.50       120
+weighted avg       0.68      0.74      0.68       120
+
+
+RF classification (max_depth: 16, n_estimators: 12) of plurality [supplement: False]  using: 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+          Pl       0.56      0.33      0.42        30
+          Sg       0.80      0.91      0.85        90
+
+    accuracy                           0.77       120
+   macro avg       0.68      0.62      0.64       120
+weighted avg       0.74      0.77      0.74       120
+
+MM classification of plurality [supplement: False] in German using: 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.89      0.91      0.90        90
+           1       0.71      0.67      0.69        30
+
+    accuracy                           0.85       120
+   macro avg       0.80      0.79      0.80       120
+weighted avg       0.85      0.85      0.85       120
+
+DT classification (max_depth: 13, n_estimators: 115) of case [supplement: True] of German using 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Acc       0.36      0.28      0.32        32
+         Dat       0.29      0.28      0.29        32
+         Gen       0.60      0.50      0.55        18
+         Nom       0.33      0.42      0.37        38
+
+    accuracy                           0.36       120
+   macro avg       0.39      0.37      0.38       120
+weighted avg       0.37      0.36      0.36       120
+
+
+RF classification (max_depth: 35, n_estimators: 94) of case [supplement: True]  using: 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Acc       0.50      0.22      0.30        32
+         Dat       0.39      0.59      0.47        32
+         Gen       0.75      0.50      0.60        18
+         Nom       0.42      0.50      0.46        38
+
+    accuracy                           0.45       120
+   macro avg       0.51      0.45      0.46       120
+weighted avg       0.48      0.45      0.44       120
+
+MM classification of case [supplement: True] in German using: 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.37      0.45      0.40        38
+           1       0.23      0.16      0.19        32
+           2       0.29      0.34      0.31        32
+           3       0.50      0.39      0.44        18
+
+    accuracy                           0.33       120
+   macro avg       0.35      0.33      0.34       120
+weighted avg       0.33      0.33      0.33       120
+
+DT classification (max_depth: 31, n_estimators: 49) of case [supplement: False] of German using 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Acc       0.36      0.31      0.33        32
+         Dat       0.35      0.44      0.39        32
+         Gen       0.64      0.39      0.48        18
+         Nom       0.34      0.37      0.35        38
+
+    accuracy                           0.38       120
+   macro avg       0.42      0.38      0.39       120
+weighted avg       0.39      0.38      0.38       120
+
+
+RF classification (max_depth: 13, n_estimators: 84) of case [supplement: False]  using: 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Acc       0.30      0.09      0.14        32
+         Dat       0.37      0.56      0.44        32
+         Gen       0.62      0.28      0.38        18
+         Nom       0.36      0.50      0.42        38
+
+    accuracy                           0.38       120
+   macro avg       0.41      0.36      0.35       120
+weighted avg       0.39      0.38      0.35       120
+
+MM classification of case [supplement: False] in German using: 2gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.28      0.26      0.27        38
+           1       0.17      0.16      0.16        32
+           2       0.31      0.44      0.36        32
+           3       0.11      0.06      0.07        18
+
+    accuracy                           0.25       120
+   macro avg       0.22      0.23      0.22       120
+weighted avg       0.23      0.25      0.24       120
+
+DT classification (max_depth: 21, n_estimators: 79) of gender [supplement: True] of German using 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.55      0.42      0.48        38
+        Masc       0.40      0.66      0.50        41
+        Neut       0.55      0.30      0.39        40
+
+    accuracy                           0.46       119
+   macro avg       0.50      0.46      0.45       119
+weighted avg       0.50      0.46      0.45       119
+
+
+RF classification (max_depth: 30, n_estimators: 114) of gender [supplement: True]  using: 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.70      0.42      0.52        38
+        Masc       0.45      0.93      0.60        41
+        Neut       0.82      0.23      0.35        40
+
+    accuracy                           0.53       119
+   macro avg       0.65      0.52      0.49       119
+weighted avg       0.65      0.53      0.49       119
+
+MM classification of gender [supplement: True] in German using: 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.53      0.45      0.49        38
+           1       0.48      0.71      0.57        41
+           2       0.65      0.42      0.52        40
+
+    accuracy                           0.53       119
+   macro avg       0.55      0.53      0.52       119
+weighted avg       0.55      0.53      0.52       119
+
+DT classification (max_depth: 38, n_estimators: 95) of gender [supplement: False] of German using 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.47      0.53      0.49        38
+        Masc       0.49      0.51      0.50        41
+        Neut       0.52      0.42      0.47        40
+
+    accuracy                           0.49       119
+   macro avg       0.49      0.49      0.49       119
+weighted avg       0.49      0.49      0.49       119
+
+
+RF classification (max_depth: 33, n_estimators: 41) of gender [supplement: False]  using: 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.56      0.39      0.46        38
+        Masc       0.45      0.83      0.58        41
+        Neut       0.69      0.28      0.39        40
+
+    accuracy                           0.50       119
+   macro avg       0.56      0.50      0.48       119
+weighted avg       0.56      0.50      0.48       119
+
+MM classification of gender [supplement: False] in German using: 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.53      0.53      0.53        38
+           1       0.46      0.61      0.53        41
+           2       0.52      0.35      0.42        40
+
+    accuracy                           0.50       119
+   macro avg       0.50      0.50      0.49       119
+weighted avg       0.50      0.50      0.49       119
+
+DT classification (max_depth: 20, n_estimators: 91) of plurality [supplement: True] of German using 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+          Pl       0.50      0.39      0.44        31
+          Sg       0.80      0.87      0.83        89
+
+    accuracy                           0.74       120
+   macro avg       0.65      0.63      0.63       120
+weighted avg       0.72      0.74      0.73       120
+
+
+RF classification (max_depth: 39, n_estimators: 37) of plurality [supplement: True]  using: 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+          Pl       0.80      0.26      0.39        31
+          Sg       0.79      0.98      0.87        89
+
+    accuracy                           0.79       120
+   macro avg       0.80      0.62      0.63       120
+weighted avg       0.79      0.79      0.75       120
+
+MM classification of plurality [supplement: True] in German using: 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.77      0.92      0.84        89
+           1       0.54      0.23      0.32        31
+           2       0.00      0.00      0.00         0
+
+    accuracy                           0.74       120
+   macro avg       0.44      0.38      0.39       120
+weighted avg       0.71      0.74      0.71       120
+
+DT classification (max_depth: 8, n_estimators: 21) of plurality [supplement: False] of German using 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+          Pl       0.00      0.00      0.00        31
+          Sg       0.74      0.99      0.85        89
+
+    accuracy                           0.73       120
+   macro avg       0.37      0.49      0.42       120
+weighted avg       0.55      0.73      0.63       120
+
+
+RF classification (max_depth: 32, n_estimators: 73) of plurality [supplement: False]  using: 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+          Pl       0.67      0.26      0.37        31
+          Sg       0.79      0.96      0.86        89
+
+    accuracy                           0.78       120
+   macro avg       0.73      0.61      0.62       120
+weighted avg       0.76      0.78      0.74       120
+
+MM classification of plurality [supplement: False] in German using: 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.80      0.88      0.84        89
+           1       0.52      0.39      0.44        31
+
+    accuracy                           0.75       120
+   macro avg       0.66      0.63      0.64       120
+weighted avg       0.73      0.75      0.74       120
+
+DT classification (max_depth: 34, n_estimators: 62) of case [supplement: True] of German using 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Acc       0.13      0.07      0.10        27
+         Dat       0.39      0.66      0.49        35
+         Gen       0.22      0.22      0.22         9
+         Nom       0.43      0.33      0.37        49
+
+    accuracy                           0.36       120
+   macro avg       0.29      0.32      0.29       120
+weighted avg       0.34      0.36      0.33       120
+
+
+RF classification (max_depth: 31, n_estimators: 116) of case [supplement: True]  using: 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Acc       0.42      0.30      0.35        27
+         Dat       0.47      0.60      0.53        35
+         Gen       0.33      0.22      0.27         9
+         Nom       0.50      0.51      0.51        49
+
+    accuracy                           0.47       120
+   macro avg       0.43      0.41      0.41       120
+weighted avg       0.46      0.47      0.46       120
+
+MM classification of case [supplement: True] in German using: 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.43      0.49      0.46        49
+           1       0.28      0.26      0.27        27
+           2       0.29      0.29      0.29        35
+           3       0.40      0.22      0.29         9
+
+    accuracy                           0.36       120
+   macro avg       0.35      0.31      0.33       120
+weighted avg       0.35      0.36      0.35       120
+
+DT classification (max_depth: 2, n_estimators: 104) of case [supplement: False] of German using 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Acc       0.00      0.00      0.00        27
+         Dat       0.00      0.00      0.00        35
+         Gen       0.20      0.22      0.21         9
+         Nom       0.40      0.90      0.55        49
+
+    accuracy                           0.38       120
+   macro avg       0.15      0.28      0.19       120
+weighted avg       0.18      0.38      0.24       120
+
+
+RF classification (max_depth: 27, n_estimators: 76) of case [supplement: False]  using: 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Acc       0.24      0.19      0.21        27
+         Dat       0.44      0.51      0.47        35
+         Gen       0.43      0.33      0.38         9
+         Nom       0.41      0.43      0.42        49
+
+    accuracy                           0.39       120
+   macro avg       0.38      0.37      0.37       120
+weighted avg       0.38      0.39      0.38       120
+
+MM classification of case [supplement: False] in German using: 3gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.39      0.43      0.41        49
+           1       0.31      0.37      0.34        27
+           2       0.27      0.23      0.25        35
+           3       0.00      0.00      0.00         9
+
+    accuracy                           0.33       120
+   macro avg       0.24      0.26      0.25       120
+weighted avg       0.31      0.33      0.31       120
+
+DT classification (max_depth: 28, n_estimators: 104) of gender [supplement: True] of German using 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.35      0.36      0.35        25
+        Masc       0.53      0.70      0.60        56
+        Neut       0.60      0.32      0.41        38
+
+    accuracy                           0.50       119
+   macro avg       0.49      0.46      0.46       119
+weighted avg       0.52      0.50      0.49       119
+
+
+RF classification (max_depth: 36, n_estimators: 81) of gender [supplement: True]  using: 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.77      0.68      0.72        25
+        Masc       0.58      0.82      0.68        56
+        Neut       0.61      0.29      0.39        38
+
+    accuracy                           0.62       119
+   macro avg       0.66      0.60      0.60       119
+weighted avg       0.63      0.62      0.60       119
+
+MM classification of gender [supplement: True] in German using: 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.42      0.44      0.43        25
+           1       0.67      0.64      0.65        56
+           2       0.49      0.50      0.49        38
+
+    accuracy                           0.55       119
+   macro avg       0.53      0.53      0.53       119
+weighted avg       0.56      0.55      0.56       119
+
+DT classification (max_depth: 27, n_estimators: 88) of gender [supplement: False] of German using 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.30      0.52      0.38        25
+        Masc       0.56      0.57      0.57        56
+        Neut       0.42      0.21      0.28        38
+
+    accuracy                           0.45       119
+   macro avg       0.43      0.43      0.41       119
+weighted avg       0.46      0.45      0.44       119
+
+
+RF classification (max_depth: 36, n_estimators: 50) of gender [supplement: False]  using: 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.47      0.32      0.38        25
+        Masc       0.57      0.84      0.68        56
+        Neut       0.58      0.29      0.39        38
+
+    accuracy                           0.55       119
+   macro avg       0.54      0.48      0.48       119
+weighted avg       0.55      0.55      0.52       119
+
+MM classification of gender [supplement: False] in German using: 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.41      0.48      0.44        25
+           1       0.67      0.70      0.68        56
+           2       0.50      0.42      0.46        38
+
+    accuracy                           0.56       119
+   macro avg       0.53      0.53      0.53       119
+weighted avg       0.56      0.56      0.56       119
+
+DT classification (max_depth: 39, n_estimators: 112) of plurality [supplement: True] of German using 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+          Pl       0.63      0.68      0.66        28
+          Sg       0.90      0.88      0.89        92
+
+    accuracy                           0.83       120
+   macro avg       0.77      0.78      0.77       120
+weighted avg       0.84      0.83      0.84       120
+
+
+RF classification (max_depth: 36, n_estimators: 114) of plurality [supplement: True]  using: 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+          Pl       0.80      0.57      0.67        28
+          Sg       0.88      0.96      0.92        92
+
+    accuracy                           0.87       120
+   macro avg       0.84      0.76      0.79       120
+weighted avg       0.86      0.87      0.86       120
+
+MM classification of plurality [supplement: True] in German using: 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.86      0.85      0.85        92
+           1       0.52      0.54      0.53        28
+
+    accuracy                           0.78       120
+   macro avg       0.69      0.69      0.69       120
+weighted avg       0.78      0.78      0.78       120
+
+DT classification (max_depth: 17, n_estimators: 94) of plurality [supplement: False] of German using 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+          Pl       0.54      0.68      0.60        28
+          Sg       0.89      0.83      0.86        92
+
+    accuracy                           0.79       120
+   macro avg       0.72      0.75      0.73       120
+weighted avg       0.81      0.79      0.80       120
+
+
+RF classification (max_depth: 29, n_estimators: 27) of plurality [supplement: False]  using: 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+          Pl       0.61      0.39      0.48        28
+          Sg       0.83      0.92      0.88        92
+
+    accuracy                           0.80       120
+   macro avg       0.72      0.66      0.68       120
+weighted avg       0.78      0.80      0.78       120
+
+MM classification of plurality [supplement: False] in German using: 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.87      0.82      0.84        92
+           1       0.50      0.61      0.55        28
+
+    accuracy                           0.77       120
+   macro avg       0.69      0.71      0.70       120
+weighted avg       0.79      0.77      0.77       120
+
+DT classification (max_depth: 5, n_estimators: 108) of case [supplement: True] of German using 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Acc       0.00      0.00      0.00        36
+         Dat       0.83      0.14      0.24        36
+         Gen       1.00      0.12      0.22        16
+         Nom       0.29      1.00      0.45        32
+
+    accuracy                           0.33       120
+   macro avg       0.53      0.32      0.23       120
+weighted avg       0.46      0.33      0.22       120
+
+
+RF classification (max_depth: 21, n_estimators: 75) of case [supplement: True]  using: 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Acc       0.29      0.11      0.16        36
+         Dat       0.42      0.42      0.42        36
+         Gen       0.88      0.44      0.58        16
+         Nom       0.34      0.66      0.45        32
+
+    accuracy                           0.39       120
+   macro avg       0.48      0.41      0.40       120
+weighted avg       0.42      0.39      0.37       120
+
+MM classification of case [supplement: True] in German using: 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.31      0.44      0.36        32
+           1       0.27      0.25      0.26        36
+           2       0.38      0.31      0.34        36
+           3       0.62      0.50      0.55        16
+
+    accuracy                           0.35       120
+   macro avg       0.39      0.37      0.38       120
+weighted avg       0.36      0.35      0.35       120
+
+DT classification (max_depth: 36, n_estimators: 79) of case [supplement: False] of German using 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Acc       0.36      0.22      0.28        36
+         Dat       0.44      0.56      0.49        36
+         Gen       0.47      0.44      0.45        16
+         Nom       0.39      0.47      0.43        32
+
+    accuracy                           0.42       120
+   macro avg       0.42      0.42      0.41       120
+weighted avg       0.41      0.42      0.41       120
+
+
+RF classification (max_depth: 37, n_estimators: 85) of case [supplement: False]  using: 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Acc       0.16      0.08      0.11        36
+         Dat       0.40      0.39      0.39        36
+         Gen       0.67      0.38      0.48        16
+         Nom       0.28      0.50      0.36        32
+
+    accuracy                           0.33       120
+   macro avg       0.38      0.34      0.34       120
+weighted avg       0.33      0.33      0.31       120
+
+MM classification of case [supplement: False] in German using: 4gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.30      0.41      0.34        32
+           1       0.30      0.22      0.25        36
+           2       0.36      0.33      0.35        36
+           3       0.38      0.38      0.38        16
+
+    accuracy                           0.33       120
+   macro avg       0.33      0.33      0.33       120
+weighted avg       0.33      0.33      0.32       120
+
+DT classification (max_depth: 11, n_estimators: 75) of gender [supplement: True] of German using skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.42      0.14      0.21        35
+        Masc       0.52      0.88      0.65        57
+        Neut       0.40      0.15      0.22        27
+
+    accuracy                           0.50       119
+   macro avg       0.44      0.39      0.36       119
+weighted avg       0.46      0.50      0.42       119
+
+
+RF classification (max_depth: 28, n_estimators: 87) of gender [supplement: True]  using: skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.77      0.29      0.42        35
+        Masc       0.56      0.93      0.70        57
+        Neut       0.75      0.33      0.46        27
+
+    accuracy                           0.61       119
+   macro avg       0.69      0.52      0.53       119
+weighted avg       0.67      0.61      0.56       119
+
+MM classification of gender [supplement: True] in German using: skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.54      0.57      0.56        35
+           1       0.65      0.74      0.69        57
+           2       0.41      0.26      0.32        27
+
+    accuracy                           0.58       119
+   macro avg       0.53      0.52      0.52       119
+weighted avg       0.56      0.58      0.57       119
+
+DT classification (max_depth: 5, n_estimators: 103) of gender [supplement: False] of German using skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.71      0.14      0.24        35
+        Masc       0.50      0.96      0.66        57
+        Neut       0.00      0.00      0.00        27
+
+    accuracy                           0.50       119
+   macro avg       0.40      0.37      0.30       119
+weighted avg       0.45      0.50      0.39       119
+
+
+RF classification (max_depth: 31, n_estimators: 90) of gender [supplement: False]  using: skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.60      0.34      0.44        35
+        Masc       0.55      0.84      0.66        57
+        Neut       0.73      0.30      0.42        27
+
+    accuracy                           0.57       119
+   macro avg       0.62      0.49      0.51       119
+weighted avg       0.60      0.57      0.54       119
+
+MM classification of gender [supplement: False] in German using: skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.45      0.40      0.42        35
+           1       0.59      0.67      0.63        57
+           2       0.42      0.37      0.39        27
+
+    accuracy                           0.52       119
+   macro avg       0.49      0.48      0.48       119
+weighted avg       0.51      0.52      0.51       119
+
+DT classification (max_depth: 18, n_estimators: 57) of plurality [supplement: True] of German using skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+          Pl       0.40      0.35      0.37        23
+          Sg       0.85      0.88      0.86        97
+
+    accuracy                           0.78       120
+   macro avg       0.62      0.61      0.62       120
+weighted avg       0.76      0.78      0.77       120
+
+
+RF classification (max_depth: 18, n_estimators: 102) of plurality [supplement: True]  using: skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+          Pl       0.65      0.48      0.55        23
+          Sg       0.88      0.94      0.91        97
+
+    accuracy                           0.85       120
+   macro avg       0.77      0.71      0.73       120
+weighted avg       0.84      0.85      0.84       120
+
+MM classification of plurality [supplement: True] in German using: skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.93      0.77      0.84        97
+           1       0.44      0.74      0.55        23
+
+    accuracy                           0.77       120
+   macro avg       0.68      0.76      0.70       120
+weighted avg       0.83      0.77      0.79       120
+
+DT classification (max_depth: 9, n_estimators: 39) of plurality [supplement: False] of German using skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+          Pl       0.36      0.17      0.24        23
+          Sg       0.83      0.93      0.87        97
+
+    accuracy                           0.78       120
+   macro avg       0.59      0.55      0.55       120
+weighted avg       0.74      0.78      0.75       120
+
+
+RF classification (max_depth: 39, n_estimators: 88) of plurality [supplement: False]  using: skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+          Pl       0.59      0.57      0.58        23
+          Sg       0.90      0.91      0.90        97
+
+    accuracy                           0.84       120
+   macro avg       0.74      0.74      0.74       120
+weighted avg       0.84      0.84      0.84       120
+
+MM classification of plurality [supplement: False] in German using: skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.90      0.84      0.87        97
+           1       0.47      0.61      0.53        23
+
+    accuracy                           0.79       120
+   macro avg       0.68      0.72      0.70       120
+weighted avg       0.82      0.79      0.80       120
+
+DT classification (max_depth: 4, n_estimators: 91) of case [supplement: True] of German using skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Acc       1.00      0.03      0.05        36
+         Dat       0.38      0.28      0.32        39
+         Gen       0.00      0.00      0.00         8
+         Nom       0.31      0.70      0.43        37
+
+    accuracy                           0.32       120
+   macro avg       0.42      0.25      0.20       120
+weighted avg       0.52      0.32      0.25       120
+
+
+RF classification (max_depth: 16, n_estimators: 62) of case [supplement: True]  using: skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Acc       0.47      0.25      0.33        36
+         Dat       0.53      0.44      0.48        39
+         Gen       0.38      0.38      0.38         8
+         Nom       0.36      0.59      0.45        37
+
+    accuracy                           0.42       120
+   macro avg       0.44      0.41      0.41       120
+weighted avg       0.45      0.42      0.42       120
+
+MM classification of case [supplement: True] in German using: skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.41      0.41      0.41        37
+           1       0.35      0.36      0.36        36
+           2       0.31      0.28      0.30        39
+           3       0.27      0.38      0.32         8
+
+    accuracy                           0.35       120
+   macro avg       0.34      0.36      0.34       120
+weighted avg       0.35      0.35      0.35       120
+
+DT classification (max_depth: 20, n_estimators: 73) of case [supplement: False] of German using skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Acc       0.21      0.11      0.15        36
+         Dat       0.57      0.21      0.30        39
+         Gen       0.38      0.38      0.38         8
+         Nom       0.30      0.65      0.41        37
+
+    accuracy                           0.33       120
+   macro avg       0.37      0.33      0.31       120
+weighted avg       0.37      0.33      0.29       120
+
+
+RF classification (max_depth: 16, n_estimators: 108) of case [supplement: False]  using: skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Acc       0.33      0.19      0.25        36
+         Dat       0.50      0.36      0.42        39
+         Gen       0.38      0.38      0.38         8
+         Nom       0.35      0.59      0.44        37
+
+    accuracy                           0.38       120
+   macro avg       0.39      0.38      0.37       120
+weighted avg       0.40      0.38      0.37       120
+
+MM classification of case [supplement: False] in German using: skippy2gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.47      0.57      0.51        37
+           1       0.41      0.39      0.40        36
+           2       0.48      0.38      0.43        39
+           3       0.30      0.38      0.33         8
+
+    accuracy                           0.44       120
+   macro avg       0.42      0.43      0.42       120
+weighted avg       0.44      0.44      0.44       120
+
+DT classification (max_depth: 6, n_estimators: 116) of gender [supplement: True] of German using skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.67      0.06      0.11        33
+        Masc       0.44      0.96      0.60        52
+        Neut       0.33      0.03      0.05        35
+
+    accuracy                           0.44       120
+   macro avg       0.48      0.35      0.26       120
+weighted avg       0.47      0.44      0.31       120
+
+
+RF classification (max_depth: 28, n_estimators: 117) of gender [supplement: True]  using: skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       1.00      0.18      0.31        33
+        Masc       0.47      0.96      0.63        52
+        Neut       0.71      0.14      0.24        35
+
+    accuracy                           0.51       120
+   macro avg       0.73      0.43      0.39       120
+weighted avg       0.69      0.51      0.43       120
+
+MM classification of gender [supplement: True] in German using: skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.55      0.36      0.44        33
+           1       0.56      0.85      0.67        52
+           2       0.47      0.26      0.33        35
+
+    accuracy                           0.54       120
+   macro avg       0.53      0.49      0.48       120
+weighted avg       0.53      0.54      0.51       120
+
+DT classification (max_depth: 8, n_estimators: 48) of gender [supplement: False] of German using skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.67      0.12      0.21        33
+        Masc       0.49      0.96      0.65        52
+        Neut       0.50      0.17      0.26        35
+
+    accuracy                           0.50       120
+   macro avg       0.55      0.42      0.37       120
+weighted avg       0.54      0.50      0.41       120
+
+
+RF classification (max_depth: 36, n_estimators: 32) of gender [supplement: False]  using: skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.80      0.24      0.37        33
+        Masc       0.49      0.96      0.65        52
+        Neut       0.62      0.14      0.23        35
+
+    accuracy                           0.53       120
+   macro avg       0.64      0.45      0.42       120
+weighted avg       0.61      0.53      0.45       120
+
+MM classification of gender [supplement: False] in German using: skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.50      0.39      0.44        33
+           1       0.53      0.73      0.61        52
+           2       0.50      0.31      0.39        35
+
+    accuracy                           0.52       120
+   macro avg       0.51      0.48      0.48       120
+weighted avg       0.51      0.52      0.50       120
+
+DT classification (max_depth: 12, n_estimators: 83) of plurality [supplement: True] of German using skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+          Pl       0.39      0.29      0.33        24
+          Sg       0.83      0.89      0.86        96
+
+    accuracy                           0.77       120
+   macro avg       0.61      0.59      0.60       120
+weighted avg       0.74      0.77      0.75       120
+
+
+RF classification (max_depth: 24, n_estimators: 94) of plurality [supplement: True]  using: skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+          Pl       0.52      0.50      0.51        24
+          Sg       0.88      0.89      0.88        96
+
+    accuracy                           0.81       120
+   macro avg       0.70      0.69      0.70       120
+weighted avg       0.81      0.81      0.81       120
+
+MM classification of plurality [supplement: True] in German using: skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.88      0.92      0.90        96
+           1       0.60      0.50      0.55        24
+
+    accuracy                           0.83       120
+   macro avg       0.74      0.71      0.72       120
+weighted avg       0.82      0.83      0.83       120
+
+DT classification (max_depth: 7, n_estimators: 57) of plurality [supplement: False] of German using skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+          Pl       0.33      0.17      0.22        24
+          Sg       0.81      0.92      0.86        96
+
+    accuracy                           0.77       120
+   macro avg       0.57      0.54      0.54       120
+weighted avg       0.72      0.77      0.73       120
+
+
+RF classification (max_depth: 39, n_estimators: 28) of plurality [supplement: False]  using: skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+          Pl       0.50      0.54      0.52        24
+          Sg       0.88      0.86      0.87        96
+
+    accuracy                           0.80       120
+   macro avg       0.69      0.70      0.70       120
+weighted avg       0.81      0.80      0.80       120
+
+MM classification of plurality [supplement: False] in German using: skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.89      0.88      0.88        96
+           1       0.54      0.58      0.56        24
+
+    accuracy                           0.82       120
+   macro avg       0.72      0.73      0.72       120
+weighted avg       0.82      0.82      0.82       120
+
+DT classification (max_depth: 21, n_estimators: 50) of case [supplement: True] of German using skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Acc       0.39      0.25      0.30        28
+         Dat       0.36      0.12      0.18        42
+         Gen       0.29      0.13      0.18        15
+         Nom       0.36      0.83      0.50        35
+
+    accuracy                           0.36       120
+   macro avg       0.35      0.33      0.29       120
+weighted avg       0.36      0.36      0.30       120
+
+
+RF classification (max_depth: 36, n_estimators: 117) of case [supplement: True]  using: skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Acc       0.55      0.21      0.31        28
+         Dat       0.49      0.57      0.53        42
+         Gen       0.50      0.33      0.40        15
+         Nom       0.34      0.49      0.40        35
+
+    accuracy                           0.43       120
+   macro avg       0.47      0.40      0.41       120
+weighted avg       0.46      0.43      0.42       120
+
+MM classification of case [supplement: True] in German using: skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.41      0.34      0.38        35
+           1       0.48      0.46      0.47        28
+           2       0.47      0.64      0.55        42
+           3       0.43      0.20      0.27        15
+
+    accuracy                           0.46       120
+   macro avg       0.45      0.41      0.42       120
+weighted avg       0.45      0.46      0.44       120
+
+DT classification (max_depth: 32, n_estimators: 72) of case [supplement: False] of German using skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Acc       0.38      0.18      0.24        28
+         Dat       0.47      0.21      0.30        42
+         Gen       0.33      0.13      0.19        15
+         Nom       0.32      0.74      0.44        35
+
+    accuracy                           0.35       120
+   macro avg       0.38      0.32      0.29       120
+weighted avg       0.39      0.35      0.31       120
+
+
+RF classification (max_depth: 33, n_estimators: 55) of case [supplement: False]  using: skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Acc       0.54      0.25      0.34        28
+         Dat       0.52      0.52      0.52        42
+         Gen       0.67      0.40      0.50        15
+         Nom       0.38      0.60      0.46        35
+
+    accuracy                           0.47       120
+   macro avg       0.53      0.44      0.46       120
+weighted avg       0.50      0.47      0.46       120
+
+MM classification of case [supplement: False] in German using: skippy3gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.38      0.57      0.46        35
+           1       0.42      0.36      0.38        28
+           2       0.59      0.52      0.56        42
+           3       0.14      0.07      0.09        15
+
+    accuracy                           0.44       120
+   macro avg       0.38      0.38      0.37       120
+weighted avg       0.44      0.44      0.43       120
+
+DT classification (max_depth: 20, n_estimators: 104) of gender [supplement: True] of German using skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.41      0.21      0.27        34
+        Masc       0.45      0.80      0.57        49
+        Neut       0.40      0.17      0.24        36
+
+    accuracy                           0.44       119
+   macro avg       0.42      0.39      0.36       119
+weighted avg       0.42      0.44      0.39       119
+
+
+RF classification (max_depth: 32, n_estimators: 39) of gender [supplement: True]  using: skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.62      0.24      0.34        34
+        Masc       0.45      0.78      0.57        49
+        Neut       0.36      0.22      0.28        36
+
+    accuracy                           0.45       119
+   macro avg       0.48      0.41      0.40       119
+weighted avg       0.47      0.45      0.42       119
+
+MM classification of gender [supplement: True] in German using: skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.48      0.44      0.46        34
+           1       0.56      0.65      0.60        49
+           2       0.45      0.39      0.42        36
+
+    accuracy                           0.51       119
+   macro avg       0.50      0.49      0.49       119
+weighted avg       0.51      0.51      0.51       119
+
+DT classification (max_depth: 37, n_estimators: 116) of gender [supplement: False] of German using skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.29      0.15      0.20        34
+        Masc       0.43      0.61      0.51        49
+        Neut       0.21      0.19      0.20        36
+
+    accuracy                           0.35       119
+   macro avg       0.31      0.32      0.30       119
+weighted avg       0.33      0.35      0.33       119
+
+
+RF classification (max_depth: 30, n_estimators: 102) of gender [supplement: False]  using: skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Fem       0.65      0.32      0.43        34
+        Masc       0.48      0.80      0.60        49
+        Neut       0.45      0.25      0.32        36
+
+    accuracy                           0.50       119
+   macro avg       0.52      0.46      0.45       119
+weighted avg       0.52      0.50      0.47       119
+
+MM classification of gender [supplement: False] in German using: skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.52      0.44      0.48        34
+           1       0.52      0.69      0.59        49
+           2       0.38      0.25      0.30        36
+
+    accuracy                           0.49       119
+   macro avg       0.47      0.46      0.46       119
+weighted avg       0.47      0.49      0.47       119
+
+DT classification (max_depth: 16, n_estimators: 42) of plurality [supplement: True] of German using skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+          Pl       0.53      0.37      0.43        27
+          Sg       0.83      0.90      0.87        93
+
+    accuracy                           0.78       120
+   macro avg       0.68      0.64      0.65       120
+weighted avg       0.76      0.78      0.77       120
+
+
+RF classification (max_depth: 24, n_estimators: 42) of plurality [supplement: True]  using: skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+          Pl       0.56      0.33      0.42        27
+          Sg       0.83      0.92      0.87        93
+
+    accuracy                           0.79       120
+   macro avg       0.69      0.63      0.65       120
+weighted avg       0.77      0.79      0.77       120
+
+MM classification of plurality [supplement: True] in German using: skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.86      0.88      0.87        93
+           1       0.56      0.52      0.54        27
+
+    accuracy                           0.80       120
+   macro avg       0.71      0.70      0.71       120
+weighted avg       0.79      0.80      0.80       120
+
+DT classification (max_depth: 3, n_estimators: 77) of plurality [supplement: False] of German using skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+          Pl       0.80      0.15      0.25        27
+          Sg       0.80      0.99      0.88        93
+
+    accuracy                           0.80       120
+   macro avg       0.80      0.57      0.57       120
+weighted avg       0.80      0.80      0.74       120
+
+
+RF classification (max_depth: 36, n_estimators: 68) of plurality [supplement: False]  using: skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+          Pl       0.59      0.48      0.53        27
+          Sg       0.86      0.90      0.88        93
+
+    accuracy                           0.81       120
+   macro avg       0.72      0.69      0.71       120
+weighted avg       0.80      0.81      0.80       120
+
+MM classification of plurality [supplement: False] in German using: skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.84      0.87      0.86        93
+           1       0.50      0.44      0.47        27
+
+    accuracy                           0.78       120
+   macro avg       0.67      0.66      0.66       120
+weighted avg       0.77      0.78      0.77       120
+
+DT classification (max_depth: 33, n_estimators: 88) of case [supplement: True] of German using skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Acc       0.07      0.04      0.05        26
+         Dat       0.29      0.62      0.39        29
+         Gen       0.55      0.33      0.41        18
+         Nom       0.48      0.32      0.38        47
+
+    accuracy                           0.33       120
+   macro avg       0.35      0.33      0.31       120
+weighted avg       0.35      0.33      0.32       120
+
+
+RF classification (max_depth: 23, n_estimators: 64) of case [supplement: True]  using: skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Acc       0.17      0.15      0.16        26
+         Dat       0.31      0.45      0.37        29
+         Gen       0.89      0.44      0.59        18
+         Nom       0.49      0.47      0.48        47
+
+    accuracy                           0.39       120
+   macro avg       0.46      0.38      0.40       120
+weighted avg       0.44      0.39      0.40       120
+
+MM classification of case [supplement: True] in German using: skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.41      0.28      0.33        47
+           1       0.16      0.23      0.19        26
+           2       0.26      0.31      0.28        29
+           3       0.38      0.33      0.35        18
+
+    accuracy                           0.28       120
+   macro avg       0.30      0.29      0.29       120
+weighted avg       0.31      0.28      0.29       120
+
+DT classification (max_depth: 28, n_estimators: 109) of case [supplement: False] of German using skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Acc       0.17      0.08      0.11        26
+         Dat       0.30      0.21      0.24        29
+         Gen       0.78      0.39      0.52        18
+         Nom       0.44      0.74      0.56        47
+
+    accuracy                           0.42       120
+   macro avg       0.42      0.35      0.36       120
+weighted avg       0.40      0.42      0.38       120
+
+
+RF classification (max_depth: 39, n_estimators: 89) of case [supplement: False]  using: skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+         Acc       0.09      0.08      0.08        26
+         Dat       0.29      0.48      0.36        29
+         Gen       0.75      0.50      0.60        18
+         Nom       0.49      0.38      0.43        47
+
+    accuracy                           0.36       120
+   macro avg       0.40      0.36      0.37       120
+weighted avg       0.39      0.36      0.36       120
+
+MM classification of case [supplement: False] in German using: skippy4gram-hash-at-both
+              precision    recall  f1-score   support
+
+           0       0.47      0.38      0.42        47
+           1       0.13      0.19      0.15        26
+           2       0.22      0.24      0.23        29
+           3       0.64      0.39      0.48        18
+
+    accuracy                           0.31       120
+   macro avg       0.36      0.30      0.32       120
+weighted avg       0.36      0.31      0.33       120
+
