@@ -357,6 +357,7 @@ def gen_extended_skippy_ngrams (S: list, n: int, max_distance = None, sep: str =
 
 ## alias
 gen_ext_skippy_ngrams = gen_extended_skippy_ngrams
+gen_xskippy_ngrams    = gen_extended_skippy_ngrams
 
 ##
 def skippy_ngram_size (s: str, gap_mark: str = "…") -> int:
