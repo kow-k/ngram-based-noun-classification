@@ -1,7 +1,9 @@
 # files and folders
 *.txt
 #results/
+results/~$*.xlsx
 #results-Morfessor/
+results-Morfessor/~$*.xlsx
 results-summarized/~$*.xlsx
 
 # Byte-compiled / optimized / DLL files
