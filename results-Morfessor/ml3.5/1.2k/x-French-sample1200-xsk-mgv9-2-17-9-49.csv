@@ -1,0 +1,13 @@
+lang,attribute.index,attribute,supplement,method.index,method,2g-no-hash,3g-no-hash,4g-no-hash,xsk2g-no-hash,xsk3g-no-hash,xsk4g-no-hash,2g-hash-at-both,3g-hash-at-both,4g-hash-at-both,xsk2g-hash-at-both,xsk3g-hash-at-both,xsk4g-hash-at-both,max
+French,1,plurality,True,1,DT,0.90,0.89,0.91,0.84,0.87,0.86,0.82,0.88,0.88,0.92,0.92,0.88,
+French,1,plurality,True,2,RF,0.94,0.91,0.90,0.93,0.91,0.90,0.92,0.93,0.93,0.96,0.95,0.88,
+French,1,plurality,False,1,DT,0.85,0.90,0.88,0.84,0.81,0.84,0.87,0.89,0.92,0.88,0.84,0.73,
+French,1,plurality,True,3,NN,0.90,0.93,0.95,0.95,0.93,0.92,0.91,0.95,0.94,0.97,0.97,0.91,
+French,1,plurality,False,3,NN,0.92,0.92,0.93,0.95,0.93,0.92,0.93,0.93,0.91,0.97,0.96,0.92,
+French,1,plurality,False,2,RF,0.94,0.91,0.92,0.93,0.89,0.91,0.89,0.93,0.93,0.96,0.94,0.88,
+French,2,gender,True,2,RF,0.73,0.81,0.77,0.75,0.82,0.76,0.73,0.76,0.81,0.80,0.81,0.70,
+French,2,gender,True,1,DT,0.68,0.75,0.72,0.68,0.66,0.66,0.72,0.72,0.72,0.71,0.67,0.62,
+French,2,gender,False,1,DT,0.64,0.77,0.71,0.65,0.69,0.69,0.71,0.68,0.64,0.72,0.63,0.62,
+French,2,gender,True,3,NN,0.74,0.71,0.78,0.72,0.70,0.75,0.76,0.73,0.71,0.72,0.82,0.72,
+French,2,gender,False,2,RF,0.75,0.77,0.73,0.75,0.86,0.78,0.76,0.80,0.72,0.81,0.79,0.74,
+French,2,gender,False,3,NN,0.74,0.72,0.76,0.77,0.76,0.72,0.78,0.73,0.75,0.72,0.79,0.74,

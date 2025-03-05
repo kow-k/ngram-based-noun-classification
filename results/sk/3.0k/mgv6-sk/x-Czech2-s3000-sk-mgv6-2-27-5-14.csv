@@ -1,0 +1,7 @@
+lang,attribute.index,attribute,supplement,method.index,method,2g-no-hash,3g-no-hash,4g-no-hash,sk2g-no-hash,sk3g-no-hash,sk4g-no-hash,2g-hash-at-both,3g-hash-at-both,4g-hash-at-both,sk2g-hash-at-both,sk3g-hash-at-both,sk4g-hash-at-both,max
+Czech,2,gender2,True,1,DT,0.89,0.90,0.91,0.85,0.89,0.85,0.90,0.86,0.83,0.90,0.63,0.63,
+Czech,2,gender2,True,2,RF,0.92,0.95,0.95,0.92,0.91,0.92,0.90,0.91,0.92,0.92,0.89,0.91,
+Czech,2,gender2,True,3,NN,0.92,0.94,0.95,0.92,0.90,0.91,0.92,0.92,0.94,0.93,0.93,0.93,
+Czech,2,gender2,False,1,DT,0.63,0.64,0.69,0.62,0.63,0.64,0.66,0.58,0.66,0.59,0.57,0.58,
+Czech,2,gender2,False,2,RF,0.66,0.76,0.73,0.75,0.67,0.66,0.73,0.65,0.73,0.68,0.63,0.68,
+Czech,2,gender2,False,3,NN,0.69,0.72,0.78,0.78,0.74,0.75,0.72,0.72,0.75,0.73,0.75,0.78,
