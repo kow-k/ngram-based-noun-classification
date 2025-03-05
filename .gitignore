@@ -2,6 +2,7 @@
 *.txt
 #results/
 #results-Morfessor/
+results-summarized/~$*.xlsx
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
