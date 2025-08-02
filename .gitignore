@@ -185,3 +185,4 @@ cython_debug/
 .DS_Store
 results-summarized/~$word-inflection-xsk-sample2k-max9-results.xlsx
 results-summarized/~$word-inflection-xsk-sk-sample1.2k-gr100-compared.xlsx
+results/sk/2.0k/mgv6-sk/~$tracts-Irish-sample2000-X-mgv6-12-20-21-txt.csv
